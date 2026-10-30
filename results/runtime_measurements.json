@@ -1,0 +1,323 @@
+{
+  "hardware": "NVIDIA RTX A6000, 48 GiB",
+  "training_step_peak_gib": 1.56,
+  "batch": 8,
+  "note": "Test times sum recorded episode durations and exclude startup; memory is a representative training-step measurement, excluding the simulator.",
+  "runs": [
+    {
+      "run": "act",
+      "training_seconds": 4964,
+      "train_log": "gpu0_queue2.log",
+      "test_eval": "lift_test_act.json",
+      "test_episode_seconds": 6307.31
+    },
+    {
+      "run": "act_s1",
+      "training_seconds": 7742,
+      "train_log": "train_act_s1.log",
+      "test_eval": "lift_test_act_s1.json",
+      "test_episode_seconds": 21987.81
+    },
+    {
+      "run": "act_s2",
+      "training_seconds": 7648,
+      "train_log": "train_act_s2.log",
+      "test_eval": "lift_test_act_s2.json",
+      "test_episode_seconds": 14540.25
+    },
+    {
+      "run": "act_joint_delta_absgrip",
+      "training_seconds": 10705,
+      "train_log": "train_act_joint_delta_absgrip.log",
+      "test_eval": "lift_test_act_joint_delta_absgrip.json",
+      "test_episode_seconds": 11978.82
+    },
+    {
+      "run": "act_joint_delta_absgrip_s1",
+      "training_seconds": 8830,
+      "train_log": "train_act_joint_delta_absgrip_s1.log",
+      "test_eval": "lift_test_act_joint_delta_absgrip_s1.json",
+      "test_episode_seconds": 12504.96
+    },
+    {
+      "run": "act_joint_delta_absgrip_s2",
+      "training_seconds": 9699,
+      "train_log": "train_act_joint_delta_absgrip_s2.log",
+      "test_eval": "lift_test_act_joint_delta_absgrip_s2.json",
+      "test_episode_seconds": 10137.04
+    },
+    {
+      "run": "act_eef_abs",
+      "training_seconds": 4607,
+      "train_log": "train_act_eef_abs.log",
+      "test_eval": "lift_test_act_eef_abs.json",
+      "test_episode_seconds": 9930.48
+    },
+    {
+      "run": "act_eef_abs_s1",
+      "training_seconds": 7742,
+      "train_log": "train_act_eef_abs_s1.log",
+      "test_eval": "lift_test_act_eef_abs_s1.json",
+      "test_episode_seconds": 21437.03
+    },
+    {
+      "run": "act_eef_abs_s2",
+      "training_seconds": 7647,
+      "train_log": "train_act_eef_abs_s2.log",
+      "test_eval": "lift_test_act_eef_abs_s2.json",
+      "test_episode_seconds": 5629.19
+    },
+    {
+      "run": "act_eef_delta_h",
+      "training_seconds": 5530,
+      "train_log": "train_act_eef_delta_h.log",
+      "test_eval": "lift_test_act_eef_delta_h.json",
+      "test_episode_seconds": 5109.24
+    },
+    {
+      "run": "act_eef_delta_h_s1",
+      "training_seconds": 7554,
+      "train_log": "train_act_eef_delta_h_s1.log",
+      "test_eval": "lift_test_act_eef_delta_h_s1.json",
+      "test_episode_seconds": 18472.35
+    },
+    {
+      "run": "act_eef_delta_h_s2",
+      "training_seconds": 7766,
+      "train_log": "train_act_eef_delta_h_s2.log",
+      "test_eval": "lift_test_act_eef_delta_h_s2.json",
+      "test_episode_seconds": 14013.55
+    },
+    {
+      "run": "act_eef_abs_rotvec",
+      "training_seconds": 4749,
+      "train_log": "train_act_eef_abs_rotvec.log",
+      "test_eval": "lift_test_act_eef_abs_rotvec_leg.json",
+      "test_episode_seconds": 9305.02
+    },
+    {
+      "run": "act_eef_abs_rotvec_s1",
+      "training_seconds": 4749,
+      "train_log": "train_act_eef_abs_rotvec_s1.log",
+      "test_eval": "lift_test_act_eef_abs_rotvec_s1_leg.json",
+      "test_episode_seconds": 5205.44
+    },
+    {
+      "run": "act_eef_abs_rotvec_s2",
+      "training_seconds": 4749,
+      "train_log": "train_act_eef_abs_rotvec_s2.log",
+      "test_eval": "lift_test_act_eef_abs_rotvec_s2_leg.json",
+      "test_episode_seconds": 9576.4
+    },
+    {
+      "run": "act_joint_chunk",
+      "training_seconds": 7411,
+      "train_log": "train_act_joint_chunk.log",
+      "test_eval": "lift_test_act_joint_chunk_leg.json",
+      "test_episode_seconds": 9099.38
+    },
+    {
+      "run": "act_joint_chunk_s1",
+      "training_seconds": 7395,
+      "train_log": "train_act_joint_chunk_s1.log",
+      "test_eval": "lift_test_act_joint_chunk_s1_leg.json",
+      "test_episode_seconds": 9033.77
+    },
+    {
+      "run": "act_joint_chunk_s2",
+      "training_seconds": 4953,
+      "train_log": "train_act_joint_chunk_s2.log",
+      "test_eval": "lift_test_act_joint_chunk_s2_leg.json",
+      "test_episode_seconds": 7481.25
+    },
+    {
+      "run": "act_eef_chunk",
+      "training_seconds": 4960,
+      "train_log": "train_act_eef_chunk.log",
+      "test_eval": "lift_test_act_eef_chunk_leg.json",
+      "test_episode_seconds": 9202.5
+    },
+    {
+      "run": "act_eef_chunk_s1",
+      "training_seconds": 7428,
+      "train_log": "train_act_eef_chunk_s1.log",
+      "test_eval": "lift_test_act_eef_chunk_s1_leg.json",
+      "test_episode_seconds": 8764.96
+    },
+    {
+      "run": "act_eef_chunk_s2",
+      "training_seconds": 7397,
+      "train_log": "train_act_eef_chunk_s2.log",
+      "test_eval": "lift_test_act_eef_chunk_s2_leg.json",
+      "test_episode_seconds": 5163.73
+    },
+    {
+      "run": "act_eef_abs_hcw",
+      "training_seconds": 7000,
+      "train_log": "train_act_eef_abs_hcw.log",
+      "test_eval": "lift_test_act_eef_abs_hcw.json",
+      "test_episode_seconds": 4988.18
+    },
+    {
+      "run": "act_eef_abs_hcw_s1",
+      "training_seconds": 6935,
+      "train_log": "train_act_eef_abs_hcw_s1.log",
+      "test_eval": "lift_test_act_eef_abs_hcw_s1.json",
+      "test_episode_seconds": 5391.71
+    },
+    {
+      "run": "act_eef_abs_hcw_s2",
+      "training_seconds": 4784,
+      "train_log": "train_act_eef_abs_hcw_s2.log",
+      "test_eval": "lift_test_act_eef_abs_hcw_s2.json",
+      "test_episode_seconds": 5506.69
+    },
+    {
+      "run": "act_eef_abs_w",
+      "training_seconds": 6106,
+      "train_log": "train_act_eef_abs_w.log",
+      "test_eval": "lift_test_act_eef_abs_w.json",
+      "test_episode_seconds": 5353.95
+    },
+    {
+      "run": "act_eef_abs_w_s1",
+      "training_seconds": 8955,
+      "train_log": "train_act_eef_abs_w_s1.log",
+      "test_eval": "lift_test_act_eef_abs_w_s1.json",
+      "test_episode_seconds": 6520.0
+    },
+    {
+      "run": "act_eef_abs_w_s2",
+      "training_seconds": 12728,
+      "train_log": "train_act_eef_abs_w_s2.log",
+      "test_eval": "lift_test_act_eef_abs_w_s2.json",
+      "test_episode_seconds": 8974.22
+    },
+    {
+      "run": "act_eef_abs_wo",
+      "training_seconds": 4321,
+      "train_log": "train_act_eef_abs_wo.log",
+      "test_eval": "lift_test_act_eef_abs_wo.json",
+      "test_episode_seconds": 5327.34
+    },
+    {
+      "run": "act_eef_abs_wo_s1",
+      "training_seconds": 8158,
+      "train_log": "train_act_eef_abs_wo_s1.log",
+      "test_eval": "lift_test_act_eef_abs_wo_s1.json",
+      "test_episode_seconds": 9271.63
+    },
+    {
+      "run": "act_eef_abs_wo_s2",
+      "training_seconds": 8113,
+      "train_log": "train_act_eef_abs_wo_s2.log",
+      "test_eval": "lift_test_act_eef_abs_wo_s2.json",
+      "test_episode_seconds": 9760.11
+    },
+    {
+      "run": "act_eef_delta_hcw",
+      "training_seconds": 4788,
+      "train_log": "train_act_eef_delta_hcw.log",
+      "test_eval": "lift_test_act_eef_delta_hcw.json",
+      "test_episode_seconds": 5672.39
+    },
+    {
+      "run": "act_eef_delta_hcw_s1",
+      "training_seconds": 7003,
+      "train_log": "train_act_eef_delta_hcw_s1.log",
+      "test_eval": "lift_test_act_eef_delta_hcw_s1.json",
+      "test_episode_seconds": 4631.11
+    },
+    {
+      "run": "act_eef_delta_hcw_s2",
+      "training_seconds": 6934,
+      "train_log": "train_act_eef_delta_hcw_s2.log",
+      "test_eval": "lift_test_act_eef_delta_hcw_s2.json",
+      "test_episode_seconds": 5222.15
+    },
+    {
+      "run": "act_eef_delta_w",
+      "training_seconds": 7116,
+      "train_log": "train_act_eef_delta_w.log",
+      "test_eval": "lift_test_act_eef_delta_w.json",
+      "test_episode_seconds": 3495.67
+    },
+    {
+      "run": "act_eef_delta_w_s1",
+      "training_seconds": 10225,
+      "train_log": "train_act_eef_delta_w_s1.log",
+      "test_eval": "lift_test_act_eef_delta_w_s1.json",
+      "test_episode_seconds": 6091.45
+    },
+    {
+      "run": "act_eef_delta_w_s2",
+      "training_seconds": 11433,
+      "train_log": "train_act_eef_delta_w_s2.log",
+      "test_eval": "lift_test_act_eef_delta_w_s2.json",
+      "test_episode_seconds": 5952.88
+    },
+    {
+      "run": "act_eef_delta_wo",
+      "training_seconds": 4717,
+      "train_log": "act_wristonly.log",
+      "test_eval": "lift_test_act_eef_delta_wo.json",
+      "test_episode_seconds": 3488.36
+    },
+    {
+      "run": "act_eef_delta_wo_s1",
+      "training_seconds": 8595,
+      "train_log": "train_act_eef_delta_wo_s1.log",
+      "test_eval": "lift_test_act_eef_delta_wo_s1.json",
+      "test_episode_seconds": 6447.75
+    },
+    {
+      "run": "act_eef_delta_wo_s2",
+      "training_seconds": 8632,
+      "train_log": "train_act_eef_delta_wo_s2.log",
+      "test_eval": "lift_test_act_eef_delta_wo_s2.json",
+      "test_episode_seconds": 4122.49
+    },
+    {
+      "run": "act_eef_delta_wo_np",
+      "training_seconds": 4190,
+      "train_log": "train_act_eef_delta_wo_np.log",
+      "test_eval": "lift_test_act_eef_delta_wo_np.json",
+      "test_episode_seconds": 3904.13
+    },
+    {
+      "run": "act_eef_delta_wo_np_s1",
+      "training_seconds": 8157,
+      "train_log": "train_act_eef_delta_wo_np_s1.log",
+      "test_eval": "lift_test_act_eef_delta_wo_np_s1.json",
+      "test_episode_seconds": 8488.04
+    },
+    {
+      "run": "act_eef_delta_wo_np_s2",
+      "training_seconds": 8128,
+      "train_log": "train_act_eef_delta_wo_np_s2.log",
+      "test_eval": "lift_test_act_eef_delta_wo_np_s2.json",
+      "test_episode_seconds": 4601.44
+    },
+    {
+      "run": "act_joint_abs_h_np",
+      "training_seconds": 4558,
+      "train_log": "train_act_joint_abs_h_np.log",
+      "test_eval": "lift_test_act_joint_abs_h_np.json",
+      "test_episode_seconds": 5143.42
+    },
+    {
+      "run": "act_joint_abs_h_np_s1",
+      "training_seconds": 8781,
+      "train_log": "train_act_joint_abs_h_np_s1.log",
+      "test_eval": "lift_test_act_joint_abs_h_np_s1.json",
+      "test_episode_seconds": 5685.79
+    },
+    {
+      "run": "act_joint_abs_h_np_s2",
+      "training_seconds": 8812,
+      "train_log": "train_act_joint_abs_h_np_s2.log",
+      "test_eval": "lift_test_act_joint_abs_h_np_s2.json",
+      "test_episode_seconds": 5685.61
+    }
+  ]
+}

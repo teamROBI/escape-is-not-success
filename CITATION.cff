@@ -1,0 +1,35 @@
+cff-version: 1.2.0
+message: "If you use this code, please cite the workshop paper."
+type: software
+title: "Escape Is Not Success: Diagnosing Spatial-OOD Failures of Robot Action Interfaces"
+authors:
+  - family-names: Kim
+    given-names: Juno
+    affiliation: Seoul National University
+    email: jokim@snu.ac.kr
+  - family-names: Park
+    given-names: Yesol
+    affiliation: Seoul National University
+  - family-names: Yoon
+    given-names: HyeJung
+    affiliation: Seoul National University
+  - family-names: Zhang
+    given-names: Byoung-Tak
+    affiliation: Seoul National University
+year: 2026
+repository-code: "https://github.com/teamROBI/escape-is-not-success"
+license: Apache-2.0
+preferred-citation:
+  type: conference-paper
+  title: "Escape Is Not Success: Diagnosing Spatial-OOD Failures of Robot Action Interfaces"
+  authors:
+    - family-names: Kim
+      given-names: Juno
+    - family-names: Park
+      given-names: Yesol
+    - family-names: Yoon
+      given-names: HyeJung
+    - family-names: Zhang
+      given-names: Byoung-Tak
+  year: 2026
+  collection-title: "CoRL 2026 Workshop on Everything Beneath the Policy"

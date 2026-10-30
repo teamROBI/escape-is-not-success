@@ -1,0 +1,11 @@
+numpy==1.26.4
+h5py==3.16.0
+einops==0.8.2
+matplotlib==3.10.8
+opencv-python==4.11.0.86
+pyzmq==27.0.1
+msgpack==1.1.0
+ipython==9.17.1
+packaging==26.0
+
+tqdm==4.67.1

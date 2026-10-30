@@ -1,0 +1,372 @@
+{
+  "cells": [
+    {
+      "frame": "joint",
+      "arm_command": "absolute",
+      "gripper_command": "absolute",
+      "cameras": "head",
+      "proprio": "joint",
+      "role": "primary 2x2",
+      "runs": {
+        "0": "act",
+        "1": "act_s1",
+        "2": "act_s2"
+      },
+      "collection": "A"
+    },
+    {
+      "frame": "joint",
+      "arm_command": "residual",
+      "gripper_command": "absolute",
+      "cameras": "head",
+      "proprio": "joint",
+      "role": "primary 2x2",
+      "runs": {
+        "0": "act_joint_delta_absgrip",
+        "1": "act_joint_delta_absgrip_s1",
+        "2": "act_joint_delta_absgrip_s2"
+      },
+      "collection": "A"
+    },
+    {
+      "frame": "EEF",
+      "arm_command": "absolute",
+      "gripper_command": "absolute",
+      "cameras": "head",
+      "proprio": "joint",
+      "role": "primary 2x2",
+      "runs": {
+        "0": "act_eef_abs",
+        "1": "act_eef_abs_s1",
+        "2": "act_eef_abs_s2"
+      },
+      "collection": "A"
+    },
+    {
+      "frame": "EEF",
+      "arm_command": "residual",
+      "gripper_command": "absolute",
+      "cameras": "head",
+      "proprio": "joint",
+      "role": "primary 2x2",
+      "runs": {
+        "0": "act_eef_delta_h",
+        "1": "act_eef_delta_h_s1",
+        "2": "act_eef_delta_h_s2"
+      },
+      "collection": "A"
+    },
+    {
+      "frame": "EEF",
+      "arm_command": "absolute",
+      "gripper_command": "absolute",
+      "cameras": "head",
+      "proprio": "joint",
+      "role": "rotation control",
+      "rotation": "rotvec",
+      "note": "eef_abs_rotvec: 7-d [xyz, rotvec(q_cmd * q_ref^-1), gripper], q_ref = nominal top-down grasp; matches the EEF residual cell's width and rotation format",
+      "runs": {
+        "0": "act_eef_abs_rotvec",
+        "1": "act_eef_abs_rotvec_s1",
+        "2": "act_eef_abs_rotvec_s2"
+      },
+      "collection": "A"
+    },
+    {
+      "frame": "joint",
+      "arm_command": "residual",
+      "gripper_command": "absolute",
+      "cameras": "head",
+      "proprio": "joint",
+      "role": "anchor control",
+      "anchor": "query",
+      "note": "joint_chunk_absgrip: arm actions of a 16-step chunk relative to the joints measured at the query (not each step); gripper absolute",
+      "runs": {
+        "0": "act_joint_chunk",
+        "1": "act_joint_chunk_s1",
+        "2": "act_joint_chunk_s2"
+      },
+      "collection": "A"
+    },
+    {
+      "frame": "EEF",
+      "arm_command": "residual",
+      "gripper_command": "absolute",
+      "cameras": "head",
+      "proprio": "joint",
+      "role": "anchor control",
+      "anchor": "query",
+      "note": "eef_chunk: eef_delta's 7 columns relative to the grasp-point pose measured at the query (not each step)",
+      "runs": {
+        "0": "act_eef_chunk",
+        "1": "act_eef_chunk_s1",
+        "2": "act_eef_chunk_s2"
+      },
+      "collection": "A"
+    },
+    {
+      "frame": "EEF",
+      "arm_command": "absolute",
+      "gripper_command": "absolute",
+      "cameras": "head",
+      "proprio": "joint",
+      "role": "camera panel",
+      "archive": "collect_wrist",
+      "runs": {
+        "0": "act_eef_abs_hcw",
+        "1": "act_eef_abs_hcw_s1",
+        "2": "act_eef_abs_hcw_s2"
+      },
+      "collection": "B"
+    },
+    {
+      "frame": "EEF",
+      "arm_command": "absolute",
+      "gripper_command": "absolute",
+      "cameras": "head+wrist",
+      "proprio": "joint",
+      "role": "camera panel",
+      "runs": {
+        "0": "act_eef_abs_w",
+        "1": "act_eef_abs_w_s1",
+        "2": "act_eef_abs_w_s2"
+      },
+      "archive": "collect_wrist",
+      "collection": "B"
+    },
+    {
+      "frame": "EEF",
+      "arm_command": "absolute",
+      "gripper_command": "absolute",
+      "cameras": "wrist",
+      "proprio": "joint",
+      "runs": {
+        "0": "act_eef_abs_wo",
+        "1": "act_eef_abs_wo_s1",
+        "2": "act_eef_abs_wo_s2"
+      },
+      "role": "camera panel",
+      "archive": "collect_wrist",
+      "collection": "B"
+    },
+    {
+      "frame": "EEF",
+      "arm_command": "residual",
+      "gripper_command": "absolute",
+      "cameras": "head",
+      "proprio": "joint",
+      "role": "camera panel",
+      "archive": "collect_wrist",
+      "runs": {
+        "0": "act_eef_delta_hcw",
+        "1": "act_eef_delta_hcw_s1",
+        "2": "act_eef_delta_hcw_s2"
+      },
+      "collection": "B"
+    },
+    {
+      "frame": "EEF",
+      "arm_command": "residual",
+      "gripper_command": "absolute",
+      "cameras": "head+wrist",
+      "proprio": "joint",
+      "role": "camera panel",
+      "runs": {
+        "0": "act_eef_delta_w",
+        "1": "act_eef_delta_w_s1",
+        "2": "act_eef_delta_w_s2"
+      },
+      "archive": "collect_wrist",
+      "collection": "B"
+    },
+    {
+      "frame": "EEF",
+      "arm_command": "residual",
+      "gripper_command": "absolute",
+      "cameras": "wrist",
+      "proprio": "joint",
+      "runs": {
+        "0": "act_eef_delta_wo",
+        "1": "act_eef_delta_wo_s1",
+        "2": "act_eef_delta_wo_s2"
+      },
+      "role": "camera panel",
+      "archive": "collect_wrist",
+      "collection": "B"
+    }
+  ],
+  "controls": [
+    {
+      "frame": "EEF",
+      "arm_command": "residual",
+      "gripper_command": "absolute",
+      "cameras": "wrist",
+      "proprio": "none",
+      "collection": "B",
+      "role": "supplement",
+      "runs": {
+        "0": "act_eef_delta_wo_np",
+        "1": "act_eef_delta_wo_np_s1",
+        "2": "act_eef_delta_wo_np_s2"
+      }
+    },
+    {
+      "frame": "joint",
+      "arm_command": "absolute",
+      "gripper_command": "absolute",
+      "cameras": "head",
+      "proprio": "none",
+      "collection": "A",
+      "role": "supplement",
+      "runs": {
+        "0": "act_joint_abs_h_np",
+        "1": "act_joint_abs_h_np_s1",
+        "2": "act_joint_abs_h_np_s2"
+      }
+    }
+  ],
+  "expert_run": {
+    "file": "eval/lift_all_expert.json"
+  },
+  "archives": {
+    "primary": "collect",
+    "camera": "collect_wrist"
+  },
+  "provenance": {
+    "act": {
+      "eval_tag": "act"
+    },
+    "act_s1": {
+      "eval_tag": "act_s1"
+    },
+    "act_s2": {
+      "eval_tag": "act_s2"
+    },
+    "act_joint_delta_absgrip": {
+      "eval_tag": "act_joint_delta_absgrip"
+    },
+    "act_joint_delta_absgrip_s1": {
+      "eval_tag": "act_joint_delta_absgrip_s1"
+    },
+    "act_joint_delta_absgrip_s2": {
+      "eval_tag": "act_joint_delta_absgrip_s2"
+    },
+    "act_eef_abs": {
+      "eval_tag": "act_eef_abs"
+    },
+    "act_eef_abs_s1": {
+      "eval_tag": "act_eef_abs_s1"
+    },
+    "act_eef_abs_s2": {
+      "eval_tag": "act_eef_abs_s2"
+    },
+    "act_eef_delta_h": {
+      "eval_tag": "act_eef_delta_h"
+    },
+    "act_eef_delta_h_s1": {
+      "eval_tag": "act_eef_delta_h_s1"
+    },
+    "act_eef_delta_h_s2": {
+      "eval_tag": "act_eef_delta_h_s2"
+    },
+    "act_eef_abs_rotvec": {
+      "eval_tag": "act_eef_abs_rotvec_leg"
+    },
+    "act_eef_abs_rotvec_s1": {
+      "eval_tag": "act_eef_abs_rotvec_s1_leg"
+    },
+    "act_eef_abs_rotvec_s2": {
+      "eval_tag": "act_eef_abs_rotvec_s2_leg"
+    },
+    "act_joint_chunk": {
+      "eval_tag": "act_joint_chunk_leg"
+    },
+    "act_joint_chunk_s1": {
+      "eval_tag": "act_joint_chunk_s1_leg"
+    },
+    "act_joint_chunk_s2": {
+      "eval_tag": "act_joint_chunk_s2_leg"
+    },
+    "act_eef_chunk": {
+      "eval_tag": "act_eef_chunk_leg"
+    },
+    "act_eef_chunk_s1": {
+      "eval_tag": "act_eef_chunk_s1_leg"
+    },
+    "act_eef_chunk_s2": {
+      "eval_tag": "act_eef_chunk_s2_leg"
+    },
+    "act_eef_abs_hcw": {
+      "eval_tag": "act_eef_abs_hcw"
+    },
+    "act_eef_abs_hcw_s1": {
+      "eval_tag": "act_eef_abs_hcw_s1"
+    },
+    "act_eef_abs_hcw_s2": {
+      "eval_tag": "act_eef_abs_hcw_s2"
+    },
+    "act_eef_abs_w": {
+      "eval_tag": "act_eef_abs_w"
+    },
+    "act_eef_abs_w_s1": {
+      "eval_tag": "act_eef_abs_w_s1"
+    },
+    "act_eef_abs_w_s2": {
+      "eval_tag": "act_eef_abs_w_s2"
+    },
+    "act_eef_abs_wo": {
+      "eval_tag": "act_eef_abs_wo"
+    },
+    "act_eef_abs_wo_s1": {
+      "eval_tag": "act_eef_abs_wo_s1"
+    },
+    "act_eef_abs_wo_s2": {
+      "eval_tag": "act_eef_abs_wo_s2"
+    },
+    "act_eef_delta_hcw": {
+      "eval_tag": "act_eef_delta_hcw"
+    },
+    "act_eef_delta_hcw_s1": {
+      "eval_tag": "act_eef_delta_hcw_s1"
+    },
+    "act_eef_delta_hcw_s2": {
+      "eval_tag": "act_eef_delta_hcw_s2"
+    },
+    "act_eef_delta_w": {
+      "eval_tag": "act_eef_delta_w"
+    },
+    "act_eef_delta_w_s1": {
+      "eval_tag": "act_eef_delta_w_s1"
+    },
+    "act_eef_delta_w_s2": {
+      "eval_tag": "act_eef_delta_w_s2"
+    },
+    "act_eef_delta_wo": {
+      "eval_tag": "act_eef_delta_wo"
+    },
+    "act_eef_delta_wo_s1": {
+      "eval_tag": "act_eef_delta_wo_s1"
+    },
+    "act_eef_delta_wo_s2": {
+      "eval_tag": "act_eef_delta_wo_s2"
+    },
+    "act_eef_delta_wo_np": {
+      "eval_tag": "act_eef_delta_wo_np"
+    },
+    "act_eef_delta_wo_np_s1": {
+      "eval_tag": "act_eef_delta_wo_np_s1"
+    },
+    "act_eef_delta_wo_np_s2": {
+      "eval_tag": "act_eef_delta_wo_np_s2"
+    },
+    "act_joint_abs_h_np": {
+      "eval_tag": "act_joint_abs_h_np"
+    },
+    "act_joint_abs_h_np_s1": {
+      "eval_tag": "act_joint_abs_h_np_s1"
+    },
+    "act_joint_abs_h_np_s2": {
+      "eval_tag": "act_joint_abs_h_np_s2"
+    }
+  }
+}

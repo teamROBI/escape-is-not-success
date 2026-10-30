@@ -1,0 +1,28 @@
+# Generated data, models and environments
+/data/
+/venvs/
+/outputs/
+/output/
+*.ckpt
+*.pt
+*.pth
+*.hdf5
+*.npz
+*.npy
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+*.egg-info/
+.venv/
+.env
+.env.*
+# Operator-only material
+/RELEASE_PROMPT.md
+/RELEASE_NOTES_INTERNAL.md
+/.release-work/
+/.release-git/
+/.agents/
+/.aws/
+/.codex/

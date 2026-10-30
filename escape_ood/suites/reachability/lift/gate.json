@@ -1,0 +1,1523 @@
+{
+  "suite": "lift",
+  "attempts": 1,
+  "exhaustive": true,
+  "n": 108,
+  "n_ok": 108,
+  "object": "escape_ood_cube_red",
+  "note": "Phase A gate on the cube; re-run when the object or the envelope changes",
+  "results": [
+    {
+      "key": "lift[r=0.35,theta_deg=-10]@tango_cube_red",
+      "split": "train",
+      "band": null,
+      "params": {
+        "r": 0.35,
+        "theta_deg": -10.0
+      },
+      "sweep_coord": 0.0,
+      "ok": true,
+      "steps": 174,
+      "last_phase": "settle",
+      "reason": ""
+    },
+    {
+      "key": "lift[r=0.35,theta_deg=-20]@tango_cube_red",
+      "split": "train",
+      "band": null,
+      "params": {
+        "r": 0.35,
+        "theta_deg": -20.0
+      },
+      "sweep_coord": 0.0,
+      "ok": true,
+      "steps": 181,
+      "last_phase": "settle",
+      "reason": ""
+    },
+    {
+      "key": "lift[r=0.35,theta_deg=-30]@tango_cube_red",
+      "split": "train",
+      "band": null,
+      "params": {
+        "r": 0.35,
+        "theta_deg": -30.0
+      },
+      "sweep_coord": 0.0,
+      "ok": true,
+      "steps": 190,
+      "last_phase": "settle",
+      "reason": ""
+    },
+    {
+      "key": "lift[r=0.35,theta_deg=-45]@tango_cube_red",
+      "split": "test",
+      "band": "A1",
+      "params": {
+        "r": 0.35,
+        "theta_deg": -45.0
+      },
+      "sweep_coord": 6.108652,
+      "ok": true,
+      "steps": 205,
+      "last_phase": "settle",
+      "reason": ""
+    },
+    {
+      "key": "lift[r=0.35,theta_deg=-55]@tango_cube_red",
+      "split": "test",
+      "band": "A2",
+      "params": {
+        "r": 0.35,
+        "theta_deg": -55.0
+      },
+      "sweep_coord": 12.217305,
+      "ok": true,
+      "steps": 217,
+      "last_phase": "settle",
+      "reason": ""
+    },
+    {
+      "key": "lift[r=0.35,theta_deg=-65]@tango_cube_red",
+      "split": "test",
+      "band": "A3",
+      "params": {
+        "r": 0.35,
+        "theta_deg": -65.0
+      },
+      "sweep_coord": 18.325957,
+      "ok": true,
+      "steps": 227,
+      "last_phase": "settle",
+      "reason": ""
+    },
+    {
+      "key": "lift[r=0.35,theta_deg=0]@tango_cube_red",
+      "split": "train",
+      "band": null,
+      "params": {
+        "r": 0.35,
+        "theta_deg": 0.0
+      },
+      "sweep_coord": 0.0,
+      "ok": true,
+      "steps": 172,
+      "last_phase": "settle",
+      "reason": ""
+    },
+    {
+      "key": "lift[r=0.35,theta_deg=10]@tango_cube_red",
+      "split": "train",
+      "band": null,
+      "params": {
+        "r": 0.35,
+        "theta_deg": 10.0
+      },
+      "sweep_coord": 0.0,
+      "ok": true,
+      "steps": 174,
+      "last_phase": "settle",
+      "reason": ""
+    },
+    {
+      "key": "lift[r=0.35,theta_deg=20]@tango_cube_red",
+      "split": "train",
+      "band": null,
+      "params": {
+        "r": 0.35,
+        "theta_deg": 20.0
+      },
+      "sweep_coord": 0.0,
+      "ok": true,
+      "steps": 181,
+      "last_phase": "settle",
+      "reason": ""
+    },
+    {
+      "key": "lift[r=0.35,theta_deg=30]@tango_cube_red",
+      "split": "train",
+      "band": null,
+      "params": {
+        "r": 0.35,
+        "theta_deg": 30.0
+      },
+      "sweep_coord": 0.0,
+      "ok": true,
+      "steps": 189,
+      "last_phase": "settle",
+      "reason": ""
+    },
+    {
+      "key": "lift[r=0.35,theta_deg=45]@tango_cube_red",
+      "split": "test",
+      "band": "A1",
+      "params": {
+        "r": 0.35,
+        "theta_deg": 45.0
+      },
+      "sweep_coord": 6.108652,
+      "ok": true,
+      "steps": 205,
+      "last_phase": "settle",
+      "reason": ""
+    },
+    {
+      "key": "lift[r=0.35,theta_deg=55]@tango_cube_red",
+      "split": "test",
+      "band": "A2",
+      "params": {
+        "r": 0.35,
+        "theta_deg": 55.0
+      },
+      "sweep_coord": 12.217305,
+      "ok": true,
+      "steps": 217,
+      "last_phase": "settle",
+      "reason": ""
+    },
+    {
+      "key": "lift[r=0.35,theta_deg=65]@tango_cube_red",
+      "split": "test",
+      "band": "A3",
+      "params": {
+        "r": 0.35,
+        "theta_deg": 65.0
+      },
+      "sweep_coord": 18.325957,
+      "ok": true,
+      "steps": 227,
+      "last_phase": "settle",
+      "reason": ""
+    },
+    {
+      "key": "lift[r=0.375,theta_deg=-10]@tango_cube_red",
+      "split": "interior",
+      "band": null,
+      "params": {
+        "r": 0.375,
+        "theta_deg": -10.0
+      },
+      "sweep_coord": 0.0,
+      "ok": true,
+      "steps": 172,
+      "last_phase": "settle",
+      "reason": ""
+    },
+    {
+      "key": "lift[r=0.375,theta_deg=-20]@tango_cube_red",
+      "split": "interior",
+      "band": null,
+      "params": {
+        "r": 0.375,
+        "theta_deg": -20.0
+      },
+      "sweep_coord": 0.0,
+      "ok": true,
+      "steps": 180,
+      "last_phase": "settle",
+      "reason": ""
+    },
+    {
+      "key": "lift[r=0.375,theta_deg=-30]@tango_cube_red",
+      "split": "interior",
+      "band": null,
+      "params": {
+        "r": 0.375,
+        "theta_deg": -30.0
+      },
+      "sweep_coord": 0.0,
+      "ok": true,
+      "steps": 189,
+      "last_phase": "settle",
+      "reason": ""
+    },
+    {
+      "key": "lift[r=0.375,theta_deg=0]@tango_cube_red",
+      "split": "interior",
+      "band": null,
+      "params": {
+        "r": 0.375,
+        "theta_deg": 0.0
+      },
+      "sweep_coord": 0.0,
+      "ok": true,
+      "steps": 170,
+      "last_phase": "settle",
+      "reason": ""
+    },
+    {
+      "key": "lift[r=0.375,theta_deg=10]@tango_cube_red",
+      "split": "interior",
+      "band": null,
+      "params": {
+        "r": 0.375,
+        "theta_deg": 10.0
+      },
+      "sweep_coord": 0.0,
+      "ok": true,
+      "steps": 172,
+      "last_phase": "settle",
+      "reason": ""
+    },
+    {
+      "key": "lift[r=0.375,theta_deg=20]@tango_cube_red",
+      "split": "interior",
+      "band": null,
+      "params": {
+        "r": 0.375,
+        "theta_deg": 20.0
+      },
+      "sweep_coord": 0.0,
+      "ok": true,
+      "steps": 180,
+      "last_phase": "settle",
+      "reason": ""
+    },
+    {
+      "key": "lift[r=0.375,theta_deg=30]@tango_cube_red",
+      "split": "interior",
+      "band": null,
+      "params": {
+        "r": 0.375,
+        "theta_deg": 30.0
+      },
+      "sweep_coord": 0.0,
+      "ok": true,
+      "steps": 189,
+      "last_phase": "settle",
+      "reason": ""
+    },
+    {
+      "key": "lift[r=0.4,theta_deg=-10]@tango_cube_red",
+      "split": "train",
+      "band": null,
+      "params": {
+        "r": 0.4,
+        "theta_deg": -10.0
+      },
+      "sweep_coord": 0.0,
+      "ok": true,
+      "steps": 172,
+      "last_phase": "settle",
+      "reason": ""
+    },
+    {
+      "key": "lift[r=0.4,theta_deg=-20]@tango_cube_red",
+      "split": "train",
+      "band": null,
+      "params": {
+        "r": 0.4,
+        "theta_deg": -20.0
+      },
+      "sweep_coord": 0.0,
+      "ok": true,
+      "steps": 179,
+      "last_phase": "settle",
+      "reason": ""
+    },
+    {
+      "key": "lift[r=0.4,theta_deg=-30]@tango_cube_red",
+      "split": "train",
+      "band": null,
+      "params": {
+        "r": 0.4,
+        "theta_deg": -30.0
+      },
+      "sweep_coord": 0.0,
+      "ok": true,
+      "steps": 189,
+      "last_phase": "settle",
+      "reason": ""
+    },
+    {
+      "key": "lift[r=0.4,theta_deg=-45]@tango_cube_red",
+      "split": "test",
+      "band": "A1",
+      "params": {
+        "r": 0.4,
+        "theta_deg": -45.0
+      },
+      "sweep_coord": 6.981317,
+      "ok": true,
+      "steps": 207,
+      "last_phase": "settle",
+      "reason": ""
+    },
+    {
+      "key": "lift[r=0.4,theta_deg=-55]@tango_cube_red",
+      "split": "test",
+      "band": "A2",
+      "params": {
+        "r": 0.4,
+        "theta_deg": -55.0
+      },
+      "sweep_coord": 13.962634,
+      "ok": true,
+      "steps": 219,
+      "last_phase": "settle",
+      "reason": ""
+    },
+    {
+      "key": "lift[r=0.4,theta_deg=-65]@tango_cube_red",
+      "split": "test",
+      "band": "A3",
+      "params": {
+        "r": 0.4,
+        "theta_deg": -65.0
+      },
+      "sweep_coord": 20.943951,
+      "ok": true,
+      "steps": 231,
+      "last_phase": "settle",
+      "reason": ""
+    },
+    {
+      "key": "lift[r=0.4,theta_deg=0]@tango_cube_red",
+      "split": "train",
+      "band": null,
+      "params": {
+        "r": 0.4,
+        "theta_deg": 0.0
+      },
+      "sweep_coord": 0.0,
+      "ok": true,
+      "steps": 168,
+      "last_phase": "settle",
+      "reason": ""
+    },
+    {
+      "key": "lift[r=0.4,theta_deg=10]@tango_cube_red",
+      "split": "train",
+      "band": null,
+      "params": {
+        "r": 0.4,
+        "theta_deg": 10.0
+      },
+      "sweep_coord": 0.0,
+      "ok": true,
+      "steps": 172,
+      "last_phase": "settle",
+      "reason": ""
+    },
+    {
+      "key": "lift[r=0.4,theta_deg=20]@tango_cube_red",
+      "split": "train",
+      "band": null,
+      "params": {
+        "r": 0.4,
+        "theta_deg": 20.0
+      },
+      "sweep_coord": 0.0,
+      "ok": true,
+      "steps": 179,
+      "last_phase": "settle",
+      "reason": ""
+    },
+    {
+      "key": "lift[r=0.4,theta_deg=30]@tango_cube_red",
+      "split": "train",
+      "band": null,
+      "params": {
+        "r": 0.4,
+        "theta_deg": 30.0
+      },
+      "sweep_coord": 0.0,
+      "ok": true,
+      "steps": 189,
+      "last_phase": "settle",
+      "reason": ""
+    },
+    {
+      "key": "lift[r=0.4,theta_deg=45]@tango_cube_red",
+      "split": "test",
+      "band": "A1",
+      "params": {
+        "r": 0.4,
+        "theta_deg": 45.0
+      },
+      "sweep_coord": 6.981317,
+      "ok": true,
+      "steps": 207,
+      "last_phase": "settle",
+      "reason": ""
+    },
+    {
+      "key": "lift[r=0.4,theta_deg=55]@tango_cube_red",
+      "split": "test",
+      "band": "A2",
+      "params": {
+        "r": 0.4,
+        "theta_deg": 55.0
+      },
+      "sweep_coord": 13.962634,
+      "ok": true,
+      "steps": 219,
+      "last_phase": "settle",
+      "reason": ""
+    },
+    {
+      "key": "lift[r=0.4,theta_deg=65]@tango_cube_red",
+      "split": "test",
+      "band": "A3",
+      "params": {
+        "r": 0.4,
+        "theta_deg": 65.0
+      },
+      "sweep_coord": 20.943951,
+      "ok": true,
+      "steps": 231,
+      "last_phase": "settle",
+      "reason": ""
+    },
+    {
+      "key": "lift[r=0.425,theta_deg=-10]@tango_cube_red",
+      "split": "interior",
+      "band": null,
+      "params": {
+        "r": 0.425,
+        "theta_deg": -10.0
+      },
+      "sweep_coord": 0.0,
+      "ok": true,
+      "steps": 172,
+      "last_phase": "settle",
+      "reason": ""
+    },
+    {
+      "key": "lift[r=0.425,theta_deg=-20]@tango_cube_red",
+      "split": "interior",
+      "band": null,
+      "params": {
+        "r": 0.425,
+        "theta_deg": -20.0
+      },
+      "sweep_coord": 0.0,
+      "ok": true,
+      "steps": 179,
+      "last_phase": "settle",
+      "reason": ""
+    },
+    {
+      "key": "lift[r=0.425,theta_deg=-30]@tango_cube_red",
+      "split": "interior",
+      "band": null,
+      "params": {
+        "r": 0.425,
+        "theta_deg": -30.0
+      },
+      "sweep_coord": 0.0,
+      "ok": true,
+      "steps": 191,
+      "last_phase": "settle",
+      "reason": ""
+    },
+    {
+      "key": "lift[r=0.425,theta_deg=0]@tango_cube_red",
+      "split": "interior",
+      "band": null,
+      "params": {
+        "r": 0.425,
+        "theta_deg": 0.0
+      },
+      "sweep_coord": 0.0,
+      "ok": true,
+      "steps": 168,
+      "last_phase": "settle",
+      "reason": ""
+    },
+    {
+      "key": "lift[r=0.425,theta_deg=10]@tango_cube_red",
+      "split": "interior",
+      "band": null,
+      "params": {
+        "r": 0.425,
+        "theta_deg": 10.0
+      },
+      "sweep_coord": 0.0,
+      "ok": true,
+      "steps": 172,
+      "last_phase": "settle",
+      "reason": ""
+    },
+    {
+      "key": "lift[r=0.425,theta_deg=20]@tango_cube_red",
+      "split": "interior",
+      "band": null,
+      "params": {
+        "r": 0.425,
+        "theta_deg": 20.0
+      },
+      "sweep_coord": 0.0,
+      "ok": true,
+      "steps": 179,
+      "last_phase": "settle",
+      "reason": ""
+    },
+    {
+      "key": "lift[r=0.425,theta_deg=30]@tango_cube_red",
+      "split": "interior",
+      "band": null,
+      "params": {
+        "r": 0.425,
+        "theta_deg": 30.0
+      },
+      "sweep_coord": 0.0,
+      "ok": true,
+      "steps": 191,
+      "last_phase": "settle",
+      "reason": ""
+    },
+    {
+      "key": "lift[r=0.45,theta_deg=-10]@tango_cube_red",
+      "split": "train",
+      "band": null,
+      "params": {
+        "r": 0.45,
+        "theta_deg": -10.0
+      },
+      "sweep_coord": 0.0,
+      "ok": true,
+      "steps": 172,
+      "last_phase": "settle",
+      "reason": ""
+    },
+    {
+      "key": "lift[r=0.45,theta_deg=-20]@tango_cube_red",
+      "split": "train",
+      "band": null,
+      "params": {
+        "r": 0.45,
+        "theta_deg": -20.0
+      },
+      "sweep_coord": 0.0,
+      "ok": true,
+      "steps": 181,
+      "last_phase": "settle",
+      "reason": ""
+    },
+    {
+      "key": "lift[r=0.45,theta_deg=-30]@tango_cube_red",
+      "split": "train",
+      "band": null,
+      "params": {
+        "r": 0.45,
+        "theta_deg": -30.0
+      },
+      "sweep_coord": 0.0,
+      "ok": true,
+      "steps": 193,
+      "last_phase": "settle",
+      "reason": ""
+    },
+    {
+      "key": "lift[r=0.45,theta_deg=-45]@tango_cube_red",
+      "split": "test",
+      "band": "A1",
+      "params": {
+        "r": 0.45,
+        "theta_deg": -45.0
+      },
+      "sweep_coord": 7.853982,
+      "ok": true,
+      "steps": 211,
+      "last_phase": "settle",
+      "reason": ""
+    },
+    {
+      "key": "lift[r=0.45,theta_deg=-55]@tango_cube_red",
+      "split": "test",
+      "band": "A2",
+      "params": {
+        "r": 0.45,
+        "theta_deg": -55.0
+      },
+      "sweep_coord": 15.707963,
+      "ok": true,
+      "steps": 225,
+      "last_phase": "settle",
+      "reason": ""
+    },
+    {
+      "key": "lift[r=0.45,theta_deg=-65]@tango_cube_red",
+      "split": "test",
+      "band": "A3",
+      "params": {
+        "r": 0.45,
+        "theta_deg": -65.0
+      },
+      "sweep_coord": 23.561945,
+      "ok": true,
+      "steps": 236,
+      "last_phase": "settle",
+      "reason": ""
+    },
+    {
+      "key": "lift[r=0.45,theta_deg=0]@tango_cube_red",
+      "split": "train",
+      "band": null,
+      "params": {
+        "r": 0.45,
+        "theta_deg": 0.0
+      },
+      "sweep_coord": 0.0,
+      "ok": true,
+      "steps": 168,
+      "last_phase": "settle",
+      "reason": ""
+    },
+    {
+      "key": "lift[r=0.45,theta_deg=10]@tango_cube_red",
+      "split": "train",
+      "band": null,
+      "params": {
+        "r": 0.45,
+        "theta_deg": 10.0
+      },
+      "sweep_coord": 0.0,
+      "ok": true,
+      "steps": 172,
+      "last_phase": "settle",
+      "reason": ""
+    },
+    {
+      "key": "lift[r=0.45,theta_deg=20]@tango_cube_red",
+      "split": "train",
+      "band": null,
+      "params": {
+        "r": 0.45,
+        "theta_deg": 20.0
+      },
+      "sweep_coord": 0.0,
+      "ok": true,
+      "steps": 181,
+      "last_phase": "settle",
+      "reason": ""
+    },
+    {
+      "key": "lift[r=0.45,theta_deg=30]@tango_cube_red",
+      "split": "train",
+      "band": null,
+      "params": {
+        "r": 0.45,
+        "theta_deg": 30.0
+      },
+      "sweep_coord": 0.0,
+      "ok": true,
+      "steps": 193,
+      "last_phase": "settle",
+      "reason": ""
+    },
+    {
+      "key": "lift[r=0.45,theta_deg=45]@tango_cube_red",
+      "split": "test",
+      "band": "A1",
+      "params": {
+        "r": 0.45,
+        "theta_deg": 45.0
+      },
+      "sweep_coord": 7.853982,
+      "ok": true,
+      "steps": 211,
+      "last_phase": "settle",
+      "reason": ""
+    },
+    {
+      "key": "lift[r=0.45,theta_deg=55]@tango_cube_red",
+      "split": "test",
+      "band": "A2",
+      "params": {
+        "r": 0.45,
+        "theta_deg": 55.0
+      },
+      "sweep_coord": 15.707963,
+      "ok": true,
+      "steps": 225,
+      "last_phase": "settle",
+      "reason": ""
+    },
+    {
+      "key": "lift[r=0.45,theta_deg=65]@tango_cube_red",
+      "split": "test",
+      "band": "A3",
+      "params": {
+        "r": 0.45,
+        "theta_deg": 65.0
+      },
+      "sweep_coord": 23.561945,
+      "ok": true,
+      "steps": 236,
+      "last_phase": "settle",
+      "reason": ""
+    },
+    {
+      "key": "lift[r=0.475,theta_deg=-10]@tango_cube_red",
+      "split": "interior",
+      "band": null,
+      "params": {
+        "r": 0.475,
+        "theta_deg": -10.0
+      },
+      "sweep_coord": 0.0,
+      "ok": true,
+      "steps": 174,
+      "last_phase": "settle",
+      "reason": ""
+    },
+    {
+      "key": "lift[r=0.475,theta_deg=-20]@tango_cube_red",
+      "split": "interior",
+      "band": null,
+      "params": {
+        "r": 0.475,
+        "theta_deg": -20.0
+      },
+      "sweep_coord": 0.0,
+      "ok": true,
+      "steps": 183,
+      "last_phase": "settle",
+      "reason": ""
+    },
+    {
+      "key": "lift[r=0.475,theta_deg=-30]@tango_cube_red",
+      "split": "interior",
+      "band": null,
+      "params": {
+        "r": 0.475,
+        "theta_deg": -30.0
+      },
+      "sweep_coord": 0.0,
+      "ok": true,
+      "steps": 195,
+      "last_phase": "settle",
+      "reason": ""
+    },
+    {
+      "key": "lift[r=0.475,theta_deg=0]@tango_cube_red",
+      "split": "interior",
+      "band": null,
+      "params": {
+        "r": 0.475,
+        "theta_deg": 0.0
+      },
+      "sweep_coord": 0.0,
+      "ok": true,
+      "steps": 170,
+      "last_phase": "settle",
+      "reason": ""
+    },
+    {
+      "key": "lift[r=0.475,theta_deg=10]@tango_cube_red",
+      "split": "interior",
+      "band": null,
+      "params": {
+        "r": 0.475,
+        "theta_deg": 10.0
+      },
+      "sweep_coord": 0.0,
+      "ok": true,
+      "steps": 174,
+      "last_phase": "settle",
+      "reason": ""
+    },
+    {
+      "key": "lift[r=0.475,theta_deg=20]@tango_cube_red",
+      "split": "interior",
+      "band": null,
+      "params": {
+        "r": 0.475,
+        "theta_deg": 20.0
+      },
+      "sweep_coord": 0.0,
+      "ok": true,
+      "steps": 183,
+      "last_phase": "settle",
+      "reason": ""
+    },
+    {
+      "key": "lift[r=0.475,theta_deg=30]@tango_cube_red",
+      "split": "interior",
+      "band": null,
+      "params": {
+        "r": 0.475,
+        "theta_deg": 30.0
+      },
+      "sweep_coord": 0.0,
+      "ok": true,
+      "steps": 194,
+      "last_phase": "settle",
+      "reason": ""
+    },
+    {
+      "key": "lift[r=0.5,theta_deg=-10]@tango_cube_red",
+      "split": "train",
+      "band": null,
+      "params": {
+        "r": 0.5,
+        "theta_deg": -10.0
+      },
+      "sweep_coord": 0.0,
+      "ok": true,
+      "steps": 175,
+      "last_phase": "settle",
+      "reason": ""
+    },
+    {
+      "key": "lift[r=0.5,theta_deg=-20]@tango_cube_red",
+      "split": "train",
+      "band": null,
+      "params": {
+        "r": 0.5,
+        "theta_deg": -20.0
+      },
+      "sweep_coord": 0.0,
+      "ok": true,
+      "steps": 185,
+      "last_phase": "settle",
+      "reason": ""
+    },
+    {
+      "key": "lift[r=0.5,theta_deg=-30]@tango_cube_red",
+      "split": "train",
+      "band": null,
+      "params": {
+        "r": 0.5,
+        "theta_deg": -30.0
+      },
+      "sweep_coord": 0.0,
+      "ok": true,
+      "steps": 197,
+      "last_phase": "settle",
+      "reason": ""
+    },
+    {
+      "key": "lift[r=0.5,theta_deg=-45]@tango_cube_red",
+      "split": "test",
+      "band": "A1",
+      "params": {
+        "r": 0.5,
+        "theta_deg": -45.0
+      },
+      "sweep_coord": 8.726646,
+      "ok": true,
+      "steps": 216,
+      "last_phase": "settle",
+      "reason": ""
+    },
+    {
+      "key": "lift[r=0.5,theta_deg=-55]@tango_cube_red",
+      "split": "test",
+      "band": "A2",
+      "params": {
+        "r": 0.5,
+        "theta_deg": -55.0
+      },
+      "sweep_coord": 17.453293,
+      "ok": true,
+      "steps": 229,
+      "last_phase": "settle",
+      "reason": ""
+    },
+    {
+      "key": "lift[r=0.5,theta_deg=-65]@tango_cube_red",
+      "split": "test",
+      "band": "A3",
+      "params": {
+        "r": 0.5,
+        "theta_deg": -65.0
+      },
+      "sweep_coord": 26.179939,
+      "ok": true,
+      "steps": 242,
+      "last_phase": "settle",
+      "reason": ""
+    },
+    {
+      "key": "lift[r=0.5,theta_deg=0]@tango_cube_red",
+      "split": "train",
+      "band": null,
+      "params": {
+        "r": 0.5,
+        "theta_deg": 0.0
+      },
+      "sweep_coord": 0.0,
+      "ok": true,
+      "steps": 172,
+      "last_phase": "settle",
+      "reason": ""
+    },
+    {
+      "key": "lift[r=0.5,theta_deg=10]@tango_cube_red",
+      "split": "train",
+      "band": null,
+      "params": {
+        "r": 0.5,
+        "theta_deg": 10.0
+      },
+      "sweep_coord": 0.0,
+      "ok": true,
+      "steps": 175,
+      "last_phase": "settle",
+      "reason": ""
+    },
+    {
+      "key": "lift[r=0.5,theta_deg=20]@tango_cube_red",
+      "split": "train",
+      "band": null,
+      "params": {
+        "r": 0.5,
+        "theta_deg": 20.0
+      },
+      "sweep_coord": 0.0,
+      "ok": true,
+      "steps": 185,
+      "last_phase": "settle",
+      "reason": ""
+    },
+    {
+      "key": "lift[r=0.5,theta_deg=30]@tango_cube_red",
+      "split": "train",
+      "band": null,
+      "params": {
+        "r": 0.5,
+        "theta_deg": 30.0
+      },
+      "sweep_coord": 0.0,
+      "ok": true,
+      "steps": 196,
+      "last_phase": "settle",
+      "reason": ""
+    },
+    {
+      "key": "lift[r=0.5,theta_deg=45]@tango_cube_red",
+      "split": "test",
+      "band": "A1",
+      "params": {
+        "r": 0.5,
+        "theta_deg": 45.0
+      },
+      "sweep_coord": 8.726646,
+      "ok": true,
+      "steps": 216,
+      "last_phase": "settle",
+      "reason": ""
+    },
+    {
+      "key": "lift[r=0.5,theta_deg=55]@tango_cube_red",
+      "split": "test",
+      "band": "A2",
+      "params": {
+        "r": 0.5,
+        "theta_deg": 55.0
+      },
+      "sweep_coord": 17.453293,
+      "ok": true,
+      "steps": 229,
+      "last_phase": "settle",
+      "reason": ""
+    },
+    {
+      "key": "lift[r=0.5,theta_deg=65]@tango_cube_red",
+      "split": "test",
+      "band": "A3",
+      "params": {
+        "r": 0.5,
+        "theta_deg": 65.0
+      },
+      "sweep_coord": 26.179939,
+      "ok": true,
+      "steps": 242,
+      "last_phase": "settle",
+      "reason": ""
+    },
+    {
+      "key": "lift[r=0.575,theta_deg=-10]@tango_cube_red",
+      "split": "test",
+      "band": "R1",
+      "params": {
+        "r": 0.575,
+        "theta_deg": -10.0
+      },
+      "sweep_coord": 5.0,
+      "ok": true,
+      "steps": 185,
+      "last_phase": "settle",
+      "reason": ""
+    },
+    {
+      "key": "lift[r=0.575,theta_deg=-20]@tango_cube_red",
+      "split": "test",
+      "band": "R1",
+      "params": {
+        "r": 0.575,
+        "theta_deg": -20.0
+      },
+      "sweep_coord": 5.0,
+      "ok": true,
+      "steps": 193,
+      "last_phase": "settle",
+      "reason": ""
+    },
+    {
+      "key": "lift[r=0.575,theta_deg=-30]@tango_cube_red",
+      "split": "test",
+      "band": "R1",
+      "params": {
+        "r": 0.575,
+        "theta_deg": -30.0
+      },
+      "sweep_coord": 5.0,
+      "ok": true,
+      "steps": 205,
+      "last_phase": "settle",
+      "reason": ""
+    },
+    {
+      "key": "lift[r=0.575,theta_deg=0]@tango_cube_red",
+      "split": "test",
+      "band": "R1",
+      "params": {
+        "r": 0.575,
+        "theta_deg": 0.0
+      },
+      "sweep_coord": 5.0,
+      "ok": true,
+      "steps": 181,
+      "last_phase": "settle",
+      "reason": ""
+    },
+    {
+      "key": "lift[r=0.575,theta_deg=10]@tango_cube_red",
+      "split": "test",
+      "band": "R1",
+      "params": {
+        "r": 0.575,
+        "theta_deg": 10.0
+      },
+      "sweep_coord": 5.0,
+      "ok": true,
+      "steps": 185,
+      "last_phase": "settle",
+      "reason": ""
+    },
+    {
+      "key": "lift[r=0.575,theta_deg=20]@tango_cube_red",
+      "split": "test",
+      "band": "R1",
+      "params": {
+        "r": 0.575,
+        "theta_deg": 20.0
+      },
+      "sweep_coord": 5.0,
+      "ok": true,
+      "steps": 193,
+      "last_phase": "settle",
+      "reason": ""
+    },
+    {
+      "key": "lift[r=0.575,theta_deg=30]@tango_cube_red",
+      "split": "test",
+      "band": "R1",
+      "params": {
+        "r": 0.575,
+        "theta_deg": 30.0
+      },
+      "sweep_coord": 5.0,
+      "ok": true,
+      "steps": 205,
+      "last_phase": "settle",
+      "reason": ""
+    },
+    {
+      "key": "lift[r=0.625,theta_deg=-10]@tango_cube_red",
+      "split": "test",
+      "band": "R2",
+      "params": {
+        "r": 0.625,
+        "theta_deg": -10.0
+      },
+      "sweep_coord": 10.0,
+      "ok": true,
+      "steps": 193,
+      "last_phase": "settle",
+      "reason": ""
+    },
+    {
+      "key": "lift[r=0.625,theta_deg=-20]@tango_cube_red",
+      "split": "test",
+      "band": "R2",
+      "params": {
+        "r": 0.625,
+        "theta_deg": -20.0
+      },
+      "sweep_coord": 10.0,
+      "ok": true,
+      "steps": 201,
+      "last_phase": "settle",
+      "reason": ""
+    },
+    {
+      "key": "lift[r=0.625,theta_deg=-30]@tango_cube_red",
+      "split": "test",
+      "band": "R2",
+      "params": {
+        "r": 0.625,
+        "theta_deg": -30.0
+      },
+      "sweep_coord": 10.0,
+      "ok": true,
+      "steps": 211,
+      "last_phase": "settle",
+      "reason": ""
+    },
+    {
+      "key": "lift[r=0.625,theta_deg=0]@tango_cube_red",
+      "split": "test",
+      "band": "R2",
+      "params": {
+        "r": 0.625,
+        "theta_deg": 0.0
+      },
+      "sweep_coord": 10.0,
+      "ok": true,
+      "steps": 190,
+      "last_phase": "settle",
+      "reason": ""
+    },
+    {
+      "key": "lift[r=0.625,theta_deg=10]@tango_cube_red",
+      "split": "test",
+      "band": "R2",
+      "params": {
+        "r": 0.625,
+        "theta_deg": 10.0
+      },
+      "sweep_coord": 10.0,
+      "ok": true,
+      "steps": 193,
+      "last_phase": "settle",
+      "reason": ""
+    },
+    {
+      "key": "lift[r=0.625,theta_deg=20]@tango_cube_red",
+      "split": "test",
+      "band": "R2",
+      "params": {
+        "r": 0.625,
+        "theta_deg": 20.0
+      },
+      "sweep_coord": 10.0,
+      "ok": true,
+      "steps": 200,
+      "last_phase": "settle",
+      "reason": ""
+    },
+    {
+      "key": "lift[r=0.625,theta_deg=30]@tango_cube_red",
+      "split": "test",
+      "band": "R2",
+      "params": {
+        "r": 0.625,
+        "theta_deg": 30.0
+      },
+      "sweep_coord": 10.0,
+      "ok": true,
+      "steps": 211,
+      "last_phase": "settle",
+      "reason": ""
+    },
+    {
+      "key": "lift[r=0.675,theta_deg=-10]@tango_cube_red",
+      "split": "test",
+      "band": "R3",
+      "params": {
+        "r": 0.675,
+        "theta_deg": -10.0
+      },
+      "sweep_coord": 15.0,
+      "ok": true,
+      "steps": 201,
+      "last_phase": "settle",
+      "reason": ""
+    },
+    {
+      "key": "lift[r=0.675,theta_deg=-20]@tango_cube_red",
+      "split": "test",
+      "band": "R3",
+      "params": {
+        "r": 0.675,
+        "theta_deg": -20.0
+      },
+      "sweep_coord": 15.0,
+      "ok": true,
+      "steps": 207,
+      "last_phase": "settle",
+      "reason": ""
+    },
+    {
+      "key": "lift[r=0.675,theta_deg=-30]@tango_cube_red",
+      "split": "test",
+      "band": "R3",
+      "params": {
+        "r": 0.675,
+        "theta_deg": -30.0
+      },
+      "sweep_coord": 15.0,
+      "ok": true,
+      "steps": 218,
+      "last_phase": "settle",
+      "reason": ""
+    },
+    {
+      "key": "lift[r=0.675,theta_deg=0]@tango_cube_red",
+      "split": "test",
+      "band": "R3",
+      "params": {
+        "r": 0.675,
+        "theta_deg": 0.0
+      },
+      "sweep_coord": 15.0,
+      "ok": true,
+      "steps": 197,
+      "last_phase": "settle",
+      "reason": ""
+    },
+    {
+      "key": "lift[r=0.675,theta_deg=10]@tango_cube_red",
+      "split": "test",
+      "band": "R3",
+      "params": {
+        "r": 0.675,
+        "theta_deg": 10.0
+      },
+      "sweep_coord": 15.0,
+      "ok": true,
+      "steps": 201,
+      "last_phase": "settle",
+      "reason": ""
+    },
+    {
+      "key": "lift[r=0.675,theta_deg=20]@tango_cube_red",
+      "split": "test",
+      "band": "R3",
+      "params": {
+        "r": 0.675,
+        "theta_deg": 20.0
+      },
+      "sweep_coord": 15.0,
+      "ok": true,
+      "steps": 207,
+      "last_phase": "settle",
+      "reason": ""
+    },
+    {
+      "key": "lift[r=0.675,theta_deg=30]@tango_cube_red",
+      "split": "test",
+      "band": "R3",
+      "params": {
+        "r": 0.675,
+        "theta_deg": 30.0
+      },
+      "sweep_coord": 15.0,
+      "ok": true,
+      "steps": 218,
+      "last_phase": "settle",
+      "reason": ""
+    },
+    {
+      "key": "lift[r=0.725,theta_deg=-10]@tango_cube_red",
+      "split": "test",
+      "band": "R4",
+      "params": {
+        "r": 0.725,
+        "theta_deg": -10.0
+      },
+      "sweep_coord": 20.0,
+      "ok": true,
+      "steps": 209,
+      "last_phase": "settle",
+      "reason": ""
+    },
+    {
+      "key": "lift[r=0.725,theta_deg=-20]@tango_cube_red",
+      "split": "test",
+      "band": "R4",
+      "params": {
+        "r": 0.725,
+        "theta_deg": -20.0
+      },
+      "sweep_coord": 20.0,
+      "ok": true,
+      "steps": 215,
+      "last_phase": "settle",
+      "reason": ""
+    },
+    {
+      "key": "lift[r=0.725,theta_deg=-30]@tango_cube_red",
+      "split": "test",
+      "band": "R4",
+      "params": {
+        "r": 0.725,
+        "theta_deg": -30.0
+      },
+      "sweep_coord": 20.0,
+      "ok": true,
+      "steps": 227,
+      "last_phase": "settle",
+      "reason": ""
+    },
+    {
+      "key": "lift[r=0.725,theta_deg=0]@tango_cube_red",
+      "split": "test",
+      "band": "R4",
+      "params": {
+        "r": 0.725,
+        "theta_deg": 0.0
+      },
+      "sweep_coord": 20.0,
+      "ok": true,
+      "steps": 206,
+      "last_phase": "settle",
+      "reason": ""
+    },
+    {
+      "key": "lift[r=0.725,theta_deg=10]@tango_cube_red",
+      "split": "test",
+      "band": "R4",
+      "params": {
+        "r": 0.725,
+        "theta_deg": 10.0
+      },
+      "sweep_coord": 20.0,
+      "ok": true,
+      "steps": 209,
+      "last_phase": "settle",
+      "reason": ""
+    },
+    {
+      "key": "lift[r=0.725,theta_deg=20]@tango_cube_red",
+      "split": "test",
+      "band": "R4",
+      "params": {
+        "r": 0.725,
+        "theta_deg": 20.0
+      },
+      "sweep_coord": 20.0,
+      "ok": true,
+      "steps": 215,
+      "last_phase": "settle",
+      "reason": ""
+    },
+    {
+      "key": "lift[r=0.725,theta_deg=30]@tango_cube_red",
+      "split": "test",
+      "band": "R4",
+      "params": {
+        "r": 0.725,
+        "theta_deg": 30.0
+      },
+      "sweep_coord": 20.0,
+      "ok": true,
+      "steps": 227,
+      "last_phase": "settle",
+      "reason": ""
+    },
+    {
+      "key": "lift[r=0.775,theta_deg=-10]@tango_cube_red",
+      "split": "test",
+      "band": "R5",
+      "params": {
+        "r": 0.775,
+        "theta_deg": -10.0
+      },
+      "sweep_coord": 25.0,
+      "ok": true,
+      "steps": 217,
+      "last_phase": "settle",
+      "reason": ""
+    },
+    {
+      "key": "lift[r=0.775,theta_deg=-20]@tango_cube_red",
+      "split": "test",
+      "band": "R5",
+      "params": {
+        "r": 0.775,
+        "theta_deg": -20.0
+      },
+      "sweep_coord": 25.0,
+      "ok": true,
+      "steps": 225,
+      "last_phase": "settle",
+      "reason": ""
+    },
+    {
+      "key": "lift[r=0.775,theta_deg=-30]@tango_cube_red",
+      "split": "test",
+      "band": "R5",
+      "params": {
+        "r": 0.775,
+        "theta_deg": -30.0
+      },
+      "sweep_coord": 25.0,
+      "ok": true,
+      "steps": 235,
+      "last_phase": "settle",
+      "reason": ""
+    },
+    {
+      "key": "lift[r=0.775,theta_deg=0]@tango_cube_red",
+      "split": "test",
+      "band": "R5",
+      "params": {
+        "r": 0.775,
+        "theta_deg": 0.0
+      },
+      "sweep_coord": 25.0,
+      "ok": true,
+      "steps": 215,
+      "last_phase": "settle",
+      "reason": ""
+    },
+    {
+      "key": "lift[r=0.775,theta_deg=10]@tango_cube_red",
+      "split": "test",
+      "band": "R5",
+      "params": {
+        "r": 0.775,
+        "theta_deg": 10.0
+      },
+      "sweep_coord": 25.0,
+      "ok": true,
+      "steps": 217,
+      "last_phase": "settle",
+      "reason": ""
+    },
+    {
+      "key": "lift[r=0.775,theta_deg=20]@tango_cube_red",
+      "split": "test",
+      "band": "R5",
+      "params": {
+        "r": 0.775,
+        "theta_deg": 20.0
+      },
+      "sweep_coord": 25.0,
+      "ok": true,
+      "steps": 225,
+      "last_phase": "settle",
+      "reason": ""
+    },
+    {
+      "key": "lift[r=0.775,theta_deg=30]@tango_cube_red",
+      "split": "test",
+      "band": "R5",
+      "params": {
+        "r": 0.775,
+        "theta_deg": 30.0
+      },
+      "sweep_coord": 25.0,
+      "ok": true,
+      "steps": 235,
+      "last_phase": "settle",
+      "reason": ""
+    }
+  ]
+}

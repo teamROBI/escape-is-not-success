@@ -1,0 +1,6 @@
+numpy==1.26.4
+h5py==3.16.0
+opencv-python==4.11.0.86
+matplotlib==3.10.8
+pyzmq==27.0.1
+msgpack==1.1.0

@@ -1,0 +1,6634 @@
+{
+  "thresholds": {
+    "escape_m": 0.01,
+    "approach": 0.25
+  },
+  "cells": [
+    {
+      "frame": "joint",
+      "arm_command": "absolute",
+      "gripper_command": "absolute",
+      "cameras": "head",
+      "proprio": "joint",
+      "role": "primary 2x2",
+      "collection": "A",
+      "seeds": [
+        {
+          "seed": 0,
+          "run": "act",
+          "eval_tag": "act",
+          "radial": {
+            "n": 70,
+            "escaped": 0,
+            "approached": 0,
+            "completed": 0,
+            "mean_approach": 0.0,
+            "median_approach": 0.0,
+            "approach_threshold_counts": {
+              "0.1": 0,
+              "0.25": 0,
+              "0.75": 0
+            },
+            "bands": {
+              "5": {
+                "n": 14,
+                "median_approach": 0.0,
+                "completed": 0
+              },
+              "10": {
+                "n": 14,
+                "median_approach": 0.0,
+                "completed": 0
+              },
+              "15": {
+                "n": 14,
+                "median_approach": 0.0,
+                "completed": 0
+              },
+              "20": {
+                "n": 14,
+                "median_approach": 0.0,
+                "completed": 0
+              },
+              "25": {
+                "n": 14,
+                "median_approach": 0.0,
+                "completed": 0
+              }
+            }
+          },
+          "angular": {
+            "n": 48,
+            "escaped": 0,
+            "approached": 0,
+            "completed": 0,
+            "mean_approach": 0.0021855704842316964,
+            "median_approach": 0.0,
+            "approach_threshold_counts": {
+              "0.1": 1,
+              "0.25": 0,
+              "0.75": 0
+            },
+            "bands": {
+              "6": {
+                "n": 4,
+                "median_approach": 0.0,
+                "completed": 0
+              },
+              "7": {
+                "n": 4,
+                "median_approach": 0.0,
+                "completed": 0
+              },
+              "8": {
+                "n": 4,
+                "median_approach": 0.0,
+                "completed": 0
+              },
+              "9": {
+                "n": 4,
+                "median_approach": 0.0,
+                "completed": 0
+              },
+              "12": {
+                "n": 4,
+                "median_approach": 0.0,
+                "completed": 0
+              },
+              "14": {
+                "n": 4,
+                "median_approach": 0.0,
+                "completed": 0
+              },
+              "16": {
+                "n": 4,
+                "median_approach": 0.0,
+                "completed": 0
+              },
+              "17": {
+                "n": 4,
+                "median_approach": 0.0,
+                "completed": 0
+              },
+              "18": {
+                "n": 4,
+                "median_approach": 0.0,
+                "completed": 0
+              },
+              "21": {
+                "n": 4,
+                "median_approach": 0.0,
+                "completed": 0
+              },
+              "24": {
+                "n": 4,
+                "median_approach": 0.0,
+                "completed": 0
+              },
+              "26": {
+                "n": 4,
+                "median_approach": 0.0,
+                "completed": 0
+              }
+            }
+          },
+          "train": {
+            "n": 56,
+            "completed": 56
+          },
+          "interior": {
+            "n": 42,
+            "completed": 42
+          }
+        },
+        {
+          "seed": 1,
+          "run": "act_s1",
+          "eval_tag": "act_s1",
+          "radial": {
+            "n": 70,
+            "escaped": 0,
+            "approached": 0,
+            "completed": 0,
+            "mean_approach": 0.0,
+            "median_approach": 0.0,
+            "approach_threshold_counts": {
+              "0.1": 0,
+              "0.25": 0,
+              "0.75": 0
+            },
+            "bands": {
+              "5": {
+                "n": 14,
+                "median_approach": 0.0,
+                "completed": 0
+              },
+              "10": {
+                "n": 14,
+                "median_approach": 0.0,
+                "completed": 0
+              },
+              "15": {
+                "n": 14,
+                "median_approach": 0.0,
+                "completed": 0
+              },
+              "20": {
+                "n": 14,
+                "median_approach": 0.0,
+                "completed": 0
+              },
+              "25": {
+                "n": 14,
+                "median_approach": 0.0,
+                "completed": 0
+              }
+            }
+          },
+          "angular": {
+            "n": 48,
+            "escaped": 0,
+            "approached": 0,
+            "completed": 0,
+            "mean_approach": 0.0,
+            "median_approach": 0.0,
+            "approach_threshold_counts": {
+              "0.1": 0,
+              "0.25": 0,
+              "0.75": 0
+            },
+            "bands": {
+              "6": {
+                "n": 4,
+                "median_approach": 0.0,
+                "completed": 0
+              },
+              "7": {
+                "n": 4,
+                "median_approach": 0.0,
+                "completed": 0
+              },
+              "8": {
+                "n": 4,
+                "median_approach": 0.0,
+                "completed": 0
+              },
+              "9": {
+                "n": 4,
+                "median_approach": 0.0,
+                "completed": 0
+              },
+              "12": {
+                "n": 4,
+                "median_approach": 0.0,
+                "completed": 0
+              },
+              "14": {
+                "n": 4,
+                "median_approach": 0.0,
+                "completed": 0
+              },
+              "16": {
+                "n": 4,
+                "median_approach": 0.0,
+                "completed": 0
+              },
+              "17": {
+                "n": 4,
+                "median_approach": 0.0,
+                "completed": 0
+              },
+              "18": {
+                "n": 4,
+                "median_approach": 0.0,
+                "completed": 0
+              },
+              "21": {
+                "n": 4,
+                "median_approach": 0.0,
+                "completed": 0
+              },
+              "24": {
+                "n": 4,
+                "median_approach": 0.0,
+                "completed": 0
+              },
+              "26": {
+                "n": 4,
+                "median_approach": 0.0,
+                "completed": 0
+              }
+            }
+          },
+          "train": {
+            "n": 56,
+            "completed": 56
+          },
+          "interior": {
+            "n": 42,
+            "completed": 42
+          }
+        },
+        {
+          "seed": 2,
+          "run": "act_s2",
+          "eval_tag": "act_s2",
+          "radial": {
+            "n": 70,
+            "escaped": 0,
+            "approached": 0,
+            "completed": 0,
+            "mean_approach": 0.0,
+            "median_approach": 0.0,
+            "approach_threshold_counts": {
+              "0.1": 0,
+              "0.25": 0,
+              "0.75": 0
+            },
+            "bands": {
+              "5": {
+                "n": 14,
+                "median_approach": 0.0,
+                "completed": 0
+              },
+              "10": {
+                "n": 14,
+                "median_approach": 0.0,
+                "completed": 0
+              },
+              "15": {
+                "n": 14,
+                "median_approach": 0.0,
+                "completed": 0
+              },
+              "20": {
+                "n": 14,
+                "median_approach": 0.0,
+                "completed": 0
+              },
+              "25": {
+                "n": 14,
+                "median_approach": 0.0,
+                "completed": 0
+              }
+            }
+          },
+          "angular": {
+            "n": 48,
+            "escaped": 0,
+            "approached": 0,
+            "completed": 0,
+            "mean_approach": 0.0005510417661467176,
+            "median_approach": 0.0,
+            "approach_threshold_counts": {
+              "0.1": 0,
+              "0.25": 0,
+              "0.75": 0
+            },
+            "bands": {
+              "6": {
+                "n": 4,
+                "median_approach": 0.0,
+                "completed": 0
+              },
+              "7": {
+                "n": 4,
+                "median_approach": 0.0,
+                "completed": 0
+              },
+              "8": {
+                "n": 4,
+                "median_approach": 0.0,
+                "completed": 0
+              },
+              "9": {
+                "n": 4,
+                "median_approach": 0.0,
+                "completed": 0
+              },
+              "12": {
+                "n": 4,
+                "median_approach": 0.0,
+                "completed": 0
+              },
+              "14": {
+                "n": 4,
+                "median_approach": 0.0,
+                "completed": 0
+              },
+              "16": {
+                "n": 4,
+                "median_approach": 0.0018802985654614024,
+                "completed": 0
+              },
+              "17": {
+                "n": 4,
+                "median_approach": 0.0,
+                "completed": 0
+              },
+              "18": {
+                "n": 4,
+                "median_approach": 0.0,
+                "completed": 0
+              },
+              "21": {
+                "n": 4,
+                "median_approach": 0.0,
+                "completed": 0
+              },
+              "24": {
+                "n": 4,
+                "median_approach": 0.0,
+                "completed": 0
+              },
+              "26": {
+                "n": 4,
+                "median_approach": 0.0,
+                "completed": 0
+              }
+            }
+          },
+          "train": {
+            "n": 56,
+            "completed": 56
+          },
+          "interior": {
+            "n": 42,
+            "completed": 41
+          }
+        }
+      ]
+    },
+    {
+      "frame": "joint",
+      "arm_command": "residual",
+      "gripper_command": "absolute",
+      "cameras": "head",
+      "proprio": "joint",
+      "role": "primary 2x2",
+      "collection": "A",
+      "seeds": [
+        {
+          "seed": 0,
+          "run": "act_joint_delta_absgrip",
+          "eval_tag": "act_joint_delta_absgrip",
+          "radial": {
+            "n": 70,
+            "escaped": 62,
+            "approached": 53,
+            "completed": 10,
+            "mean_approach": 0.551869828557329,
+            "median_approach": 0.6132001016409796,
+            "approach_threshold_counts": {
+              "0.1": 58,
+              "0.25": 53,
+              "0.75": 28
+            },
+            "bands": {
+              "5": {
+                "n": 14,
+                "median_approach": 0.7834260813264888,
+                "completed": 8
+              },
+              "10": {
+                "n": 14,
+                "median_approach": 0.6845617679821541,
+                "completed": 0
+              },
+              "15": {
+                "n": 14,
+                "median_approach": 0.3663403007226519,
+                "completed": 1
+              },
+              "20": {
+                "n": 14,
+                "median_approach": 0.38999356073844954,
+                "completed": 1
+              },
+              "25": {
+                "n": 14,
+                "median_approach": 0.5172418575665468,
+                "completed": 0
+              }
+            }
+          },
+          "angular": {
+            "n": 48,
+            "escaped": 26,
+            "approached": 19,
+            "completed": 2,
+            "mean_approach": 0.22322042449582943,
+            "median_approach": 0.07711569414619529,
+            "approach_threshold_counts": {
+              "0.1": 22,
+              "0.25": 19,
+              "0.75": 3
+            },
+            "bands": {
+              "6": {
+                "n": 4,
+                "median_approach": 0.0,
+                "completed": 0
+              },
+              "7": {
+                "n": 4,
+                "median_approach": 0.06826824453077118,
+                "completed": 0
+              },
+              "8": {
+                "n": 4,
+                "median_approach": 0.48365930459444334,
+                "completed": 1
+              },
+              "9": {
+                "n": 4,
+                "median_approach": 0.45909194650672114,
+                "completed": 1
+              },
+              "12": {
+                "n": 4,
+                "median_approach": 0.0,
+                "completed": 0
+              },
+              "14": {
+                "n": 4,
+                "median_approach": 0.0,
+                "completed": 0
+              },
+              "16": {
+                "n": 4,
+                "median_approach": 0.20599746137411817,
+                "completed": 0
+              },
+              "17": {
+                "n": 4,
+                "median_approach": 0.31004613806870407,
+                "completed": 0
+              },
+              "18": {
+                "n": 4,
+                "median_approach": 0.0,
+                "completed": 0
+              },
+              "21": {
+                "n": 4,
+                "median_approach": 0.14567217586529285,
+                "completed": 0
+              },
+              "24": {
+                "n": 4,
+                "median_approach": 0.16667129039881684,
+                "completed": 0
+              },
+              "26": {
+                "n": 4,
+                "median_approach": 0.37157361150018403,
+                "completed": 0
+              }
+            }
+          },
+          "train": {
+            "n": 56,
+            "completed": 50
+          },
+          "interior": {
+            "n": 42,
+            "completed": 42
+          }
+        },
+        {
+          "seed": 1,
+          "run": "act_joint_delta_absgrip_s1",
+          "eval_tag": "act_joint_delta_absgrip_s1",
+          "radial": {
+            "n": 70,
+            "escaped": 48,
+            "approached": 35,
+            "completed": 5,
+            "mean_approach": 0.30700737996213373,
+            "median_approach": 0.24073779008166568,
+            "approach_threshold_counts": {
+              "0.1": 40,
+              "0.25": 35,
+              "0.75": 6
+            },
+            "bands": {
+              "5": {
+                "n": 14,
+                "median_approach": 0.0,
+                "completed": 2
+              },
+              "10": {
+                "n": 14,
+                "median_approach": 0.5581123159893328,
+                "completed": 1
+              },
+              "15": {
+                "n": 14,
+                "median_approach": 0.47409167840546174,
+                "completed": 2
+              },
+              "20": {
+                "n": 14,
+                "median_approach": 0.1294692667764497,
+                "completed": 0
+              },
+              "25": {
+                "n": 14,
+                "median_approach": 0.0,
+                "completed": 0
+              }
+            }
+          },
+          "angular": {
+            "n": 48,
+            "escaped": 40,
+            "approached": 27,
+            "completed": 0,
+            "mean_approach": 0.37147133416074896,
+            "median_approach": 0.33345163529462235,
+            "approach_threshold_counts": {
+              "0.1": 36,
+              "0.25": 27,
+              "0.75": 7
+            },
+            "bands": {
+              "6": {
+                "n": 4,
+                "median_approach": 0.0,
+                "completed": 0
+              },
+              "7": {
+                "n": 4,
+                "median_approach": 0.16369392987269588,
+                "completed": 0
+              },
+              "8": {
+                "n": 4,
+                "median_approach": 0.5961278981217459,
+                "completed": 0
+              },
+              "9": {
+                "n": 4,
+                "median_approach": 0.4471139862073539,
+                "completed": 0
+              },
+              "12": {
+                "n": 4,
+                "median_approach": 0.0,
+                "completed": 0
+              },
+              "14": {
+                "n": 4,
+                "median_approach": 0.17549660807430378,
+                "completed": 0
+              },
+              "16": {
+                "n": 4,
+                "median_approach": 0.5562533192117349,
+                "completed": 0
+              },
+              "17": {
+                "n": 4,
+                "median_approach": 0.6617138793550035,
+                "completed": 0
+              },
+              "18": {
+                "n": 4,
+                "median_approach": 0.14808295640417912,
+                "completed": 0
+              },
+              "21": {
+                "n": 4,
+                "median_approach": 0.45627842997493057,
+                "completed": 0
+              },
+              "24": {
+                "n": 4,
+                "median_approach": 0.6211958191304441,
+                "completed": 0
+              },
+              "26": {
+                "n": 4,
+                "median_approach": 0.6441767226422419,
+                "completed": 0
+              }
+            }
+          },
+          "train": {
+            "n": 56,
+            "completed": 53
+          },
+          "interior": {
+            "n": 42,
+            "completed": 41
+          }
+        },
+        {
+          "seed": 2,
+          "run": "act_joint_delta_absgrip_s2",
+          "eval_tag": "act_joint_delta_absgrip_s2",
+          "radial": {
+            "n": 70,
+            "escaped": 68,
+            "approached": 60,
+            "completed": 4,
+            "mean_approach": 0.6947485394526859,
+            "median_approach": 0.8016433328241233,
+            "approach_threshold_counts": {
+              "0.1": 66,
+              "0.25": 60,
+              "0.75": 43
+            },
+            "bands": {
+              "5": {
+                "n": 14,
+                "median_approach": 0.6938076876176212,
+                "completed": 2
+              },
+              "10": {
+                "n": 14,
+                "median_approach": 0.8358954853416056,
+                "completed": 2
+              },
+              "15": {
+                "n": 14,
+                "median_approach": 0.8950753374550062,
+                "completed": 0
+              },
+              "20": {
+                "n": 14,
+                "median_approach": 0.7356851691194898,
+                "completed": 0
+              },
+              "25": {
+                "n": 14,
+                "median_approach": 0.7075079719405971,
+                "completed": 0
+              }
+            }
+          },
+          "angular": {
+            "n": 48,
+            "escaped": 42,
+            "approached": 25,
+            "completed": 4,
+            "mean_approach": 0.34137049868157215,
+            "median_approach": 0.3190588644120141,
+            "approach_threshold_counts": {
+              "0.1": 26,
+              "0.25": 25,
+              "0.75": 10
+            },
+            "bands": {
+              "6": {
+                "n": 4,
+                "median_approach": 0.0,
+                "completed": 0
+              },
+              "7": {
+                "n": 4,
+                "median_approach": 0.24312851884737646,
+                "completed": 0
+              },
+              "8": {
+                "n": 4,
+                "median_approach": 0.7526327757580485,
+                "completed": 2
+              },
+              "9": {
+                "n": 4,
+                "median_approach": 0.8349854411256685,
+                "completed": 2
+              },
+              "12": {
+                "n": 4,
+                "median_approach": 0.22045367238518182,
+                "completed": 0
+              },
+              "14": {
+                "n": 4,
+                "median_approach": 0.4346362664552303,
+                "completed": 0
+              },
+              "16": {
+                "n": 4,
+                "median_approach": 0.2366142323661753,
+                "completed": 0
+              },
+              "17": {
+                "n": 4,
+                "median_approach": 0.2848490216841408,
+                "completed": 0
+              },
+              "18": {
+                "n": 4,
+                "median_approach": 0.42406690795486535,
+                "completed": 0
+              },
+              "21": {
+                "n": 4,
+                "median_approach": 0.0,
+                "completed": 0
+              },
+              "24": {
+                "n": 4,
+                "median_approach": 0.16895022340295446,
+                "completed": 0
+              },
+              "26": {
+                "n": 4,
+                "median_approach": 0.3218361476050982,
+                "completed": 0
+              }
+            }
+          },
+          "train": {
+            "n": 56,
+            "completed": 55
+          },
+          "interior": {
+            "n": 42,
+            "completed": 42
+          }
+        }
+      ]
+    },
+    {
+      "frame": "EEF",
+      "arm_command": "absolute",
+      "gripper_command": "absolute",
+      "cameras": "head",
+      "proprio": "joint",
+      "role": "primary 2x2",
+      "collection": "A",
+      "seeds": [
+        {
+          "seed": 0,
+          "run": "act_eef_abs",
+          "eval_tag": "act_eef_abs",
+          "radial": {
+            "n": 70,
+            "escaped": 0,
+            "approached": 0,
+            "completed": 0,
+            "mean_approach": 0.0033084857907356713,
+            "median_approach": 0.0,
+            "approach_threshold_counts": {
+              "0.1": 0,
+              "0.25": 0,
+              "0.75": 0
+            },
+            "bands": {
+              "5": {
+                "n": 14,
+                "median_approach": 0.0,
+                "completed": 0
+              },
+              "10": {
+                "n": 14,
+                "median_approach": 0.0,
+                "completed": 0
+              },
+              "15": {
+                "n": 14,
+                "median_approach": 0.0,
+                "completed": 0
+              },
+              "20": {
+                "n": 14,
+                "median_approach": 0.0,
+                "completed": 0
+              },
+              "25": {
+                "n": 14,
+                "median_approach": 0.0,
+                "completed": 0
+              }
+            }
+          },
+          "angular": {
+            "n": 48,
+            "escaped": 0,
+            "approached": 0,
+            "completed": 0,
+            "mean_approach": 9.161574220341769e-05,
+            "median_approach": 0.0,
+            "approach_threshold_counts": {
+              "0.1": 0,
+              "0.25": 0,
+              "0.75": 0
+            },
+            "bands": {
+              "6": {
+                "n": 4,
+                "median_approach": 0.0,
+                "completed": 0
+              },
+              "7": {
+                "n": 4,
+                "median_approach": 0.0,
+                "completed": 0
+              },
+              "8": {
+                "n": 4,
+                "median_approach": 0.0,
+                "completed": 0
+              },
+              "9": {
+                "n": 4,
+                "median_approach": 0.0,
+                "completed": 0
+              },
+              "12": {
+                "n": 4,
+                "median_approach": 0.0,
+                "completed": 0
+              },
+              "14": {
+                "n": 4,
+                "median_approach": 0.0,
+                "completed": 0
+              },
+              "16": {
+                "n": 4,
+                "median_approach": 0.0,
+                "completed": 0
+              },
+              "17": {
+                "n": 4,
+                "median_approach": 0.0,
+                "completed": 0
+              },
+              "18": {
+                "n": 4,
+                "median_approach": 0.0,
+                "completed": 0
+              },
+              "21": {
+                "n": 4,
+                "median_approach": 0.0,
+                "completed": 0
+              },
+              "24": {
+                "n": 4,
+                "median_approach": 0.0,
+                "completed": 0
+              },
+              "26": {
+                "n": 4,
+                "median_approach": 0.0,
+                "completed": 0
+              }
+            }
+          },
+          "train": {
+            "n": 56,
+            "completed": 55
+          },
+          "interior": {
+            "n": 42,
+            "completed": 40
+          }
+        },
+        {
+          "seed": 1,
+          "run": "act_eef_abs_s1",
+          "eval_tag": "act_eef_abs_s1",
+          "radial": {
+            "n": 70,
+            "escaped": 12,
+            "approached": 0,
+            "completed": 0,
+            "mean_approach": 0.013834341661126506,
+            "median_approach": 0.0,
+            "approach_threshold_counts": {
+              "0.1": 0,
+              "0.25": 0,
+              "0.75": 0
+            },
+            "bands": {
+              "5": {
+                "n": 14,
+                "median_approach": 0.0,
+                "completed": 0
+              },
+              "10": {
+                "n": 14,
+                "median_approach": 0.0,
+                "completed": 0
+              },
+              "15": {
+                "n": 14,
+                "median_approach": 0.0,
+                "completed": 0
+              },
+              "20": {
+                "n": 14,
+                "median_approach": 0.0,
+                "completed": 0
+              },
+              "25": {
+                "n": 14,
+                "median_approach": 0.0,
+                "completed": 0
+              }
+            }
+          },
+          "angular": {
+            "n": 48,
+            "escaped": 2,
+            "approached": 0,
+            "completed": 0,
+            "mean_approach": 0.01206984386437813,
+            "median_approach": 0.0,
+            "approach_threshold_counts": {
+              "0.1": 2,
+              "0.25": 0,
+              "0.75": 0
+            },
+            "bands": {
+              "6": {
+                "n": 4,
+                "median_approach": 0.0,
+                "completed": 0
+              },
+              "7": {
+                "n": 4,
+                "median_approach": 0.0,
+                "completed": 0
+              },
+              "8": {
+                "n": 4,
+                "median_approach": 0.08857354368572151,
+                "completed": 0
+              },
+              "9": {
+                "n": 4,
+                "median_approach": 0.0,
+                "completed": 0
+              },
+              "12": {
+                "n": 4,
+                "median_approach": 0.0,
+                "completed": 0
+              },
+              "14": {
+                "n": 4,
+                "median_approach": 0.0,
+                "completed": 0
+              },
+              "16": {
+                "n": 4,
+                "median_approach": 0.003439680673097578,
+                "completed": 0
+              },
+              "17": {
+                "n": 4,
+                "median_approach": 0.023132957911410346,
+                "completed": 0
+              },
+              "18": {
+                "n": 4,
+                "median_approach": 0.0,
+                "completed": 0
+              },
+              "21": {
+                "n": 4,
+                "median_approach": 0.0,
+                "completed": 0
+              },
+              "24": {
+                "n": 4,
+                "median_approach": 0.0,
+                "completed": 0
+              },
+              "26": {
+                "n": 4,
+                "median_approach": 0.0,
+                "completed": 0
+              }
+            }
+          },
+          "train": {
+            "n": 56,
+            "completed": 50
+          },
+          "interior": {
+            "n": 42,
+            "completed": 37
+          }
+        },
+        {
+          "seed": 2,
+          "run": "act_eef_abs_s2",
+          "eval_tag": "act_eef_abs_s2",
+          "radial": {
+            "n": 70,
+            "escaped": 0,
+            "approached": 0,
+            "completed": 0,
+            "mean_approach": 0.0003106113965443564,
+            "median_approach": 0.0,
+            "approach_threshold_counts": {
+              "0.1": 0,
+              "0.25": 0,
+              "0.75": 0
+            },
+            "bands": {
+              "5": {
+                "n": 14,
+                "median_approach": 0.0,
+                "completed": 0
+              },
+              "10": {
+                "n": 14,
+                "median_approach": 0.0,
+                "completed": 0
+              },
+              "15": {
+                "n": 14,
+                "median_approach": 0.0,
+                "completed": 0
+              },
+              "20": {
+                "n": 14,
+                "median_approach": 0.0,
+                "completed": 0
+              },
+              "25": {
+                "n": 14,
+                "median_approach": 0.0,
+                "completed": 0
+              }
+            }
+          },
+          "angular": {
+            "n": 48,
+            "escaped": 0,
+            "approached": 0,
+            "completed": 0,
+            "mean_approach": 0.000862183563282363,
+            "median_approach": 0.0,
+            "approach_threshold_counts": {
+              "0.1": 0,
+              "0.25": 0,
+              "0.75": 0
+            },
+            "bands": {
+              "6": {
+                "n": 4,
+                "median_approach": 0.0,
+                "completed": 0
+              },
+              "7": {
+                "n": 4,
+                "median_approach": 0.0,
+                "completed": 0
+              },
+              "8": {
+                "n": 4,
+                "median_approach": 0.0,
+                "completed": 0
+              },
+              "9": {
+                "n": 4,
+                "median_approach": 0.0,
+                "completed": 0
+              },
+              "12": {
+                "n": 4,
+                "median_approach": 0.0,
+                "completed": 0
+              },
+              "14": {
+                "n": 4,
+                "median_approach": 0.0,
+                "completed": 0
+              },
+              "16": {
+                "n": 4,
+                "median_approach": 0.0,
+                "completed": 0
+              },
+              "17": {
+                "n": 4,
+                "median_approach": 0.005088927407070731,
+                "completed": 0
+              },
+              "18": {
+                "n": 4,
+                "median_approach": 0.0,
+                "completed": 0
+              },
+              "21": {
+                "n": 4,
+                "median_approach": 0.0,
+                "completed": 0
+              },
+              "24": {
+                "n": 4,
+                "median_approach": 0.0,
+                "completed": 0
+              },
+              "26": {
+                "n": 4,
+                "median_approach": 0.0,
+                "completed": 0
+              }
+            }
+          },
+          "train": {
+            "n": 56,
+            "completed": 47
+          },
+          "interior": {
+            "n": 42,
+            "completed": 36
+          }
+        }
+      ]
+    },
+    {
+      "frame": "EEF",
+      "arm_command": "residual",
+      "gripper_command": "absolute",
+      "cameras": "head",
+      "proprio": "joint",
+      "role": "primary 2x2",
+      "collection": "A",
+      "seeds": [
+        {
+          "seed": 0,
+          "run": "act_eef_delta_h",
+          "eval_tag": "act_eef_delta_h",
+          "radial": {
+            "n": 70,
+            "escaped": 60,
+            "approached": 44,
+            "completed": 3,
+            "mean_approach": 0.36214953812207906,
+            "median_approach": 0.3991329921092472,
+            "approach_threshold_counts": {
+              "0.1": 49,
+              "0.25": 44,
+              "0.75": 8
+            },
+            "bands": {
+              "5": {
+                "n": 14,
+                "median_approach": 0.02997766010539399,
+                "completed": 0
+              },
+              "10": {
+                "n": 14,
+                "median_approach": 0.3926672567263846,
+                "completed": 3
+              },
+              "15": {
+                "n": 14,
+                "median_approach": 0.4665271161416627,
+                "completed": 0
+              },
+              "20": {
+                "n": 14,
+                "median_approach": 0.4370793779459538,
+                "completed": 0
+              },
+              "25": {
+                "n": 14,
+                "median_approach": 0.34938416640320147,
+                "completed": 0
+              }
+            }
+          },
+          "angular": {
+            "n": 48,
+            "escaped": 44,
+            "approached": 36,
+            "completed": 10,
+            "mean_approach": 0.5480436574229828,
+            "median_approach": 0.5735492082587768,
+            "approach_threshold_counts": {
+              "0.1": 41,
+              "0.25": 36,
+              "0.75": 16
+            },
+            "bands": {
+              "6": {
+                "n": 4,
+                "median_approach": 0.6242351541907368,
+                "completed": 3
+              },
+              "7": {
+                "n": 4,
+                "median_approach": 0.9188233559130603,
+                "completed": 4
+              },
+              "8": {
+                "n": 4,
+                "median_approach": 0.5485623991166586,
+                "completed": 0
+              },
+              "9": {
+                "n": 4,
+                "median_approach": 0.7206642733349775,
+                "completed": 1
+              },
+              "12": {
+                "n": 4,
+                "median_approach": 0.0763119602985895,
+                "completed": 0
+              },
+              "14": {
+                "n": 4,
+                "median_approach": 0.7087433720156572,
+                "completed": 0
+              },
+              "16": {
+                "n": 4,
+                "median_approach": 0.9231831469424387,
+                "completed": 2
+              },
+              "17": {
+                "n": 4,
+                "median_approach": 0.9375929045740103,
+                "completed": 0
+              },
+              "18": {
+                "n": 4,
+                "median_approach": 0.0,
+                "completed": 0
+              },
+              "21": {
+                "n": 4,
+                "median_approach": 0.15100531564956454,
+                "completed": 0
+              },
+              "24": {
+                "n": 4,
+                "median_approach": 0.4478918696759819,
+                "completed": 0
+              },
+              "26": {
+                "n": 4,
+                "median_approach": 0.596268597606646,
+                "completed": 0
+              }
+            }
+          },
+          "train": {
+            "n": 56,
+            "completed": 50
+          },
+          "interior": {
+            "n": 42,
+            "completed": 42
+          }
+        },
+        {
+          "seed": 1,
+          "run": "act_eef_delta_h_s1",
+          "eval_tag": "act_eef_delta_h_s1",
+          "radial": {
+            "n": 70,
+            "escaped": 67,
+            "approached": 56,
+            "completed": 7,
+            "mean_approach": 0.4937206749812894,
+            "median_approach": 0.5117068194620013,
+            "approach_threshold_counts": {
+              "0.1": 65,
+              "0.25": 56,
+              "0.75": 16
+            },
+            "bands": {
+              "5": {
+                "n": 14,
+                "median_approach": 0.28106543220969676,
+                "completed": 3
+              },
+              "10": {
+                "n": 14,
+                "median_approach": 0.38106866757154395,
+                "completed": 2
+              },
+              "15": {
+                "n": 14,
+                "median_approach": 0.5192123947532822,
+                "completed": 2
+              },
+              "20": {
+                "n": 14,
+                "median_approach": 0.5766027806381113,
+                "completed": 0
+              },
+              "25": {
+                "n": 14,
+                "median_approach": 0.7208457013323747,
+                "completed": 0
+              }
+            }
+          },
+          "angular": {
+            "n": 48,
+            "escaped": 40,
+            "approached": 29,
+            "completed": 9,
+            "mean_approach": 0.46247481705247195,
+            "median_approach": 0.5552945974010748,
+            "approach_threshold_counts": {
+              "0.1": 36,
+              "0.25": 29,
+              "0.75": 12
+            },
+            "bands": {
+              "6": {
+                "n": 4,
+                "median_approach": 0.23445437311548994,
+                "completed": 1
+              },
+              "7": {
+                "n": 4,
+                "median_approach": 0.9067316549856865,
+                "completed": 4
+              },
+              "8": {
+                "n": 4,
+                "median_approach": 0.8431242603640974,
+                "completed": 3
+              },
+              "9": {
+                "n": 4,
+                "median_approach": 0.5651419645924107,
+                "completed": 0
+              },
+              "12": {
+                "n": 4,
+                "median_approach": 0.0,
+                "completed": 0
+              },
+              "14": {
+                "n": 4,
+                "median_approach": 0.6232769475420425,
+                "completed": 0
+              },
+              "16": {
+                "n": 4,
+                "median_approach": 0.5014098180444985,
+                "completed": 1
+              },
+              "17": {
+                "n": 4,
+                "median_approach": 0.6927732298565534,
+                "completed": 0
+              },
+              "18": {
+                "n": 4,
+                "median_approach": 0.0,
+                "completed": 0
+              },
+              "21": {
+                "n": 4,
+                "median_approach": 0.19128482587276602,
+                "completed": 0
+              },
+              "24": {
+                "n": 4,
+                "median_approach": 0.552961966418196,
+                "completed": 0
+              },
+              "26": {
+                "n": 4,
+                "median_approach": 0.7066355627645917,
+                "completed": 0
+              }
+            }
+          },
+          "train": {
+            "n": 56,
+            "completed": 50
+          },
+          "interior": {
+            "n": 42,
+            "completed": 40
+          }
+        },
+        {
+          "seed": 2,
+          "run": "act_eef_delta_h_s2",
+          "eval_tag": "act_eef_delta_h_s2",
+          "radial": {
+            "n": 70,
+            "escaped": 66,
+            "approached": 57,
+            "completed": 9,
+            "mean_approach": 0.5019458554308537,
+            "median_approach": 0.5012670810159425,
+            "approach_threshold_counts": {
+              "0.1": 62,
+              "0.25": 57,
+              "0.75": 14
+            },
+            "bands": {
+              "5": {
+                "n": 14,
+                "median_approach": 0.3770686929982372,
+                "completed": 4
+              },
+              "10": {
+                "n": 14,
+                "median_approach": 0.5511465724957068,
+                "completed": 4
+              },
+              "15": {
+                "n": 14,
+                "median_approach": 0.6836974770446704,
+                "completed": 1
+              },
+              "20": {
+                "n": 14,
+                "median_approach": 0.5762931493058157,
+                "completed": 0
+              },
+              "25": {
+                "n": 14,
+                "median_approach": 0.48589078833703264,
+                "completed": 0
+              }
+            }
+          },
+          "angular": {
+            "n": 48,
+            "escaped": 46,
+            "approached": 39,
+            "completed": 13,
+            "mean_approach": 0.5947440165993856,
+            "median_approach": 0.6430448190509541,
+            "approach_threshold_counts": {
+              "0.1": 40,
+              "0.25": 39,
+              "0.75": 20
+            },
+            "bands": {
+              "6": {
+                "n": 4,
+                "median_approach": 0.22112348002849957,
+                "completed": 0
+              },
+              "7": {
+                "n": 4,
+                "median_approach": 0.8639287902471162,
+                "completed": 4
+              },
+              "8": {
+                "n": 4,
+                "median_approach": 0.7675291387257441,
+                "completed": 2
+              },
+              "9": {
+                "n": 4,
+                "median_approach": 0.8897722026158255,
+                "completed": 3
+              },
+              "12": {
+                "n": 4,
+                "median_approach": 0.030408719855014865,
+                "completed": 0
+              },
+              "14": {
+                "n": 4,
+                "median_approach": 0.7266276028321824,
+                "completed": 0
+              },
+              "16": {
+                "n": 4,
+                "median_approach": 0.9425813108114041,
+                "completed": 4
+              },
+              "17": {
+                "n": 4,
+                "median_approach": 0.6879498199727676,
+                "completed": 0
+              },
+              "18": {
+                "n": 4,
+                "median_approach": 0.08124185633405695,
+                "completed": 0
+              },
+              "21": {
+                "n": 4,
+                "median_approach": 0.5260040272756279,
+                "completed": 0
+              },
+              "24": {
+                "n": 4,
+                "median_approach": 0.7808367791006137,
+                "completed": 0
+              },
+              "26": {
+                "n": 4,
+                "median_approach": 0.6865019426314406,
+                "completed": 0
+              }
+            }
+          },
+          "train": {
+            "n": 56,
+            "completed": 55
+          },
+          "interior": {
+            "n": 42,
+            "completed": 42
+          }
+        }
+      ]
+    },
+    {
+      "frame": "EEF",
+      "arm_command": "absolute",
+      "gripper_command": "absolute",
+      "cameras": "head",
+      "proprio": "joint",
+      "role": "rotation control",
+      "rotation": "rotvec",
+      "note": "eef_abs_rotvec: 7-d [xyz, rotvec(q_cmd * q_ref^-1), gripper], q_ref = nominal top-down grasp; matches the EEF residual cell's width and rotation format",
+      "collection": "A",
+      "seeds": [
+        {
+          "seed": 0,
+          "run": "act_eef_abs_rotvec",
+          "eval_tag": "act_eef_abs_rotvec_leg",
+          "radial": {
+            "n": 70,
+            "escaped": 0,
+            "approached": 0,
+            "completed": 0,
+            "mean_approach": 0.0007908602225279211,
+            "median_approach": 0.0,
+            "approach_threshold_counts": {
+              "0.1": 0,
+              "0.25": 0,
+              "0.75": 0
+            },
+            "bands": {
+              "5": {
+                "n": 14,
+                "median_approach": 0.0,
+                "completed": 0
+              },
+              "10": {
+                "n": 14,
+                "median_approach": 0.0,
+                "completed": 0
+              },
+              "15": {
+                "n": 14,
+                "median_approach": 0.0,
+                "completed": 0
+              },
+              "20": {
+                "n": 14,
+                "median_approach": 0.0,
+                "completed": 0
+              },
+              "25": {
+                "n": 14,
+                "median_approach": 0.0,
+                "completed": 0
+              }
+            }
+          },
+          "angular": {
+            "n": 48,
+            "escaped": 0,
+            "approached": 0,
+            "completed": 0,
+            "mean_approach": 0.0,
+            "median_approach": 0.0,
+            "approach_threshold_counts": {
+              "0.1": 0,
+              "0.25": 0,
+              "0.75": 0
+            },
+            "bands": {
+              "6": {
+                "n": 4,
+                "median_approach": 0.0,
+                "completed": 0
+              },
+              "7": {
+                "n": 4,
+                "median_approach": 0.0,
+                "completed": 0
+              },
+              "8": {
+                "n": 4,
+                "median_approach": 0.0,
+                "completed": 0
+              },
+              "9": {
+                "n": 4,
+                "median_approach": 0.0,
+                "completed": 0
+              },
+              "12": {
+                "n": 4,
+                "median_approach": 0.0,
+                "completed": 0
+              },
+              "14": {
+                "n": 4,
+                "median_approach": 0.0,
+                "completed": 0
+              },
+              "16": {
+                "n": 4,
+                "median_approach": 0.0,
+                "completed": 0
+              },
+              "17": {
+                "n": 4,
+                "median_approach": 0.0,
+                "completed": 0
+              },
+              "18": {
+                "n": 4,
+                "median_approach": 0.0,
+                "completed": 0
+              },
+              "21": {
+                "n": 4,
+                "median_approach": 0.0,
+                "completed": 0
+              },
+              "24": {
+                "n": 4,
+                "median_approach": 0.0,
+                "completed": 0
+              },
+              "26": {
+                "n": 4,
+                "median_approach": 0.0,
+                "completed": 0
+              }
+            }
+          },
+          "train": {
+            "n": 56,
+            "completed": 56
+          },
+          "interior": {
+            "n": 42,
+            "completed": 42
+          }
+        },
+        {
+          "seed": 1,
+          "run": "act_eef_abs_rotvec_s1",
+          "eval_tag": "act_eef_abs_rotvec_s1_leg",
+          "radial": {
+            "n": 70,
+            "escaped": 6,
+            "approached": 0,
+            "completed": 0,
+            "mean_approach": 0.003824198117510659,
+            "median_approach": 0.0,
+            "approach_threshold_counts": {
+              "0.1": 0,
+              "0.25": 0,
+              "0.75": 0
+            },
+            "bands": {
+              "5": {
+                "n": 14,
+                "median_approach": 0.0,
+                "completed": 0
+              },
+              "10": {
+                "n": 14,
+                "median_approach": 0.0,
+                "completed": 0
+              },
+              "15": {
+                "n": 14,
+                "median_approach": 0.0,
+                "completed": 0
+              },
+              "20": {
+                "n": 14,
+                "median_approach": 0.0,
+                "completed": 0
+              },
+              "25": {
+                "n": 14,
+                "median_approach": 0.0,
+                "completed": 0
+              }
+            }
+          },
+          "angular": {
+            "n": 48,
+            "escaped": 0,
+            "approached": 0,
+            "completed": 0,
+            "mean_approach": 0.0,
+            "median_approach": 0.0,
+            "approach_threshold_counts": {
+              "0.1": 0,
+              "0.25": 0,
+              "0.75": 0
+            },
+            "bands": {
+              "6": {
+                "n": 4,
+                "median_approach": 0.0,
+                "completed": 0
+              },
+              "7": {
+                "n": 4,
+                "median_approach": 0.0,
+                "completed": 0
+              },
+              "8": {
+                "n": 4,
+                "median_approach": 0.0,
+                "completed": 0
+              },
+              "9": {
+                "n": 4,
+                "median_approach": 0.0,
+                "completed": 0
+              },
+              "12": {
+                "n": 4,
+                "median_approach": 0.0,
+                "completed": 0
+              },
+              "14": {
+                "n": 4,
+                "median_approach": 0.0,
+                "completed": 0
+              },
+              "16": {
+                "n": 4,
+                "median_approach": 0.0,
+                "completed": 0
+              },
+              "17": {
+                "n": 4,
+                "median_approach": 0.0,
+                "completed": 0
+              },
+              "18": {
+                "n": 4,
+                "median_approach": 0.0,
+                "completed": 0
+              },
+              "21": {
+                "n": 4,
+                "median_approach": 0.0,
+                "completed": 0
+              },
+              "24": {
+                "n": 4,
+                "median_approach": 0.0,
+                "completed": 0
+              },
+              "26": {
+                "n": 4,
+                "median_approach": 0.0,
+                "completed": 0
+              }
+            }
+          },
+          "train": {
+            "n": 56,
+            "completed": 56
+          },
+          "interior": {
+            "n": 42,
+            "completed": 34
+          }
+        },
+        {
+          "seed": 2,
+          "run": "act_eef_abs_rotvec_s2",
+          "eval_tag": "act_eef_abs_rotvec_s2_leg",
+          "radial": {
+            "n": 70,
+            "escaped": 0,
+            "approached": 0,
+            "completed": 0,
+            "mean_approach": 0.0011474023366238087,
+            "median_approach": 0.0,
+            "approach_threshold_counts": {
+              "0.1": 0,
+              "0.25": 0,
+              "0.75": 0
+            },
+            "bands": {
+              "5": {
+                "n": 14,
+                "median_approach": 0.0,
+                "completed": 0
+              },
+              "10": {
+                "n": 14,
+                "median_approach": 0.0,
+                "completed": 0
+              },
+              "15": {
+                "n": 14,
+                "median_approach": 0.0,
+                "completed": 0
+              },
+              "20": {
+                "n": 14,
+                "median_approach": 0.0,
+                "completed": 0
+              },
+              "25": {
+                "n": 14,
+                "median_approach": 0.0,
+                "completed": 0
+              }
+            }
+          },
+          "angular": {
+            "n": 48,
+            "escaped": 0,
+            "approached": 0,
+            "completed": 0,
+            "mean_approach": 0.001145365771499413,
+            "median_approach": 0.0,
+            "approach_threshold_counts": {
+              "0.1": 0,
+              "0.25": 0,
+              "0.75": 0
+            },
+            "bands": {
+              "6": {
+                "n": 4,
+                "median_approach": 0.0,
+                "completed": 0
+              },
+              "7": {
+                "n": 4,
+                "median_approach": 0.0,
+                "completed": 0
+              },
+              "8": {
+                "n": 4,
+                "median_approach": 0.0,
+                "completed": 0
+              },
+              "9": {
+                "n": 4,
+                "median_approach": 0.0,
+                "completed": 0
+              },
+              "12": {
+                "n": 4,
+                "median_approach": 0.0,
+                "completed": 0
+              },
+              "14": {
+                "n": 4,
+                "median_approach": 0.0,
+                "completed": 0
+              },
+              "16": {
+                "n": 4,
+                "median_approach": 0.0,
+                "completed": 0
+              },
+              "17": {
+                "n": 4,
+                "median_approach": 0.006169251496706718,
+                "completed": 0
+              },
+              "18": {
+                "n": 4,
+                "median_approach": 0.0,
+                "completed": 0
+              },
+              "21": {
+                "n": 4,
+                "median_approach": 0.0,
+                "completed": 0
+              },
+              "24": {
+                "n": 4,
+                "median_approach": 0.0,
+                "completed": 0
+              },
+              "26": {
+                "n": 4,
+                "median_approach": 0.0,
+                "completed": 0
+              }
+            }
+          },
+          "train": {
+            "n": 56,
+            "completed": 55
+          },
+          "interior": {
+            "n": 42,
+            "completed": 37
+          }
+        }
+      ]
+    },
+    {
+      "frame": "joint",
+      "arm_command": "residual",
+      "gripper_command": "absolute",
+      "cameras": "head",
+      "proprio": "joint",
+      "role": "anchor control",
+      "anchor": "query",
+      "note": "joint_chunk_absgrip: arm actions of a 16-step chunk relative to the joints measured at the query (not each step); gripper absolute",
+      "collection": "A",
+      "seeds": [
+        {
+          "seed": 0,
+          "run": "act_joint_chunk",
+          "eval_tag": "act_joint_chunk_leg",
+          "radial": {
+            "n": 70,
+            "escaped": 52,
+            "approached": 30,
+            "completed": 1,
+            "mean_approach": 0.291366347069139,
+            "median_approach": 0.1329920459261607,
+            "approach_threshold_counts": {
+              "0.1": 37,
+              "0.25": 30,
+              "0.75": 5
+            },
+            "bands": {
+              "5": {
+                "n": 14,
+                "median_approach": 0.0,
+                "completed": 1
+              },
+              "10": {
+                "n": 14,
+                "median_approach": 0.6253356032282493,
+                "completed": 0
+              },
+              "15": {
+                "n": 14,
+                "median_approach": 0.5759401684109524,
+                "completed": 0
+              },
+              "20": {
+                "n": 14,
+                "median_approach": 0.06835601282964698,
+                "completed": 0
+              },
+              "25": {
+                "n": 14,
+                "median_approach": 0.0,
+                "completed": 0
+              }
+            }
+          },
+          "angular": {
+            "n": 48,
+            "escaped": 45,
+            "approached": 23,
+            "completed": 1,
+            "mean_approach": 0.31332124986664384,
+            "median_approach": 0.2165898516776673,
+            "approach_threshold_counts": {
+              "0.1": 32,
+              "0.25": 23,
+              "0.75": 8
+            },
+            "bands": {
+              "6": {
+                "n": 4,
+                "median_approach": 0.0,
+                "completed": 0
+              },
+              "7": {
+                "n": 4,
+                "median_approach": 0.7574613560452106,
+                "completed": 0
+              },
+              "8": {
+                "n": 4,
+                "median_approach": 0.5827765605839754,
+                "completed": 0
+              },
+              "9": {
+                "n": 4,
+                "median_approach": 0.5768291648513009,
+                "completed": 1
+              },
+              "12": {
+                "n": 4,
+                "median_approach": 0.0,
+                "completed": 0
+              },
+              "14": {
+                "n": 4,
+                "median_approach": 0.295613509485612,
+                "completed": 0
+              },
+              "16": {
+                "n": 4,
+                "median_approach": 0.3323586683511948,
+                "completed": 0
+              },
+              "17": {
+                "n": 4,
+                "median_approach": 0.3528086125858062,
+                "completed": 0
+              },
+              "18": {
+                "n": 4,
+                "median_approach": 0.16731629436205303,
+                "completed": 0
+              },
+              "21": {
+                "n": 4,
+                "median_approach": 0.06506380815327523,
+                "completed": 0
+              },
+              "24": {
+                "n": 4,
+                "median_approach": 0.14763334444825288,
+                "completed": 0
+              },
+              "26": {
+                "n": 4,
+                "median_approach": 0.04650341535555513,
+                "completed": 0
+              }
+            }
+          },
+          "train": {
+            "n": 56,
+            "completed": 56
+          },
+          "interior": {
+            "n": 42,
+            "completed": 40
+          }
+        },
+        {
+          "seed": 1,
+          "run": "act_joint_chunk_s1",
+          "eval_tag": "act_joint_chunk_s1_leg",
+          "radial": {
+            "n": 70,
+            "escaped": 49,
+            "approached": 31,
+            "completed": 1,
+            "mean_approach": 0.2803381732132531,
+            "median_approach": 0.04775236101708219,
+            "approach_threshold_counts": {
+              "0.1": 34,
+              "0.25": 31,
+              "0.75": 11
+            },
+            "bands": {
+              "5": {
+                "n": 14,
+                "median_approach": 0.0,
+                "completed": 1
+              },
+              "10": {
+                "n": 14,
+                "median_approach": 0.4721102379945594,
+                "completed": 0
+              },
+              "15": {
+                "n": 14,
+                "median_approach": 0.6021775784747804,
+                "completed": 0
+              },
+              "20": {
+                "n": 14,
+                "median_approach": 0.0,
+                "completed": 0
+              },
+              "25": {
+                "n": 14,
+                "median_approach": 0.0,
+                "completed": 0
+              }
+            }
+          },
+          "angular": {
+            "n": 48,
+            "escaped": 43,
+            "approached": 29,
+            "completed": 3,
+            "mean_approach": 0.3656282238107998,
+            "median_approach": 0.31593606175204797,
+            "approach_threshold_counts": {
+              "0.1": 33,
+              "0.25": 29,
+              "0.75": 8
+            },
+            "bands": {
+              "6": {
+                "n": 4,
+                "median_approach": 0.0,
+                "completed": 0
+              },
+              "7": {
+                "n": 4,
+                "median_approach": 0.6970316521399466,
+                "completed": 3
+              },
+              "8": {
+                "n": 4,
+                "median_approach": 0.725538749422919,
+                "completed": 0
+              },
+              "9": {
+                "n": 4,
+                "median_approach": 0.4344347746828261,
+                "completed": 0
+              },
+              "12": {
+                "n": 4,
+                "median_approach": 0.03014729691384538,
+                "completed": 0
+              },
+              "14": {
+                "n": 4,
+                "median_approach": 0.4355914713801224,
+                "completed": 0
+              },
+              "16": {
+                "n": 4,
+                "median_approach": 0.5988544131705351,
+                "completed": 0
+              },
+              "17": {
+                "n": 4,
+                "median_approach": 0.20557934476199863,
+                "completed": 0
+              },
+              "18": {
+                "n": 4,
+                "median_approach": 0.0,
+                "completed": 0
+              },
+              "21": {
+                "n": 4,
+                "median_approach": 0.04226091260414461,
+                "completed": 0
+              },
+              "24": {
+                "n": 4,
+                "median_approach": 0.3658137091892571,
+                "completed": 0
+              },
+              "26": {
+                "n": 4,
+                "median_approach": 0.35902894655360923,
+                "completed": 0
+              }
+            }
+          },
+          "train": {
+            "n": 56,
+            "completed": 56
+          },
+          "interior": {
+            "n": 42,
+            "completed": 42
+          }
+        },
+        {
+          "seed": 2,
+          "run": "act_joint_chunk_s2",
+          "eval_tag": "act_joint_chunk_s2_leg",
+          "radial": {
+            "n": 70,
+            "escaped": 50,
+            "approached": 29,
+            "completed": 1,
+            "mean_approach": 0.26041560018087345,
+            "median_approach": 0.04756588036164611,
+            "approach_threshold_counts": {
+              "0.1": 33,
+              "0.25": 29,
+              "0.75": 8
+            },
+            "bands": {
+              "5": {
+                "n": 14,
+                "median_approach": 0.0,
+                "completed": 0
+              },
+              "10": {
+                "n": 14,
+                "median_approach": 0.34688251120635294,
+                "completed": 0
+              },
+              "15": {
+                "n": 14,
+                "median_approach": 0.47439831568577684,
+                "completed": 1
+              },
+              "20": {
+                "n": 14,
+                "median_approach": 0.17242366205403442,
+                "completed": 0
+              },
+              "25": {
+                "n": 14,
+                "median_approach": 0.0,
+                "completed": 0
+              }
+            }
+          },
+          "angular": {
+            "n": 48,
+            "escaped": 39,
+            "approached": 30,
+            "completed": 7,
+            "mean_approach": 0.416456573402907,
+            "median_approach": 0.4316485439919423,
+            "approach_threshold_counts": {
+              "0.1": 33,
+              "0.25": 30,
+              "0.75": 11
+            },
+            "bands": {
+              "6": {
+                "n": 4,
+                "median_approach": 0.0,
+                "completed": 0
+              },
+              "7": {
+                "n": 4,
+                "median_approach": 0.7521939744752683,
+                "completed": 2
+              },
+              "8": {
+                "n": 4,
+                "median_approach": 0.7052864383598334,
+                "completed": 3
+              },
+              "9": {
+                "n": 4,
+                "median_approach": 0.740696197032487,
+                "completed": 2
+              },
+              "12": {
+                "n": 4,
+                "median_approach": 0.2510484767338235,
+                "completed": 0
+              },
+              "14": {
+                "n": 4,
+                "median_approach": 0.3225575995665855,
+                "completed": 0
+              },
+              "16": {
+                "n": 4,
+                "median_approach": 0.5230809341277161,
+                "completed": 0
+              },
+              "17": {
+                "n": 4,
+                "median_approach": 0.31611805500234325,
+                "completed": 0
+              },
+              "18": {
+                "n": 4,
+                "median_approach": 0.43876939632922063,
+                "completed": 0
+              },
+              "21": {
+                "n": 4,
+                "median_approach": 0.41646600742205114,
+                "completed": 0
+              },
+              "24": {
+                "n": 4,
+                "median_approach": 0.4270906457885065,
+                "completed": 0
+              },
+              "26": {
+                "n": 4,
+                "median_approach": 0.00022755184260275785,
+                "completed": 0
+              }
+            }
+          },
+          "train": {
+            "n": 56,
+            "completed": 56
+          },
+          "interior": {
+            "n": 42,
+            "completed": 41
+          }
+        }
+      ]
+    },
+    {
+      "frame": "EEF",
+      "arm_command": "residual",
+      "gripper_command": "absolute",
+      "cameras": "head",
+      "proprio": "joint",
+      "role": "anchor control",
+      "anchor": "query",
+      "note": "eef_chunk: eef_delta's 7 columns relative to the grasp-point pose measured at the query (not each step)",
+      "collection": "A",
+      "seeds": [
+        {
+          "seed": 0,
+          "run": "act_eef_chunk",
+          "eval_tag": "act_eef_chunk_leg",
+          "radial": {
+            "n": 70,
+            "escaped": 59,
+            "approached": 34,
+            "completed": 0,
+            "mean_approach": 0.28576087375734555,
+            "median_approach": 0.17993626437283244,
+            "approach_threshold_counts": {
+              "0.1": 42,
+              "0.25": 34,
+              "0.75": 0
+            },
+            "bands": {
+              "5": {
+                "n": 14,
+                "median_approach": 0.0,
+                "completed": 0
+              },
+              "10": {
+                "n": 14,
+                "median_approach": 0.0,
+                "completed": 0
+              },
+              "15": {
+                "n": 14,
+                "median_approach": 0.6016387612336938,
+                "completed": 0
+              },
+              "20": {
+                "n": 14,
+                "median_approach": 0.5279879014916458,
+                "completed": 0
+              },
+              "25": {
+                "n": 14,
+                "median_approach": 0.29808404533601085,
+                "completed": 0
+              }
+            }
+          },
+          "angular": {
+            "n": 48,
+            "escaped": 35,
+            "approached": 25,
+            "completed": 6,
+            "mean_approach": 0.37761046635095247,
+            "median_approach": 0.2778477340871415,
+            "approach_threshold_counts": {
+              "0.1": 32,
+              "0.25": 25,
+              "0.75": 13
+            },
+            "bands": {
+              "6": {
+                "n": 4,
+                "median_approach": 0.4816595774200679,
+                "completed": 3
+              },
+              "7": {
+                "n": 4,
+                "median_approach": 0.5472494848295713,
+                "completed": 0
+              },
+              "8": {
+                "n": 4,
+                "median_approach": 0.8135092116611972,
+                "completed": 2
+              },
+              "9": {
+                "n": 4,
+                "median_approach": 0.7245962440247071,
+                "completed": 0
+              },
+              "12": {
+                "n": 4,
+                "median_approach": 0.11813697797044914,
+                "completed": 0
+              },
+              "14": {
+                "n": 4,
+                "median_approach": 0.5564593145813905,
+                "completed": 1
+              },
+              "16": {
+                "n": 4,
+                "median_approach": 0.15930672681306512,
+                "completed": 0
+              },
+              "17": {
+                "n": 4,
+                "median_approach": 0.6471641987731227,
+                "completed": 0
+              },
+              "18": {
+                "n": 4,
+                "median_approach": 0.0,
+                "completed": 0
+              },
+              "21": {
+                "n": 4,
+                "median_approach": 0.0,
+                "completed": 0
+              },
+              "24": {
+                "n": 4,
+                "median_approach": 0.22412606413134617,
+                "completed": 0
+              },
+              "26": {
+                "n": 4,
+                "median_approach": 0.0,
+                "completed": 0
+              }
+            }
+          },
+          "train": {
+            "n": 56,
+            "completed": 53
+          },
+          "interior": {
+            "n": 42,
+            "completed": 42
+          }
+        },
+        {
+          "seed": 1,
+          "run": "act_eef_chunk_s1",
+          "eval_tag": "act_eef_chunk_s1_leg",
+          "radial": {
+            "n": 70,
+            "escaped": 60,
+            "approached": 54,
+            "completed": 6,
+            "mean_approach": 0.4746786227768643,
+            "median_approach": 0.5046061213140347,
+            "approach_threshold_counts": {
+              "0.1": 57,
+              "0.25": 54,
+              "0.75": 14
+            },
+            "bands": {
+              "5": {
+                "n": 14,
+                "median_approach": 0.0,
+                "completed": 4
+              },
+              "10": {
+                "n": 14,
+                "median_approach": 0.45217973765754854,
+                "completed": 0
+              },
+              "15": {
+                "n": 14,
+                "median_approach": 0.3777117228759404,
+                "completed": 2
+              },
+              "20": {
+                "n": 14,
+                "median_approach": 0.6689368807702785,
+                "completed": 0
+              },
+              "25": {
+                "n": 14,
+                "median_approach": 0.5715291576312573,
+                "completed": 0
+              }
+            }
+          },
+          "angular": {
+            "n": 48,
+            "escaped": 34,
+            "approached": 24,
+            "completed": 6,
+            "mean_approach": 0.3741585037047114,
+            "median_approach": 0.23824858709819674,
+            "approach_threshold_counts": {
+              "0.1": 28,
+              "0.25": 24,
+              "0.75": 13
+            },
+            "bands": {
+              "6": {
+                "n": 4,
+                "median_approach": 0.11145413202941873,
+                "completed": 1
+              },
+              "7": {
+                "n": 4,
+                "median_approach": 0.6323274724629572,
+                "completed": 1
+              },
+              "8": {
+                "n": 4,
+                "median_approach": 0.907033299983413,
+                "completed": 3
+              },
+              "9": {
+                "n": 4,
+                "median_approach": 0.9216719824321247,
+                "completed": 1
+              },
+              "12": {
+                "n": 4,
+                "median_approach": 0.0,
+                "completed": 0
+              },
+              "14": {
+                "n": 4,
+                "median_approach": 0.17125163499933083,
+                "completed": 0
+              },
+              "16": {
+                "n": 4,
+                "median_approach": 0.5692467132902777,
+                "completed": 0
+              },
+              "17": {
+                "n": 4,
+                "median_approach": 0.5493029877043805,
+                "completed": 0
+              },
+              "18": {
+                "n": 4,
+                "median_approach": 0.0,
+                "completed": 0
+              },
+              "21": {
+                "n": 4,
+                "median_approach": 0.0,
+                "completed": 0
+              },
+              "24": {
+                "n": 4,
+                "median_approach": 0.0,
+                "completed": 0
+              },
+              "26": {
+                "n": 4,
+                "median_approach": 0.29996968734622115,
+                "completed": 0
+              }
+            }
+          },
+          "train": {
+            "n": 56,
+            "completed": 52
+          },
+          "interior": {
+            "n": 42,
+            "completed": 38
+          }
+        },
+        {
+          "seed": 2,
+          "run": "act_eef_chunk_s2",
+          "eval_tag": "act_eef_chunk_s2_leg",
+          "radial": {
+            "n": 70,
+            "escaped": 65,
+            "approached": 42,
+            "completed": 6,
+            "mean_approach": 0.39790638771015724,
+            "median_approach": 0.39014164618620967,
+            "approach_threshold_counts": {
+              "0.1": 51,
+              "0.25": 42,
+              "0.75": 11
+            },
+            "bands": {
+              "5": {
+                "n": 14,
+                "median_approach": 0.0,
+                "completed": 3
+              },
+              "10": {
+                "n": 14,
+                "median_approach": 0.13422705120539902,
+                "completed": 2
+              },
+              "15": {
+                "n": 14,
+                "median_approach": 0.6725097014016541,
+                "completed": 1
+              },
+              "20": {
+                "n": 14,
+                "median_approach": 0.6850100985424612,
+                "completed": 0
+              },
+              "25": {
+                "n": 14,
+                "median_approach": 0.594299531137399,
+                "completed": 0
+              }
+            }
+          },
+          "angular": {
+            "n": 48,
+            "escaped": 48,
+            "approached": 38,
+            "completed": 14,
+            "mean_approach": 0.5558196933309657,
+            "median_approach": 0.5692884344964728,
+            "approach_threshold_counts": {
+              "0.1": 39,
+              "0.25": 38,
+              "0.75": 17
+            },
+            "bands": {
+              "6": {
+                "n": 4,
+                "median_approach": 0.34581456584180437,
+                "completed": 1
+              },
+              "7": {
+                "n": 4,
+                "median_approach": 0.8416406683389696,
+                "completed": 3
+              },
+              "8": {
+                "n": 4,
+                "median_approach": 0.9146306273756378,
+                "completed": 4
+              },
+              "9": {
+                "n": 4,
+                "median_approach": 0.9096440809332655,
+                "completed": 3
+              },
+              "12": {
+                "n": 4,
+                "median_approach": 0.0,
+                "completed": 0
+              },
+              "14": {
+                "n": 4,
+                "median_approach": 0.49983663678492607,
+                "completed": 0
+              },
+              "16": {
+                "n": 4,
+                "median_approach": 0.940954546545684,
+                "completed": 2
+              },
+              "17": {
+                "n": 4,
+                "median_approach": 0.7842287587276794,
+                "completed": 1
+              },
+              "18": {
+                "n": 4,
+                "median_approach": 0.0,
+                "completed": 0
+              },
+              "21": {
+                "n": 4,
+                "median_approach": 0.316380728590612,
+                "completed": 0
+              },
+              "24": {
+                "n": 4,
+                "median_approach": 0.6590498396548227,
+                "completed": 0
+              },
+              "26": {
+                "n": 4,
+                "median_approach": 0.6419012904754513,
+                "completed": 0
+              }
+            }
+          },
+          "train": {
+            "n": 56,
+            "completed": 50
+          },
+          "interior": {
+            "n": 42,
+            "completed": 42
+          }
+        }
+      ]
+    },
+    {
+      "frame": "EEF",
+      "arm_command": "absolute",
+      "gripper_command": "absolute",
+      "cameras": "head",
+      "proprio": "joint",
+      "role": "camera panel",
+      "archive": "collect_wrist",
+      "collection": "B",
+      "seeds": [
+        {
+          "seed": 0,
+          "run": "act_eef_abs_hcw",
+          "eval_tag": "act_eef_abs_hcw",
+          "radial": {
+            "n": 70,
+            "escaped": 10,
+            "approached": 0,
+            "completed": 0,
+            "mean_approach": 0.012687172501114808,
+            "median_approach": 0.0,
+            "approach_threshold_counts": {
+              "0.1": 1,
+              "0.25": 0,
+              "0.75": 0
+            },
+            "bands": {
+              "5": {
+                "n": 14,
+                "median_approach": 0.0,
+                "completed": 0
+              },
+              "10": {
+                "n": 14,
+                "median_approach": 0.0,
+                "completed": 0
+              },
+              "15": {
+                "n": 14,
+                "median_approach": 0.0,
+                "completed": 0
+              },
+              "20": {
+                "n": 14,
+                "median_approach": 0.0,
+                "completed": 0
+              },
+              "25": {
+                "n": 14,
+                "median_approach": 0.0,
+                "completed": 0
+              }
+            }
+          },
+          "angular": {
+            "n": 48,
+            "escaped": 6,
+            "approached": 0,
+            "completed": 0,
+            "mean_approach": 0.014397381806160821,
+            "median_approach": 0.0,
+            "approach_threshold_counts": {
+              "0.1": 3,
+              "0.25": 0,
+              "0.75": 0
+            },
+            "bands": {
+              "6": {
+                "n": 4,
+                "median_approach": 0.0,
+                "completed": 0
+              },
+              "7": {
+                "n": 4,
+                "median_approach": 0.0,
+                "completed": 0
+              },
+              "8": {
+                "n": 4,
+                "median_approach": 0.07783577365707028,
+                "completed": 0
+              },
+              "9": {
+                "n": 4,
+                "median_approach": 0.0,
+                "completed": 0
+              },
+              "12": {
+                "n": 4,
+                "median_approach": 0.0,
+                "completed": 0
+              },
+              "14": {
+                "n": 4,
+                "median_approach": 0.0,
+                "completed": 0
+              },
+              "16": {
+                "n": 4,
+                "median_approach": 0.014542536685467733,
+                "completed": 0
+              },
+              "17": {
+                "n": 4,
+                "median_approach": 0.02636547344697976,
+                "completed": 0
+              },
+              "18": {
+                "n": 4,
+                "median_approach": 0.0,
+                "completed": 0
+              },
+              "21": {
+                "n": 4,
+                "median_approach": 0.0,
+                "completed": 0
+              },
+              "24": {
+                "n": 4,
+                "median_approach": 0.0,
+                "completed": 0
+              },
+              "26": {
+                "n": 4,
+                "median_approach": 0.0020803117456286158,
+                "completed": 0
+              }
+            }
+          },
+          "train": {
+            "n": 56,
+            "completed": 53
+          },
+          "interior": {
+            "n": 42,
+            "completed": 35
+          }
+        },
+        {
+          "seed": 1,
+          "run": "act_eef_abs_hcw_s1",
+          "eval_tag": "act_eef_abs_hcw_s1",
+          "radial": {
+            "n": 70,
+            "escaped": 0,
+            "approached": 0,
+            "completed": 0,
+            "mean_approach": 0.005232070216665353,
+            "median_approach": 0.0,
+            "approach_threshold_counts": {
+              "0.1": 0,
+              "0.25": 0,
+              "0.75": 0
+            },
+            "bands": {
+              "5": {
+                "n": 14,
+                "median_approach": 0.0,
+                "completed": 0
+              },
+              "10": {
+                "n": 14,
+                "median_approach": 0.0,
+                "completed": 0
+              },
+              "15": {
+                "n": 14,
+                "median_approach": 0.0,
+                "completed": 0
+              },
+              "20": {
+                "n": 14,
+                "median_approach": 0.0,
+                "completed": 0
+              },
+              "25": {
+                "n": 14,
+                "median_approach": 0.0,
+                "completed": 0
+              }
+            }
+          },
+          "angular": {
+            "n": 48,
+            "escaped": 0,
+            "approached": 0,
+            "completed": 0,
+            "mean_approach": 0.0037305483742294115,
+            "median_approach": 0.0,
+            "approach_threshold_counts": {
+              "0.1": 0,
+              "0.25": 0,
+              "0.75": 0
+            },
+            "bands": {
+              "6": {
+                "n": 4,
+                "median_approach": 0.0,
+                "completed": 0
+              },
+              "7": {
+                "n": 4,
+                "median_approach": 0.0,
+                "completed": 0
+              },
+              "8": {
+                "n": 4,
+                "median_approach": 0.030411150733137826,
+                "completed": 0
+              },
+              "9": {
+                "n": 4,
+                "median_approach": 0.0,
+                "completed": 0
+              },
+              "12": {
+                "n": 4,
+                "median_approach": 0.0,
+                "completed": 0
+              },
+              "14": {
+                "n": 4,
+                "median_approach": 0.0,
+                "completed": 0
+              },
+              "16": {
+                "n": 4,
+                "median_approach": 0.0,
+                "completed": 0
+              },
+              "17": {
+                "n": 4,
+                "median_approach": 0.0,
+                "completed": 0
+              },
+              "18": {
+                "n": 4,
+                "median_approach": 0.0,
+                "completed": 0
+              },
+              "21": {
+                "n": 4,
+                "median_approach": 0.0,
+                "completed": 0
+              },
+              "24": {
+                "n": 4,
+                "median_approach": 0.0,
+                "completed": 0
+              },
+              "26": {
+                "n": 4,
+                "median_approach": 0.0,
+                "completed": 0
+              }
+            }
+          },
+          "train": {
+            "n": 56,
+            "completed": 51
+          },
+          "interior": {
+            "n": 42,
+            "completed": 40
+          }
+        },
+        {
+          "seed": 2,
+          "run": "act_eef_abs_hcw_s2",
+          "eval_tag": "act_eef_abs_hcw_s2",
+          "radial": {
+            "n": 70,
+            "escaped": 0,
+            "approached": 0,
+            "completed": 0,
+            "mean_approach": 0.0016608505612964817,
+            "median_approach": 0.0,
+            "approach_threshold_counts": {
+              "0.1": 0,
+              "0.25": 0,
+              "0.75": 0
+            },
+            "bands": {
+              "5": {
+                "n": 14,
+                "median_approach": 0.0,
+                "completed": 0
+              },
+              "10": {
+                "n": 14,
+                "median_approach": 0.0,
+                "completed": 0
+              },
+              "15": {
+                "n": 14,
+                "median_approach": 0.0,
+                "completed": 0
+              },
+              "20": {
+                "n": 14,
+                "median_approach": 0.0,
+                "completed": 0
+              },
+              "25": {
+                "n": 14,
+                "median_approach": 0.0,
+                "completed": 0
+              }
+            }
+          },
+          "angular": {
+            "n": 48,
+            "escaped": 7,
+            "approached": 0,
+            "completed": 0,
+            "mean_approach": 0.01958536572316047,
+            "median_approach": 0.0,
+            "approach_threshold_counts": {
+              "0.1": 2,
+              "0.25": 0,
+              "0.75": 0
+            },
+            "bands": {
+              "6": {
+                "n": 4,
+                "median_approach": 0.0,
+                "completed": 0
+              },
+              "7": {
+                "n": 4,
+                "median_approach": 0.04409227661331383,
+                "completed": 0
+              },
+              "8": {
+                "n": 4,
+                "median_approach": 0.0482295962493291,
+                "completed": 0
+              },
+              "9": {
+                "n": 4,
+                "median_approach": 0.009087400485727426,
+                "completed": 0
+              },
+              "12": {
+                "n": 4,
+                "median_approach": 0.0,
+                "completed": 0
+              },
+              "14": {
+                "n": 4,
+                "median_approach": 0.0,
+                "completed": 0
+              },
+              "16": {
+                "n": 4,
+                "median_approach": 0.029781569257170015,
+                "completed": 0
+              },
+              "17": {
+                "n": 4,
+                "median_approach": 0.06848624396836378,
+                "completed": 0
+              },
+              "18": {
+                "n": 4,
+                "median_approach": 0.0,
+                "completed": 0
+              },
+              "21": {
+                "n": 4,
+                "median_approach": 0.0,
+                "completed": 0
+              },
+              "24": {
+                "n": 4,
+                "median_approach": 0.0,
+                "completed": 0
+              },
+              "26": {
+                "n": 4,
+                "median_approach": 0.010068828411506858,
+                "completed": 0
+              }
+            }
+          },
+          "train": {
+            "n": 56,
+            "completed": 55
+          },
+          "interior": {
+            "n": 42,
+            "completed": 36
+          }
+        }
+      ]
+    },
+    {
+      "frame": "EEF",
+      "arm_command": "absolute",
+      "gripper_command": "absolute",
+      "cameras": "head+wrist",
+      "proprio": "joint",
+      "role": "camera panel",
+      "archive": "collect_wrist",
+      "collection": "B",
+      "seeds": [
+        {
+          "seed": 0,
+          "run": "act_eef_abs_w",
+          "eval_tag": "act_eef_abs_w",
+          "radial": {
+            "n": 70,
+            "escaped": 6,
+            "approached": 3,
+            "completed": 0,
+            "mean_approach": 0.025895911685487098,
+            "median_approach": 0.0,
+            "approach_threshold_counts": {
+              "0.1": 4,
+              "0.25": 3,
+              "0.75": 0
+            },
+            "bands": {
+              "5": {
+                "n": 14,
+                "median_approach": 0.0,
+                "completed": 0
+              },
+              "10": {
+                "n": 14,
+                "median_approach": 0.0,
+                "completed": 0
+              },
+              "15": {
+                "n": 14,
+                "median_approach": 0.0,
+                "completed": 0
+              },
+              "20": {
+                "n": 14,
+                "median_approach": 0.0,
+                "completed": 0
+              },
+              "25": {
+                "n": 14,
+                "median_approach": 0.0,
+                "completed": 0
+              }
+            }
+          },
+          "angular": {
+            "n": 48,
+            "escaped": 14,
+            "approached": 0,
+            "completed": 0,
+            "mean_approach": 0.028448879216994936,
+            "median_approach": 0.0,
+            "approach_threshold_counts": {
+              "0.1": 2,
+              "0.25": 0,
+              "0.75": 0
+            },
+            "bands": {
+              "6": {
+                "n": 4,
+                "median_approach": 0.0,
+                "completed": 0
+              },
+              "7": {
+                "n": 4,
+                "median_approach": 0.05987794949115183,
+                "completed": 0
+              },
+              "8": {
+                "n": 4,
+                "median_approach": 0.11845509585951797,
+                "completed": 0
+              },
+              "9": {
+                "n": 4,
+                "median_approach": 0.02606424151068598,
+                "completed": 0
+              },
+              "12": {
+                "n": 4,
+                "median_approach": 0.0,
+                "completed": 0
+              },
+              "14": {
+                "n": 4,
+                "median_approach": 0.015142479269982245,
+                "completed": 0
+              },
+              "16": {
+                "n": 4,
+                "median_approach": 0.03665055210744805,
+                "completed": 0
+              },
+              "17": {
+                "n": 4,
+                "median_approach": 0.039528226989283655,
+                "completed": 0
+              },
+              "18": {
+                "n": 4,
+                "median_approach": 0.0,
+                "completed": 0
+              },
+              "21": {
+                "n": 4,
+                "median_approach": 0.0,
+                "completed": 0
+              },
+              "24": {
+                "n": 4,
+                "median_approach": 0.012258599369035172,
+                "completed": 0
+              },
+              "26": {
+                "n": 4,
+                "median_approach": 0.023307421695730524,
+                "completed": 0
+              }
+            }
+          },
+          "train": {
+            "n": 56,
+            "completed": 54
+          },
+          "interior": {
+            "n": 42,
+            "completed": 36
+          }
+        },
+        {
+          "seed": 1,
+          "run": "act_eef_abs_w_s1",
+          "eval_tag": "act_eef_abs_w_s1",
+          "radial": {
+            "n": 70,
+            "escaped": 13,
+            "approached": 2,
+            "completed": 0,
+            "mean_approach": 0.028615211350242822,
+            "median_approach": 0.0,
+            "approach_threshold_counts": {
+              "0.1": 6,
+              "0.25": 2,
+              "0.75": 0
+            },
+            "bands": {
+              "5": {
+                "n": 14,
+                "median_approach": 0.0,
+                "completed": 0
+              },
+              "10": {
+                "n": 14,
+                "median_approach": 0.0034862001061232717,
+                "completed": 0
+              },
+              "15": {
+                "n": 14,
+                "median_approach": 0.0,
+                "completed": 0
+              },
+              "20": {
+                "n": 14,
+                "median_approach": 0.0,
+                "completed": 0
+              },
+              "25": {
+                "n": 14,
+                "median_approach": 0.0,
+                "completed": 0
+              }
+            }
+          },
+          "angular": {
+            "n": 48,
+            "escaped": 11,
+            "approached": 0,
+            "completed": 0,
+            "mean_approach": 0.017269532117398696,
+            "median_approach": 0.0,
+            "approach_threshold_counts": {
+              "0.1": 2,
+              "0.25": 0,
+              "0.75": 0
+            },
+            "bands": {
+              "6": {
+                "n": 4,
+                "median_approach": 0.0,
+                "completed": 0
+              },
+              "7": {
+                "n": 4,
+                "median_approach": 0.1034197627262155,
+                "completed": 0
+              },
+              "8": {
+                "n": 4,
+                "median_approach": 0.07405859911837842,
+                "completed": 0
+              },
+              "9": {
+                "n": 4,
+                "median_approach": 0.009893439260186987,
+                "completed": 0
+              },
+              "12": {
+                "n": 4,
+                "median_approach": 0.0,
+                "completed": 0
+              },
+              "14": {
+                "n": 4,
+                "median_approach": 0.0,
+                "completed": 0
+              },
+              "16": {
+                "n": 4,
+                "median_approach": 0.0062775785140342655,
+                "completed": 0
+              },
+              "17": {
+                "n": 4,
+                "median_approach": 0.0,
+                "completed": 0
+              },
+              "18": {
+                "n": 4,
+                "median_approach": 0.0,
+                "completed": 0
+              },
+              "21": {
+                "n": 4,
+                "median_approach": 0.0,
+                "completed": 0
+              },
+              "24": {
+                "n": 4,
+                "median_approach": 0.0010182071876703724,
+                "completed": 0
+              },
+              "26": {
+                "n": 4,
+                "median_approach": 0.0088380758539513,
+                "completed": 0
+              }
+            }
+          },
+          "train": {
+            "n": 56,
+            "completed": 56
+          },
+          "interior": {
+            "n": 42,
+            "completed": 38
+          }
+        },
+        {
+          "seed": 2,
+          "run": "act_eef_abs_w_s2",
+          "eval_tag": "act_eef_abs_w_s2",
+          "radial": {
+            "n": 70,
+            "escaped": 2,
+            "approached": 2,
+            "completed": 0,
+            "mean_approach": 0.018999283896478474,
+            "median_approach": 0.0,
+            "approach_threshold_counts": {
+              "0.1": 4,
+              "0.25": 2,
+              "0.75": 0
+            },
+            "bands": {
+              "5": {
+                "n": 14,
+                "median_approach": 0.0,
+                "completed": 0
+              },
+              "10": {
+                "n": 14,
+                "median_approach": 0.0,
+                "completed": 0
+              },
+              "15": {
+                "n": 14,
+                "median_approach": 0.0,
+                "completed": 0
+              },
+              "20": {
+                "n": 14,
+                "median_approach": 0.0,
+                "completed": 0
+              },
+              "25": {
+                "n": 14,
+                "median_approach": 0.0,
+                "completed": 0
+              }
+            }
+          },
+          "angular": {
+            "n": 48,
+            "escaped": 0,
+            "approached": 0,
+            "completed": 0,
+            "mean_approach": 0.0026351568018616023,
+            "median_approach": 0.0,
+            "approach_threshold_counts": {
+              "0.1": 0,
+              "0.25": 0,
+              "0.75": 0
+            },
+            "bands": {
+              "6": {
+                "n": 4,
+                "median_approach": 0.0,
+                "completed": 0
+              },
+              "7": {
+                "n": 4,
+                "median_approach": 0.0,
+                "completed": 0
+              },
+              "8": {
+                "n": 4,
+                "median_approach": 0.02626683610287689,
+                "completed": 0
+              },
+              "9": {
+                "n": 4,
+                "median_approach": 0.004727334906814484,
+                "completed": 0
+              },
+              "12": {
+                "n": 4,
+                "median_approach": 0.0,
+                "completed": 0
+              },
+              "14": {
+                "n": 4,
+                "median_approach": 0.0,
+                "completed": 0
+              },
+              "16": {
+                "n": 4,
+                "median_approach": 0.0,
+                "completed": 0
+              },
+              "17": {
+                "n": 4,
+                "median_approach": 0.0,
+                "completed": 0
+              },
+              "18": {
+                "n": 4,
+                "median_approach": 0.0,
+                "completed": 0
+              },
+              "21": {
+                "n": 4,
+                "median_approach": 0.0,
+                "completed": 0
+              },
+              "24": {
+                "n": 4,
+                "median_approach": 0.0,
+                "completed": 0
+              },
+              "26": {
+                "n": 4,
+                "median_approach": 0.0,
+                "completed": 0
+              }
+            }
+          },
+          "train": {
+            "n": 56,
+            "completed": 55
+          },
+          "interior": {
+            "n": 42,
+            "completed": 40
+          }
+        }
+      ]
+    },
+    {
+      "frame": "EEF",
+      "arm_command": "absolute",
+      "gripper_command": "absolute",
+      "cameras": "wrist",
+      "proprio": "joint",
+      "role": "camera panel",
+      "archive": "collect_wrist",
+      "collection": "B",
+      "seeds": [
+        {
+          "seed": 0,
+          "run": "act_eef_abs_wo",
+          "eval_tag": "act_eef_abs_wo",
+          "radial": {
+            "n": 70,
+            "escaped": 44,
+            "approached": 4,
+            "completed": 0,
+            "mean_approach": 0.043416805296923294,
+            "median_approach": 0.0,
+            "approach_threshold_counts": {
+              "0.1": 9,
+              "0.25": 4,
+              "0.75": 0
+            },
+            "bands": {
+              "5": {
+                "n": 14,
+                "median_approach": 0.0,
+                "completed": 0
+              },
+              "10": {
+                "n": 14,
+                "median_approach": 0.0054022766137102884,
+                "completed": 0
+              },
+              "15": {
+                "n": 14,
+                "median_approach": 0.0,
+                "completed": 0
+              },
+              "20": {
+                "n": 14,
+                "median_approach": 0.0,
+                "completed": 0
+              },
+              "25": {
+                "n": 14,
+                "median_approach": 0.0,
+                "completed": 0
+              }
+            }
+          },
+          "angular": {
+            "n": 48,
+            "escaped": 48,
+            "approached": 12,
+            "completed": 0,
+            "mean_approach": 0.13541789224805534,
+            "median_approach": 0.018931520062448748,
+            "approach_threshold_counts": {
+              "0.1": 17,
+              "0.25": 12,
+              "0.75": 0
+            },
+            "bands": {
+              "6": {
+                "n": 4,
+                "median_approach": 0.12629341471720174,
+                "completed": 0
+              },
+              "7": {
+                "n": 4,
+                "median_approach": 0.4558868705022905,
+                "completed": 0
+              },
+              "8": {
+                "n": 4,
+                "median_approach": 0.5105161226908024,
+                "completed": 0
+              },
+              "9": {
+                "n": 4,
+                "median_approach": 0.3205240797014342,
+                "completed": 0
+              },
+              "12": {
+                "n": 4,
+                "median_approach": 0.04020368539397978,
+                "completed": 0
+              },
+              "14": {
+                "n": 4,
+                "median_approach": 0.0536948246873149,
+                "completed": 0
+              },
+              "16": {
+                "n": 4,
+                "median_approach": 0.0,
+                "completed": 0
+              },
+              "17": {
+                "n": 4,
+                "median_approach": 0.0,
+                "completed": 0
+              },
+              "18": {
+                "n": 4,
+                "median_approach": 0.023854507001799474,
+                "completed": 0
+              },
+              "21": {
+                "n": 4,
+                "median_approach": 0.0009191407320422451,
+                "completed": 0
+              },
+              "24": {
+                "n": 4,
+                "median_approach": 0.013733344908155254,
+                "completed": 0
+              },
+              "26": {
+                "n": 4,
+                "median_approach": 0.0,
+                "completed": 0
+              }
+            }
+          },
+          "train": {
+            "n": 56,
+            "completed": 55
+          },
+          "interior": {
+            "n": 42,
+            "completed": 39
+          }
+        },
+        {
+          "seed": 1,
+          "run": "act_eef_abs_wo_s1",
+          "eval_tag": "act_eef_abs_wo_s1",
+          "radial": {
+            "n": 70,
+            "escaped": 40,
+            "approached": 4,
+            "completed": 0,
+            "mean_approach": 0.030488329024589936,
+            "median_approach": 0.0,
+            "approach_threshold_counts": {
+              "0.1": 6,
+              "0.25": 4,
+              "0.75": 0
+            },
+            "bands": {
+              "5": {
+                "n": 14,
+                "median_approach": 0.0,
+                "completed": 0
+              },
+              "10": {
+                "n": 14,
+                "median_approach": 0.0,
+                "completed": 0
+              },
+              "15": {
+                "n": 14,
+                "median_approach": 0.0,
+                "completed": 0
+              },
+              "20": {
+                "n": 14,
+                "median_approach": 0.0,
+                "completed": 0
+              },
+              "25": {
+                "n": 14,
+                "median_approach": 0.0,
+                "completed": 0
+              }
+            }
+          },
+          "angular": {
+            "n": 48,
+            "escaped": 48,
+            "approached": 4,
+            "completed": 0,
+            "mean_approach": 0.0518586038223624,
+            "median_approach": 0.0,
+            "approach_threshold_counts": {
+              "0.1": 8,
+              "0.25": 4,
+              "0.75": 0
+            },
+            "bands": {
+              "6": {
+                "n": 4,
+                "median_approach": 0.12435266924903654,
+                "completed": 0
+              },
+              "7": {
+                "n": 4,
+                "median_approach": 0.20631300440782208,
+                "completed": 0
+              },
+              "8": {
+                "n": 4,
+                "median_approach": 0.16291528309793063,
+                "completed": 0
+              },
+              "9": {
+                "n": 4,
+                "median_approach": 0.08543860451806934,
+                "completed": 0
+              },
+              "12": {
+                "n": 4,
+                "median_approach": 0.0,
+                "completed": 0
+              },
+              "14": {
+                "n": 4,
+                "median_approach": 0.0,
+                "completed": 0
+              },
+              "16": {
+                "n": 4,
+                "median_approach": 0.0,
+                "completed": 0
+              },
+              "17": {
+                "n": 4,
+                "median_approach": 0.0,
+                "completed": 0
+              },
+              "18": {
+                "n": 4,
+                "median_approach": 0.0,
+                "completed": 0
+              },
+              "21": {
+                "n": 4,
+                "median_approach": 0.0,
+                "completed": 0
+              },
+              "24": {
+                "n": 4,
+                "median_approach": 0.0,
+                "completed": 0
+              },
+              "26": {
+                "n": 4,
+                "median_approach": 0.0,
+                "completed": 0
+              }
+            }
+          },
+          "train": {
+            "n": 56,
+            "completed": 56
+          },
+          "interior": {
+            "n": 42,
+            "completed": 40
+          }
+        },
+        {
+          "seed": 2,
+          "run": "act_eef_abs_wo_s2",
+          "eval_tag": "act_eef_abs_wo_s2",
+          "radial": {
+            "n": 70,
+            "escaped": 41,
+            "approached": 2,
+            "completed": 0,
+            "mean_approach": 0.03258559293024343,
+            "median_approach": 0.0,
+            "approach_threshold_counts": {
+              "0.1": 6,
+              "0.25": 2,
+              "0.75": 0
+            },
+            "bands": {
+              "5": {
+                "n": 14,
+                "median_approach": 0.0,
+                "completed": 0
+              },
+              "10": {
+                "n": 14,
+                "median_approach": 0.0038258976961336177,
+                "completed": 0
+              },
+              "15": {
+                "n": 14,
+                "median_approach": 0.0,
+                "completed": 0
+              },
+              "20": {
+                "n": 14,
+                "median_approach": 0.0,
+                "completed": 0
+              },
+              "25": {
+                "n": 14,
+                "median_approach": 0.0,
+                "completed": 0
+              }
+            }
+          },
+          "angular": {
+            "n": 48,
+            "escaped": 46,
+            "approached": 3,
+            "completed": 0,
+            "mean_approach": 0.0543817535676932,
+            "median_approach": 0.0,
+            "approach_threshold_counts": {
+              "0.1": 11,
+              "0.25": 3,
+              "0.75": 0
+            },
+            "bands": {
+              "6": {
+                "n": 4,
+                "median_approach": 0.10436255404085715,
+                "completed": 0
+              },
+              "7": {
+                "n": 4,
+                "median_approach": 0.2876431817717838,
+                "completed": 0
+              },
+              "8": {
+                "n": 4,
+                "median_approach": 0.19507153551514023,
+                "completed": 0
+              },
+              "9": {
+                "n": 4,
+                "median_approach": 0.12553120276916513,
+                "completed": 0
+              },
+              "12": {
+                "n": 4,
+                "median_approach": 0.015601611381520442,
+                "completed": 0
+              },
+              "14": {
+                "n": 4,
+                "median_approach": 0.0,
+                "completed": 0
+              },
+              "16": {
+                "n": 4,
+                "median_approach": 0.0,
+                "completed": 0
+              },
+              "17": {
+                "n": 4,
+                "median_approach": 0.0,
+                "completed": 0
+              },
+              "18": {
+                "n": 4,
+                "median_approach": 0.0,
+                "completed": 0
+              },
+              "21": {
+                "n": 4,
+                "median_approach": 0.0,
+                "completed": 0
+              },
+              "24": {
+                "n": 4,
+                "median_approach": 0.0,
+                "completed": 0
+              },
+              "26": {
+                "n": 4,
+                "median_approach": 0.0,
+                "completed": 0
+              }
+            }
+          },
+          "train": {
+            "n": 56,
+            "completed": 56
+          },
+          "interior": {
+            "n": 42,
+            "completed": 42
+          }
+        }
+      ]
+    },
+    {
+      "frame": "EEF",
+      "arm_command": "residual",
+      "gripper_command": "absolute",
+      "cameras": "head",
+      "proprio": "joint",
+      "role": "camera panel",
+      "archive": "collect_wrist",
+      "collection": "B",
+      "seeds": [
+        {
+          "seed": 0,
+          "run": "act_eef_delta_hcw",
+          "eval_tag": "act_eef_delta_hcw",
+          "radial": {
+            "n": 70,
+            "escaped": 65,
+            "approached": 51,
+            "completed": 6,
+            "mean_approach": 0.434767140091711,
+            "median_approach": 0.49568979862635054,
+            "approach_threshold_counts": {
+              "0.1": 60,
+              "0.25": 51,
+              "0.75": 6
+            },
+            "bands": {
+              "5": {
+                "n": 14,
+                "median_approach": 0.21915891448521707,
+                "completed": 3
+              },
+              "10": {
+                "n": 14,
+                "median_approach": 0.3491271562431803,
+                "completed": 3
+              },
+              "15": {
+                "n": 14,
+                "median_approach": 0.5450299994391121,
+                "completed": 0
+              },
+              "20": {
+                "n": 14,
+                "median_approach": 0.5438847804854289,
+                "completed": 0
+              },
+              "25": {
+                "n": 14,
+                "median_approach": 0.5216942150948561,
+                "completed": 0
+              }
+            }
+          },
+          "angular": {
+            "n": 48,
+            "escaped": 38,
+            "approached": 30,
+            "completed": 6,
+            "mean_approach": 0.4165835355554386,
+            "median_approach": 0.4120914459492854,
+            "approach_threshold_counts": {
+              "0.1": 36,
+              "0.25": 30,
+              "0.75": 10
+            },
+            "bands": {
+              "6": {
+                "n": 4,
+                "median_approach": 0.1191751211510167,
+                "completed": 0
+              },
+              "7": {
+                "n": 4,
+                "median_approach": 0.7383428649791144,
+                "completed": 2
+              },
+              "8": {
+                "n": 4,
+                "median_approach": 0.6280012714979535,
+                "completed": 2
+              },
+              "9": {
+                "n": 4,
+                "median_approach": 0.6123582078663872,
+                "completed": 0
+              },
+              "12": {
+                "n": 4,
+                "median_approach": 0.0,
+                "completed": 0
+              },
+              "14": {
+                "n": 4,
+                "median_approach": 0.5039076058319224,
+                "completed": 0
+              },
+              "16": {
+                "n": 4,
+                "median_approach": 0.7559266394739383,
+                "completed": 2
+              },
+              "17": {
+                "n": 4,
+                "median_approach": 0.7741066778683471,
+                "completed": 0
+              },
+              "18": {
+                "n": 4,
+                "median_approach": 0.0,
+                "completed": 0
+              },
+              "21": {
+                "n": 4,
+                "median_approach": 0.274596777214886,
+                "completed": 0
+              },
+              "24": {
+                "n": 4,
+                "median_approach": 0.31117013283137707,
+                "completed": 0
+              },
+              "26": {
+                "n": 4,
+                "median_approach": 0.5322547141680896,
+                "completed": 0
+              }
+            }
+          },
+          "train": {
+            "n": 56,
+            "completed": 53
+          },
+          "interior": {
+            "n": 42,
+            "completed": 42
+          }
+        },
+        {
+          "seed": 1,
+          "run": "act_eef_delta_hcw_s1",
+          "eval_tag": "act_eef_delta_hcw_s1",
+          "radial": {
+            "n": 70,
+            "escaped": 55,
+            "approached": 47,
+            "completed": 5,
+            "mean_approach": 0.402447068593006,
+            "median_approach": 0.437497051936779,
+            "approach_threshold_counts": {
+              "0.1": 55,
+              "0.25": 47,
+              "0.75": 7
+            },
+            "bands": {
+              "5": {
+                "n": 14,
+                "median_approach": 0.16509719786550947,
+                "completed": 4
+              },
+              "10": {
+                "n": 14,
+                "median_approach": 0.5430388881608126,
+                "completed": 1
+              },
+              "15": {
+                "n": 14,
+                "median_approach": 0.4738019150198988,
+                "completed": 0
+              },
+              "20": {
+                "n": 14,
+                "median_approach": 0.5165615566884441,
+                "completed": 0
+              },
+              "25": {
+                "n": 14,
+                "median_approach": 0.1995284339070698,
+                "completed": 0
+              }
+            }
+          },
+          "angular": {
+            "n": 48,
+            "escaped": 37,
+            "approached": 30,
+            "completed": 11,
+            "mean_approach": 0.46281536623035024,
+            "median_approach": 0.5397496647495014,
+            "approach_threshold_counts": {
+              "0.1": 35,
+              "0.25": 30,
+              "0.75": 14
+            },
+            "bands": {
+              "6": {
+                "n": 4,
+                "median_approach": 0.3690887244186224,
+                "completed": 1
+              },
+              "7": {
+                "n": 4,
+                "median_approach": 0.8080103527819413,
+                "completed": 4
+              },
+              "8": {
+                "n": 4,
+                "median_approach": 0.8905559990905849,
+                "completed": 3
+              },
+              "9": {
+                "n": 4,
+                "median_approach": 0.7448730806286997,
+                "completed": 3
+              },
+              "12": {
+                "n": 4,
+                "median_approach": 6.638129714142682e-05,
+                "completed": 0
+              },
+              "14": {
+                "n": 4,
+                "median_approach": 0.5481013027112405,
+                "completed": 0
+              },
+              "16": {
+                "n": 4,
+                "median_approach": 0.7444975182351747,
+                "completed": 0
+              },
+              "17": {
+                "n": 4,
+                "median_approach": 0.7600799857171308,
+                "completed": 0
+              },
+              "18": {
+                "n": 4,
+                "median_approach": 0.0,
+                "completed": 0
+              },
+              "21": {
+                "n": 4,
+                "median_approach": 0.0,
+                "completed": 0
+              },
+              "24": {
+                "n": 4,
+                "median_approach": 0.20563577912224845,
+                "completed": 0
+              },
+              "26": {
+                "n": 4,
+                "median_approach": 0.5729307672193058,
+                "completed": 0
+              }
+            }
+          },
+          "train": {
+            "n": 56,
+            "completed": 54
+          },
+          "interior": {
+            "n": 42,
+            "completed": 42
+          }
+        },
+        {
+          "seed": 2,
+          "run": "act_eef_delta_hcw_s2",
+          "eval_tag": "act_eef_delta_hcw_s2",
+          "radial": {
+            "n": 70,
+            "escaped": 58,
+            "approached": 36,
+            "completed": 1,
+            "mean_approach": 0.3169504500365831,
+            "median_approach": 0.27479449908415016,
+            "approach_threshold_counts": {
+              "0.1": 47,
+              "0.25": 36,
+              "0.75": 5
+            },
+            "bands": {
+              "5": {
+                "n": 14,
+                "median_approach": 0.1571613133237421,
+                "completed": 0
+              },
+              "10": {
+                "n": 14,
+                "median_approach": 0.3788802746983484,
+                "completed": 1
+              },
+              "15": {
+                "n": 14,
+                "median_approach": 0.5922263921532429,
+                "completed": 0
+              },
+              "20": {
+                "n": 14,
+                "median_approach": 0.2103637651638815,
+                "completed": 0
+              },
+              "25": {
+                "n": 14,
+                "median_approach": 0.0,
+                "completed": 0
+              }
+            }
+          },
+          "angular": {
+            "n": 48,
+            "escaped": 45,
+            "approached": 36,
+            "completed": 9,
+            "mean_approach": 0.5451121154995463,
+            "median_approach": 0.6116497376425221,
+            "approach_threshold_counts": {
+              "0.1": 40,
+              "0.25": 36,
+              "0.75": 15
+            },
+            "bands": {
+              "6": {
+                "n": 4,
+                "median_approach": 0.5329145679672672,
+                "completed": 2
+              },
+              "7": {
+                "n": 4,
+                "median_approach": 0.7340256337859474,
+                "completed": 2
+              },
+              "8": {
+                "n": 4,
+                "median_approach": 0.6415369346250256,
+                "completed": 1
+              },
+              "9": {
+                "n": 4,
+                "median_approach": 0.7438042052198274,
+                "completed": 1
+              },
+              "12": {
+                "n": 4,
+                "median_approach": 0.02672118479392649,
+                "completed": 0
+              },
+              "14": {
+                "n": 4,
+                "median_approach": 0.7097934843972397,
+                "completed": 1
+              },
+              "16": {
+                "n": 4,
+                "median_approach": 0.8770414184311555,
+                "completed": 2
+              },
+              "17": {
+                "n": 4,
+                "median_approach": 0.7529974523220453,
+                "completed": 0
+              },
+              "18": {
+                "n": 4,
+                "median_approach": 0.0,
+                "completed": 0
+              },
+              "21": {
+                "n": 4,
+                "median_approach": 0.1486431453331778,
+                "completed": 0
+              },
+              "24": {
+                "n": 4,
+                "median_approach": 0.6125334765372888,
+                "completed": 0
+              },
+              "26": {
+                "n": 4,
+                "median_approach": 0.6853030371108604,
+                "completed": 0
+              }
+            }
+          },
+          "train": {
+            "n": 56,
+            "completed": 50
+          },
+          "interior": {
+            "n": 42,
+            "completed": 42
+          }
+        }
+      ]
+    },
+    {
+      "frame": "EEF",
+      "arm_command": "residual",
+      "gripper_command": "absolute",
+      "cameras": "head+wrist",
+      "proprio": "joint",
+      "role": "camera panel",
+      "archive": "collect_wrist",
+      "collection": "B",
+      "seeds": [
+        {
+          "seed": 0,
+          "run": "act_eef_delta_w",
+          "eval_tag": "act_eef_delta_w",
+          "radial": {
+            "n": 70,
+            "escaped": 70,
+            "approached": 27,
+            "completed": 25,
+            "mean_approach": 0.3021727226928547,
+            "median_approach": 0.0,
+            "approach_threshold_counts": {
+              "0.1": 27,
+              "0.25": 27,
+              "0.75": 15
+            },
+            "bands": {
+              "5": {
+                "n": 14,
+                "median_approach": 0.7398309629521399,
+                "completed": 14
+              },
+              "10": {
+                "n": 14,
+                "median_approach": 0.8056320897332518,
+                "completed": 11
+              },
+              "15": {
+                "n": 14,
+                "median_approach": 0.0,
+                "completed": 0
+              },
+              "20": {
+                "n": 14,
+                "median_approach": 0.0,
+                "completed": 0
+              },
+              "25": {
+                "n": 14,
+                "median_approach": 0.0,
+                "completed": 0
+              }
+            }
+          },
+          "angular": {
+            "n": 48,
+            "escaped": 48,
+            "approached": 40,
+            "completed": 31,
+            "mean_approach": 0.7894328107052273,
+            "median_approach": 0.9562874063699791,
+            "approach_threshold_counts": {
+              "0.1": 40,
+              "0.25": 40,
+              "0.75": 39
+            },
+            "bands": {
+              "6": {
+                "n": 4,
+                "median_approach": 0.9023758461059668,
+                "completed": 4
+              },
+              "7": {
+                "n": 4,
+                "median_approach": 0.9693964221160674,
+                "completed": 4
+              },
+              "8": {
+                "n": 4,
+                "median_approach": 0.9620611869215532,
+                "completed": 4
+              },
+              "9": {
+                "n": 4,
+                "median_approach": 0.9633427101252896,
+                "completed": 4
+              },
+              "12": {
+                "n": 4,
+                "median_approach": 0.9627994557053339,
+                "completed": 2
+              },
+              "14": {
+                "n": 4,
+                "median_approach": 0.9758819781934245,
+                "completed": 2
+              },
+              "16": {
+                "n": 4,
+                "median_approach": 0.9249206795610034,
+                "completed": 4
+              },
+              "17": {
+                "n": 4,
+                "median_approach": 0.953772244294401,
+                "completed": 2
+              },
+              "18": {
+                "n": 4,
+                "median_approach": 0.48462571653233094,
+                "completed": 2
+              },
+              "21": {
+                "n": 4,
+                "median_approach": 0.491826443684665,
+                "completed": 2
+              },
+              "24": {
+                "n": 4,
+                "median_approach": 0.48934746456583733,
+                "completed": 1
+              },
+              "26": {
+                "n": 4,
+                "median_approach": 0.44580784624168035,
+                "completed": 0
+              }
+            }
+          },
+          "train": {
+            "n": 56,
+            "completed": 56
+          },
+          "interior": {
+            "n": 42,
+            "completed": 42
+          }
+        },
+        {
+          "seed": 1,
+          "run": "act_eef_delta_w_s1",
+          "eval_tag": "act_eef_delta_w_s1",
+          "radial": {
+            "n": 70,
+            "escaped": 64,
+            "approached": 43,
+            "completed": 37,
+            "mean_approach": 0.5531476344288535,
+            "median_approach": 0.8133420568497831,
+            "approach_threshold_counts": {
+              "0.1": 43,
+              "0.25": 43,
+              "0.75": 39
+            },
+            "bands": {
+              "5": {
+                "n": 14,
+                "median_approach": 0.8335898337804101,
+                "completed": 14
+              },
+              "10": {
+                "n": 14,
+                "median_approach": 0.9431596274186113,
+                "completed": 12
+              },
+              "15": {
+                "n": 14,
+                "median_approach": 0.9483231956933327,
+                "completed": 8
+              },
+              "20": {
+                "n": 14,
+                "median_approach": 0.0,
+                "completed": 3
+              },
+              "25": {
+                "n": 14,
+                "median_approach": 0.0,
+                "completed": 0
+              }
+            }
+          },
+          "angular": {
+            "n": 48,
+            "escaped": 48,
+            "approached": 48,
+            "completed": 40,
+            "mean_approach": 0.9469659563789304,
+            "median_approach": 0.9583393978944239,
+            "approach_threshold_counts": {
+              "0.1": 48,
+              "0.25": 48,
+              "0.75": 48
+            },
+            "bands": {
+              "6": {
+                "n": 4,
+                "median_approach": 0.9250913430715609,
+                "completed": 4
+              },
+              "7": {
+                "n": 4,
+                "median_approach": 0.9489118819444733,
+                "completed": 4
+              },
+              "8": {
+                "n": 4,
+                "median_approach": 0.9341863955245826,
+                "completed": 4
+              },
+              "9": {
+                "n": 4,
+                "median_approach": 0.9174098322646318,
+                "completed": 4
+              },
+              "12": {
+                "n": 4,
+                "median_approach": 0.953511303316524,
+                "completed": 3
+              },
+              "14": {
+                "n": 4,
+                "median_approach": 0.9815235100064135,
+                "completed": 4
+              },
+              "16": {
+                "n": 4,
+                "median_approach": 0.9649432982125765,
+                "completed": 4
+              },
+              "17": {
+                "n": 4,
+                "median_approach": 0.9708515012463255,
+                "completed": 3
+              },
+              "18": {
+                "n": 4,
+                "median_approach": 0.9607617324521984,
+                "completed": 1
+              },
+              "21": {
+                "n": 4,
+                "median_approach": 0.900598460461907,
+                "completed": 1
+              },
+              "24": {
+                "n": 4,
+                "median_approach": 0.9437964001997425,
+                "completed": 4
+              },
+              "26": {
+                "n": 4,
+                "median_approach": 0.9530646345135072,
+                "completed": 4
+              }
+            }
+          },
+          "train": {
+            "n": 56,
+            "completed": 56
+          },
+          "interior": {
+            "n": 42,
+            "completed": 42
+          }
+        },
+        {
+          "seed": 2,
+          "run": "act_eef_delta_w_s2",
+          "eval_tag": "act_eef_delta_w_s2",
+          "radial": {
+            "n": 70,
+            "escaped": 63,
+            "approached": 40,
+            "completed": 31,
+            "mean_approach": 0.4914689553471079,
+            "median_approach": 0.7001664925318478,
+            "approach_threshold_counts": {
+              "0.1": 41,
+              "0.25": 40,
+              "0.75": 30
+            },
+            "bands": {
+              "5": {
+                "n": 14,
+                "median_approach": 0.7234639745400296,
+                "completed": 14
+              },
+              "10": {
+                "n": 14,
+                "median_approach": 0.9362450800889253,
+                "completed": 11
+              },
+              "15": {
+                "n": 14,
+                "median_approach": 0.8787322674292304,
+                "completed": 5
+              },
+              "20": {
+                "n": 14,
+                "median_approach": 0.0,
+                "completed": 1
+              },
+              "25": {
+                "n": 14,
+                "median_approach": 0.0,
+                "completed": 0
+              }
+            }
+          },
+          "angular": {
+            "n": 48,
+            "escaped": 48,
+            "approached": 47,
+            "completed": 19,
+            "mean_approach": 0.7854449297967873,
+            "median_approach": 0.9127141004919999,
+            "approach_threshold_counts": {
+              "0.1": 48,
+              "0.25": 47,
+              "0.75": 33
+            },
+            "bands": {
+              "6": {
+                "n": 4,
+                "median_approach": 0.9368885799504465,
+                "completed": 4
+              },
+              "7": {
+                "n": 4,
+                "median_approach": 0.910982031143985,
+                "completed": 4
+              },
+              "8": {
+                "n": 4,
+                "median_approach": 0.971821466969627,
+                "completed": 3
+              },
+              "9": {
+                "n": 4,
+                "median_approach": 0.9351364166606166,
+                "completed": 4
+              },
+              "12": {
+                "n": 4,
+                "median_approach": 0.7994304109130299,
+                "completed": 0
+              },
+              "14": {
+                "n": 4,
+                "median_approach": 0.9560879792869248,
+                "completed": 2
+              },
+              "16": {
+                "n": 4,
+                "median_approach": 0.898956722696097,
+                "completed": 1
+              },
+              "17": {
+                "n": 4,
+                "median_approach": 0.882049332627698,
+                "completed": 1
+              },
+              "18": {
+                "n": 4,
+                "median_approach": 0.35275373690130996,
+                "completed": 0
+              },
+              "21": {
+                "n": 4,
+                "median_approach": 0.5247666989620166,
+                "completed": 0
+              },
+              "24": {
+                "n": 4,
+                "median_approach": 0.9573967031660693,
+                "completed": 0
+              },
+              "26": {
+                "n": 4,
+                "median_approach": 0.385622807185445,
+                "completed": 0
+              }
+            }
+          },
+          "train": {
+            "n": 56,
+            "completed": 56
+          },
+          "interior": {
+            "n": 42,
+            "completed": 42
+          }
+        }
+      ]
+    },
+    {
+      "frame": "EEF",
+      "arm_command": "residual",
+      "gripper_command": "absolute",
+      "cameras": "wrist",
+      "proprio": "joint",
+      "role": "camera panel",
+      "archive": "collect_wrist",
+      "collection": "B",
+      "seeds": [
+        {
+          "seed": 0,
+          "run": "act_eef_delta_wo",
+          "eval_tag": "act_eef_delta_wo",
+          "radial": {
+            "n": 70,
+            "escaped": 70,
+            "approached": 40,
+            "completed": 27,
+            "mean_approach": 0.47873990973152775,
+            "median_approach": 0.6832492062591042,
+            "approach_threshold_counts": {
+              "0.1": 40,
+              "0.25": 40,
+              "0.75": 30
+            },
+            "bands": {
+              "5": {
+                "n": 14,
+                "median_approach": 0.7348716124324847,
+                "completed": 13
+              },
+              "10": {
+                "n": 14,
+                "median_approach": 0.9081392188363873,
+                "completed": 13
+              },
+              "15": {
+                "n": 14,
+                "median_approach": 0.895540962930983,
+                "completed": 1
+              },
+              "20": {
+                "n": 14,
+                "median_approach": 0.0,
+                "completed": 0
+              },
+              "25": {
+                "n": 14,
+                "median_approach": 0.0,
+                "completed": 0
+              }
+            }
+          },
+          "angular": {
+            "n": 48,
+            "escaped": 48,
+            "approached": 39,
+            "completed": 25,
+            "mean_approach": 0.6971824828619329,
+            "median_approach": 0.9029844410938732,
+            "approach_threshold_counts": {
+              "0.1": 39,
+              "0.25": 39,
+              "0.75": 34
+            },
+            "bands": {
+              "6": {
+                "n": 4,
+                "median_approach": 0.9158592171801903,
+                "completed": 3
+              },
+              "7": {
+                "n": 4,
+                "median_approach": 0.9442351016356811,
+                "completed": 4
+              },
+              "8": {
+                "n": 4,
+                "median_approach": 0.9193144108154345,
+                "completed": 4
+              },
+              "9": {
+                "n": 4,
+                "median_approach": 0.9272949568291048,
+                "completed": 4
+              },
+              "12": {
+                "n": 4,
+                "median_approach": 0.45564314621879737,
+                "completed": 1
+              },
+              "14": {
+                "n": 4,
+                "median_approach": 0.490410181036484,
+                "completed": 2
+              },
+              "16": {
+                "n": 4,
+                "median_approach": 0.9392212825178727,
+                "completed": 3
+              },
+              "17": {
+                "n": 4,
+                "median_approach": 0.9282194291739845,
+                "completed": 3
+              },
+              "18": {
+                "n": 4,
+                "median_approach": 0.47412937230649393,
+                "completed": 0
+              },
+              "21": {
+                "n": 4,
+                "median_approach": 0.36030425892345525,
+                "completed": 0
+              },
+              "24": {
+                "n": 4,
+                "median_approach": 0.5474994673355766,
+                "completed": 1
+              },
+              "26": {
+                "n": 4,
+                "median_approach": 0.5620817505084904,
+                "completed": 0
+              }
+            }
+          },
+          "train": {
+            "n": 56,
+            "completed": 56
+          },
+          "interior": {
+            "n": 42,
+            "completed": 42
+          }
+        },
+        {
+          "seed": 1,
+          "run": "act_eef_delta_wo_s1",
+          "eval_tag": "act_eef_delta_wo_s1",
+          "radial": {
+            "n": 70,
+            "escaped": 70,
+            "approached": 38,
+            "completed": 24,
+            "mean_approach": 0.45584157956708166,
+            "median_approach": 0.7037671043637874,
+            "approach_threshold_counts": {
+              "0.1": 38,
+              "0.25": 38,
+              "0.75": 35
+            },
+            "bands": {
+              "5": {
+                "n": 14,
+                "median_approach": 0.8659509970706638,
+                "completed": 14
+              },
+              "10": {
+                "n": 14,
+                "median_approach": 0.8810982648040231,
+                "completed": 9
+              },
+              "15": {
+                "n": 14,
+                "median_approach": 0.15787926802065672,
+                "completed": 1
+              },
+              "20": {
+                "n": 14,
+                "median_approach": 0.0,
+                "completed": 0
+              },
+              "25": {
+                "n": 14,
+                "median_approach": 0.0,
+                "completed": 0
+              }
+            }
+          },
+          "angular": {
+            "n": 48,
+            "escaped": 47,
+            "approached": 26,
+            "completed": 17,
+            "mean_approach": 0.49627032738719734,
+            "median_approach": 0.7480904062881345,
+            "approach_threshold_counts": {
+              "0.1": 26,
+              "0.25": 26,
+              "0.75": 24
+            },
+            "bands": {
+              "6": {
+                "n": 4,
+                "median_approach": 0.4472932601523319,
+                "completed": 2
+              },
+              "7": {
+                "n": 4,
+                "median_approach": 0.8835850950581525,
+                "completed": 3
+              },
+              "8": {
+                "n": 4,
+                "median_approach": 0.478010793892588,
+                "completed": 2
+              },
+              "9": {
+                "n": 4,
+                "median_approach": 0.9398762543205712,
+                "completed": 3
+              },
+              "12": {
+                "n": 4,
+                "median_approach": 0.4553822270690539,
+                "completed": 1
+              },
+              "14": {
+                "n": 4,
+                "median_approach": 0.4715290185584712,
+                "completed": 2
+              },
+              "16": {
+                "n": 4,
+                "median_approach": 0.44817660399736986,
+                "completed": 0
+              },
+              "17": {
+                "n": 4,
+                "median_approach": 0.4867274431826025,
+                "completed": 0
+              },
+              "18": {
+                "n": 4,
+                "median_approach": 0.40765067725557114,
+                "completed": 1
+              },
+              "21": {
+                "n": 4,
+                "median_approach": 0.4580426624715336,
+                "completed": 1
+              },
+              "24": {
+                "n": 4,
+                "median_approach": 0.4913202460982864,
+                "completed": 2
+              },
+              "26": {
+                "n": 4,
+                "median_approach": 0.31253110208969587,
+                "completed": 0
+              }
+            }
+          },
+          "train": {
+            "n": 56,
+            "completed": 56
+          },
+          "interior": {
+            "n": 42,
+            "completed": 42
+          }
+        },
+        {
+          "seed": 2,
+          "run": "act_eef_delta_wo_s2",
+          "eval_tag": "act_eef_delta_wo_s2",
+          "radial": {
+            "n": 70,
+            "escaped": 70,
+            "approached": 39,
+            "completed": 32,
+            "mean_approach": 0.4881305633252037,
+            "median_approach": 0.7993514138576355,
+            "approach_threshold_counts": {
+              "0.1": 39,
+              "0.25": 39,
+              "0.75": 38
+            },
+            "bands": {
+              "5": {
+                "n": 14,
+                "median_approach": 0.8393898841649601,
+                "completed": 14
+              },
+              "10": {
+                "n": 14,
+                "median_approach": 0.8549289038003982,
+                "completed": 13
+              },
+              "15": {
+                "n": 14,
+                "median_approach": 0.9052242769685239,
+                "completed": 5
+              },
+              "20": {
+                "n": 14,
+                "median_approach": 0.0,
+                "completed": 0
+              },
+              "25": {
+                "n": 14,
+                "median_approach": 0.0,
+                "completed": 0
+              }
+            }
+          },
+          "angular": {
+            "n": 48,
+            "escaped": 48,
+            "approached": 38,
+            "completed": 21,
+            "mean_approach": 0.6863045592652796,
+            "median_approach": 0.9038403480441997,
+            "approach_threshold_counts": {
+              "0.1": 39,
+              "0.25": 38,
+              "0.75": 32
+            },
+            "bands": {
+              "6": {
+                "n": 4,
+                "median_approach": 0.8824004001725965,
+                "completed": 2
+              },
+              "7": {
+                "n": 4,
+                "median_approach": 0.9269307405482359,
+                "completed": 3
+              },
+              "8": {
+                "n": 4,
+                "median_approach": 0.9130639183209673,
+                "completed": 4
+              },
+              "9": {
+                "n": 4,
+                "median_approach": 0.9679797434426319,
+                "completed": 4
+              },
+              "12": {
+                "n": 4,
+                "median_approach": 0.9184609228775611,
+                "completed": 2
+              },
+              "14": {
+                "n": 4,
+                "median_approach": 0.9441583987690155,
+                "completed": 2
+              },
+              "16": {
+                "n": 4,
+                "median_approach": 0.9344489063322399,
+                "completed": 2
+              },
+              "17": {
+                "n": 4,
+                "median_approach": 0.9191811345874896,
+                "completed": 2
+              },
+              "18": {
+                "n": 4,
+                "median_approach": 0.1001028899126657,
+                "completed": 0
+              },
+              "21": {
+                "n": 4,
+                "median_approach": 0.19146362372899928,
+                "completed": 0
+              },
+              "24": {
+                "n": 4,
+                "median_approach": 0.32289773016195533,
+                "completed": 0
+              },
+              "26": {
+                "n": 4,
+                "median_approach": 0.7255957895591333,
+                "completed": 0
+              }
+            }
+          },
+          "train": {
+            "n": 56,
+            "completed": 56
+          },
+          "interior": {
+            "n": 42,
+            "completed": 42
+          }
+        }
+      ]
+    }
+  ],
+  "controls": [
+    {
+      "frame": "EEF",
+      "arm_command": "residual",
+      "gripper_command": "absolute",
+      "cameras": "wrist",
+      "proprio": "none",
+      "collection": "B",
+      "role": "supplement",
+      "seeds": [
+        {
+          "seed": 0,
+          "run": "act_eef_delta_wo_np",
+          "eval_tag": "act_eef_delta_wo_np",
+          "radial": {
+            "n": 70,
+            "escaped": 70,
+            "approached": 42,
+            "completed": 24,
+            "mean_approach": 0.4750170946308139,
+            "median_approach": 0.6485902183611612,
+            "approach_threshold_counts": {
+              "0.1": 44,
+              "0.25": 42,
+              "0.75": 28
+            },
+            "bands": {
+              "5": {
+                "n": 14,
+                "median_approach": 0.72421990238502,
+                "completed": 14
+              },
+              "10": {
+                "n": 14,
+                "median_approach": 0.9555678341506748,
+                "completed": 10
+              },
+              "15": {
+                "n": 14,
+                "median_approach": 0.7734265256178151,
+                "completed": 0
+              },
+              "20": {
+                "n": 14,
+                "median_approach": 0.0,
+                "completed": 0
+              },
+              "25": {
+                "n": 14,
+                "median_approach": 0.0,
+                "completed": 0
+              }
+            }
+          },
+          "angular": {
+            "n": 48,
+            "escaped": 48,
+            "approached": 34,
+            "completed": 15,
+            "mean_approach": 0.5681073657176343,
+            "median_approach": 0.7688471679812676,
+            "approach_threshold_counts": {
+              "0.1": 34,
+              "0.25": 34,
+              "0.75": 25
+            },
+            "bands": {
+              "6": {
+                "n": 4,
+                "median_approach": 0.6978639626259786,
+                "completed": 1
+              },
+              "7": {
+                "n": 4,
+                "median_approach": 0.8742715658105344,
+                "completed": 4
+              },
+              "8": {
+                "n": 4,
+                "median_approach": 0.9151754739431186,
+                "completed": 4
+              },
+              "9": {
+                "n": 4,
+                "median_approach": 0.9274829932782248,
+                "completed": 4
+              },
+              "12": {
+                "n": 4,
+                "median_approach": 0.27510207122309827,
+                "completed": 0
+              },
+              "14": {
+                "n": 4,
+                "median_approach": 0.2768468889756013,
+                "completed": 1
+              },
+              "16": {
+                "n": 4,
+                "median_approach": 0.877243292259579,
+                "completed": 0
+              },
+              "17": {
+                "n": 4,
+                "median_approach": 0.7916032608709908,
+                "completed": 1
+              },
+              "18": {
+                "n": 4,
+                "median_approach": 0.0,
+                "completed": 0
+              },
+              "21": {
+                "n": 4,
+                "median_approach": 0.25962669558816054,
+                "completed": 0
+              },
+              "24": {
+                "n": 4,
+                "median_approach": 0.26691319002843905,
+                "completed": 0
+              },
+              "26": {
+                "n": 4,
+                "median_approach": 0.3652116143483546,
+                "completed": 0
+              }
+            }
+          },
+          "train": {
+            "n": 56,
+            "completed": 56
+          },
+          "interior": {
+            "n": 42,
+            "completed": 42
+          }
+        },
+        {
+          "seed": 1,
+          "run": "act_eef_delta_wo_np_s1",
+          "eval_tag": "act_eef_delta_wo_np_s1",
+          "radial": {
+            "n": 70,
+            "escaped": 70,
+            "approached": 38,
+            "completed": 17,
+            "mean_approach": 0.4432507816936988,
+            "median_approach": 0.6139419503685168,
+            "approach_threshold_counts": {
+              "0.1": 41,
+              "0.25": 38,
+              "0.75": 28
+            },
+            "bands": {
+              "5": {
+                "n": 14,
+                "median_approach": 0.8120151529958461,
+                "completed": 13
+              },
+              "10": {
+                "n": 14,
+                "median_approach": 0.8980972104561605,
+                "completed": 3
+              },
+              "15": {
+                "n": 14,
+                "median_approach": 0.5253402471642756,
+                "completed": 1
+              },
+              "20": {
+                "n": 14,
+                "median_approach": 0.0,
+                "completed": 0
+              },
+              "25": {
+                "n": 14,
+                "median_approach": 0.0,
+                "completed": 0
+              }
+            }
+          },
+          "angular": {
+            "n": 48,
+            "escaped": 48,
+            "approached": 31,
+            "completed": 9,
+            "mean_approach": 0.48946818516068724,
+            "median_approach": 0.6220826645556661,
+            "approach_threshold_counts": {
+              "0.1": 32,
+              "0.25": 31,
+              "0.75": 16
+            },
+            "bands": {
+              "6": {
+                "n": 4,
+                "median_approach": 0.4155618617374382,
+                "completed": 1
+              },
+              "7": {
+                "n": 4,
+                "median_approach": 0.9484326611778711,
+                "completed": 3
+              },
+              "8": {
+                "n": 4,
+                "median_approach": 0.9378819205933348,
+                "completed": 3
+              },
+              "9": {
+                "n": 4,
+                "median_approach": 0.9463841346303565,
+                "completed": 2
+              },
+              "12": {
+                "n": 4,
+                "median_approach": 0.20032187419494957,
+                "completed": 0
+              },
+              "14": {
+                "n": 4,
+                "median_approach": 0.31727845190098053,
+                "completed": 0
+              },
+              "16": {
+                "n": 4,
+                "median_approach": 0.5395598963384649,
+                "completed": 0
+              },
+              "17": {
+                "n": 4,
+                "median_approach": 0.8150382079480659,
+                "completed": 0
+              },
+              "18": {
+                "n": 4,
+                "median_approach": 0.0,
+                "completed": 0
+              },
+              "21": {
+                "n": 4,
+                "median_approach": 0.21892034451432113,
+                "completed": 0
+              },
+              "24": {
+                "n": 4,
+                "median_approach": 0.0,
+                "completed": 0
+              },
+              "26": {
+                "n": 4,
+                "median_approach": 0.3641668242941325,
+                "completed": 0
+              }
+            }
+          },
+          "train": {
+            "n": 56,
+            "completed": 56
+          },
+          "interior": {
+            "n": 42,
+            "completed": 42
+          }
+        },
+        {
+          "seed": 2,
+          "run": "act_eef_delta_wo_np_s2",
+          "eval_tag": "act_eef_delta_wo_np_s2",
+          "radial": {
+            "n": 70,
+            "escaped": 70,
+            "approached": 38,
+            "completed": 29,
+            "mean_approach": 0.49618836873400624,
+            "median_approach": 0.8127028376274515,
+            "approach_threshold_counts": {
+              "0.1": 38,
+              "0.25": 38,
+              "0.75": 38
+            },
+            "bands": {
+              "5": {
+                "n": 14,
+                "median_approach": 0.8469657759748278,
+                "completed": 14
+              },
+              "10": {
+                "n": 14,
+                "median_approach": 0.9348023277874228,
+                "completed": 10
+              },
+              "15": {
+                "n": 14,
+                "median_approach": 0.883533420822197,
+                "completed": 3
+              },
+              "20": {
+                "n": 14,
+                "median_approach": 0.0,
+                "completed": 2
+              },
+              "25": {
+                "n": 14,
+                "median_approach": 0.0,
+                "completed": 0
+              }
+            }
+          },
+          "angular": {
+            "n": 48,
+            "escaped": 48,
+            "approached": 35,
+            "completed": 20,
+            "mean_approach": 0.6220710522268771,
+            "median_approach": 0.857077739018131,
+            "approach_threshold_counts": {
+              "0.1": 37,
+              "0.25": 35,
+              "0.75": 27
+            },
+            "bands": {
+              "6": {
+                "n": 4,
+                "median_approach": 0.9167081036791229,
+                "completed": 3
+              },
+              "7": {
+                "n": 4,
+                "median_approach": 0.9319975333283261,
+                "completed": 3
+              },
+              "8": {
+                "n": 4,
+                "median_approach": 0.9395139578770257,
+                "completed": 4
+              },
+              "9": {
+                "n": 4,
+                "median_approach": 0.9597332098548892,
+                "completed": 4
+              },
+              "12": {
+                "n": 4,
+                "median_approach": 0.23315410939168335,
+                "completed": 0
+              },
+              "14": {
+                "n": 4,
+                "median_approach": 0.47766621419770705,
+                "completed": 1
+              },
+              "16": {
+                "n": 4,
+                "median_approach": 0.9618841846714252,
+                "completed": 4
+              },
+              "17": {
+                "n": 4,
+                "median_approach": 0.8561914356102052,
+                "completed": 1
+              },
+              "18": {
+                "n": 4,
+                "median_approach": 0.47602006724792933,
+                "completed": 0
+              },
+              "21": {
+                "n": 4,
+                "median_approach": 0.13741142955079239,
+                "completed": 0
+              },
+              "24": {
+                "n": 4,
+                "median_approach": 0.04582474123607788,
+                "completed": 0
+              },
+              "26": {
+                "n": 4,
+                "median_approach": 0.3920769142279019,
+                "completed": 0
+              }
+            }
+          },
+          "train": {
+            "n": 56,
+            "completed": 56
+          },
+          "interior": {
+            "n": 42,
+            "completed": 42
+          }
+        }
+      ]
+    },
+    {
+      "frame": "joint",
+      "arm_command": "absolute",
+      "gripper_command": "absolute",
+      "cameras": "head",
+      "proprio": "none",
+      "collection": "A",
+      "role": "supplement",
+      "seeds": [
+        {
+          "seed": 0,
+          "run": "act_joint_abs_h_np",
+          "eval_tag": "act_joint_abs_h_np",
+          "radial": {
+            "n": 70,
+            "escaped": 0,
+            "approached": 0,
+            "completed": 0,
+            "mean_approach": 0.0,
+            "median_approach": 0.0,
+            "approach_threshold_counts": {
+              "0.1": 0,
+              "0.25": 0,
+              "0.75": 0
+            },
+            "bands": {
+              "5": {
+                "n": 14,
+                "median_approach": 0.0,
+                "completed": 0
+              },
+              "10": {
+                "n": 14,
+                "median_approach": 0.0,
+                "completed": 0
+              },
+              "15": {
+                "n": 14,
+                "median_approach": 0.0,
+                "completed": 0
+              },
+              "20": {
+                "n": 14,
+                "median_approach": 0.0,
+                "completed": 0
+              },
+              "25": {
+                "n": 14,
+                "median_approach": 0.0,
+                "completed": 0
+              }
+            }
+          },
+          "angular": {
+            "n": 48,
+            "escaped": 0,
+            "approached": 0,
+            "completed": 0,
+            "mean_approach": 0.0,
+            "median_approach": 0.0,
+            "approach_threshold_counts": {
+              "0.1": 0,
+              "0.25": 0,
+              "0.75": 0
+            },
+            "bands": {
+              "6": {
+                "n": 4,
+                "median_approach": 0.0,
+                "completed": 0
+              },
+              "7": {
+                "n": 4,
+                "median_approach": 0.0,
+                "completed": 0
+              },
+              "8": {
+                "n": 4,
+                "median_approach": 0.0,
+                "completed": 0
+              },
+              "9": {
+                "n": 4,
+                "median_approach": 0.0,
+                "completed": 0
+              },
+              "12": {
+                "n": 4,
+                "median_approach": 0.0,
+                "completed": 0
+              },
+              "14": {
+                "n": 4,
+                "median_approach": 0.0,
+                "completed": 0
+              },
+              "16": {
+                "n": 4,
+                "median_approach": 0.0,
+                "completed": 0
+              },
+              "17": {
+                "n": 4,
+                "median_approach": 0.0,
+                "completed": 0
+              },
+              "18": {
+                "n": 4,
+                "median_approach": 0.0,
+                "completed": 0
+              },
+              "21": {
+                "n": 4,
+                "median_approach": 0.0,
+                "completed": 0
+              },
+              "24": {
+                "n": 4,
+                "median_approach": 0.0,
+                "completed": 0
+              },
+              "26": {
+                "n": 4,
+                "median_approach": 0.0,
+                "completed": 0
+              }
+            }
+          },
+          "train": {
+            "n": 56,
+            "completed": 48
+          },
+          "interior": {
+            "n": 42,
+            "completed": 41
+          }
+        },
+        {
+          "seed": 1,
+          "run": "act_joint_abs_h_np_s1",
+          "eval_tag": "act_joint_abs_h_np_s1",
+          "radial": {
+            "n": 70,
+            "escaped": 0,
+            "approached": 0,
+            "completed": 0,
+            "mean_approach": 0.0,
+            "median_approach": 0.0,
+            "approach_threshold_counts": {
+              "0.1": 0,
+              "0.25": 0,
+              "0.75": 0
+            },
+            "bands": {
+              "5": {
+                "n": 14,
+                "median_approach": 0.0,
+                "completed": 0
+              },
+              "10": {
+                "n": 14,
+                "median_approach": 0.0,
+                "completed": 0
+              },
+              "15": {
+                "n": 14,
+                "median_approach": 0.0,
+                "completed": 0
+              },
+              "20": {
+                "n": 14,
+                "median_approach": 0.0,
+                "completed": 0
+              },
+              "25": {
+                "n": 14,
+                "median_approach": 0.0,
+                "completed": 0
+              }
+            }
+          },
+          "angular": {
+            "n": 48,
+            "escaped": 0,
+            "approached": 0,
+            "completed": 0,
+            "mean_approach": 0.0,
+            "median_approach": 0.0,
+            "approach_threshold_counts": {
+              "0.1": 0,
+              "0.25": 0,
+              "0.75": 0
+            },
+            "bands": {
+              "6": {
+                "n": 4,
+                "median_approach": 0.0,
+                "completed": 0
+              },
+              "7": {
+                "n": 4,
+                "median_approach": 0.0,
+                "completed": 0
+              },
+              "8": {
+                "n": 4,
+                "median_approach": 0.0,
+                "completed": 0
+              },
+              "9": {
+                "n": 4,
+                "median_approach": 0.0,
+                "completed": 0
+              },
+              "12": {
+                "n": 4,
+                "median_approach": 0.0,
+                "completed": 0
+              },
+              "14": {
+                "n": 4,
+                "median_approach": 0.0,
+                "completed": 0
+              },
+              "16": {
+                "n": 4,
+                "median_approach": 0.0,
+                "completed": 0
+              },
+              "17": {
+                "n": 4,
+                "median_approach": 0.0,
+                "completed": 0
+              },
+              "18": {
+                "n": 4,
+                "median_approach": 0.0,
+                "completed": 0
+              },
+              "21": {
+                "n": 4,
+                "median_approach": 0.0,
+                "completed": 0
+              },
+              "24": {
+                "n": 4,
+                "median_approach": 0.0,
+                "completed": 0
+              },
+              "26": {
+                "n": 4,
+                "median_approach": 0.0,
+                "completed": 0
+              }
+            }
+          },
+          "train": {
+            "n": 56,
+            "completed": 55
+          },
+          "interior": {
+            "n": 42,
+            "completed": 42
+          }
+        },
+        {
+          "seed": 2,
+          "run": "act_joint_abs_h_np_s2",
+          "eval_tag": "act_joint_abs_h_np_s2",
+          "radial": {
+            "n": 70,
+            "escaped": 0,
+            "approached": 0,
+            "completed": 0,
+            "mean_approach": 0.0,
+            "median_approach": 0.0,
+            "approach_threshold_counts": {
+              "0.1": 0,
+              "0.25": 0,
+              "0.75": 0
+            },
+            "bands": {
+              "5": {
+                "n": 14,
+                "median_approach": 0.0,
+                "completed": 0
+              },
+              "10": {
+                "n": 14,
+                "median_approach": 0.0,
+                "completed": 0
+              },
+              "15": {
+                "n": 14,
+                "median_approach": 0.0,
+                "completed": 0
+              },
+              "20": {
+                "n": 14,
+                "median_approach": 0.0,
+                "completed": 0
+              },
+              "25": {
+                "n": 14,
+                "median_approach": 0.0,
+                "completed": 0
+              }
+            }
+          },
+          "angular": {
+            "n": 48,
+            "escaped": 0,
+            "approached": 0,
+            "completed": 0,
+            "mean_approach": 0.0,
+            "median_approach": 0.0,
+            "approach_threshold_counts": {
+              "0.1": 0,
+              "0.25": 0,
+              "0.75": 0
+            },
+            "bands": {
+              "6": {
+                "n": 4,
+                "median_approach": 0.0,
+                "completed": 0
+              },
+              "7": {
+                "n": 4,
+                "median_approach": 0.0,
+                "completed": 0
+              },
+              "8": {
+                "n": 4,
+                "median_approach": 0.0,
+                "completed": 0
+              },
+              "9": {
+                "n": 4,
+                "median_approach": 0.0,
+                "completed": 0
+              },
+              "12": {
+                "n": 4,
+                "median_approach": 0.0,
+                "completed": 0
+              },
+              "14": {
+                "n": 4,
+                "median_approach": 0.0,
+                "completed": 0
+              },
+              "16": {
+                "n": 4,
+                "median_approach": 0.0,
+                "completed": 0
+              },
+              "17": {
+                "n": 4,
+                "median_approach": 0.0,
+                "completed": 0
+              },
+              "18": {
+                "n": 4,
+                "median_approach": 0.0,
+                "completed": 0
+              },
+              "21": {
+                "n": 4,
+                "median_approach": 0.0,
+                "completed": 0
+              },
+              "24": {
+                "n": 4,
+                "median_approach": 0.0,
+                "completed": 0
+              },
+              "26": {
+                "n": 4,
+                "median_approach": 0.0,
+                "completed": 0
+              }
+            }
+          },
+          "train": {
+            "n": 56,
+            "completed": 56
+          },
+          "interior": {
+            "n": 42,
+            "completed": 42
+          }
+        }
+      ]
+    }
+  ],
+  "diagnostics": {
+    "expert": {
+      "strict": 216,
+      "terminal": 216,
+      "n": 216,
+      "radial": [
+        0.9134741880670925,
+        0.9799123763075541
+      ],
+      "angular": [
+        0.9675077433065067,
+        0.9877867067980032
+      ]
+    },
+    "stage_order_violations": [
+      {
+        "run": "act_eef_chunk_s2",
+        "params": {
+          "r": 0.575,
+          "theta_deg": 0.0
+        },
+        "episode": 1,
+        "escape_m": 0.012898624277846493,
+        "approach": 0.22800777205984657,
+        "strict_completion": true,
+        "target_xy": [
+          0.575,
+          0.0
+        ],
+        "final_object_xy": [
+          [
+            0.5441,
+            -0.0741
+          ]
+        ]
+      }
+    ],
+    "native_test_successes": 506,
+    "strict_test_completions": 495,
+    "approach_3d_radial": {
+      "lift": [
+        241,
+        0.021704607805717164
+      ],
+      "approach_no_lift": [
+        663,
+        0.06224877508835016
+      ],
+      "rest": [
+        1826,
+        0.17064710545823691
+      ]
+    },
+    "push_check": {
+      "failed": 4107,
+      "hi": 1106,
+      "hi_moved_1cm": 94,
+      "hi_moved_5cm": 27,
+      "reclassified": 7
+    },
+    "grasp_height": [
+      495,
+      0.17550000000000002,
+      {
+        "0.02": 482,
+        "0.03": 461
+      }
+    ],
+    "envelope_sensitivity": {
+      "0": {
+        "act": [
+          26,
+          0,
+          2
+        ],
+        "act_s1": [
+          30,
+          0,
+          3
+        ],
+        "act_s2": [
+          20,
+          0,
+          4
+        ],
+        "act_joint_delta_absgrip": [
+          68,
+          56,
+          26
+        ],
+        "act_joint_delta_absgrip_s1": [
+          58,
+          38,
+          36
+        ],
+        "act_joint_delta_absgrip_s2": [
+          68,
+          65,
+          30
+        ],
+        "act_eef_abs": [
+          46,
+          4,
+          4
+        ],
+        "act_eef_abs_s1": [
+          60,
+          5,
+          11
+        ],
+        "act_eef_abs_s2": [
+          40,
+          4,
+          6
+        ],
+        "act_eef_delta_h": [
+          66,
+          54,
+          43
+        ],
+        "act_eef_delta_h_s1": [
+          70,
+          65,
+          38
+        ],
+        "act_eef_delta_h_s2": [
+          70,
+          60,
+          43
+        ],
+        "act_eef_abs_rotvec": [
+          47,
+          4,
+          3
+        ],
+        "act_eef_abs_rotvec_s1": [
+          52,
+          4,
+          5
+        ],
+        "act_eef_abs_rotvec_s2": [
+          47,
+          4,
+          5
+        ],
+        "act_joint_chunk": [
+          57,
+          35,
+          32
+        ],
+        "act_joint_chunk_s1": [
+          59,
+          36,
+          37
+        ],
+        "act_joint_chunk_s2": [
+          61,
+          37,
+          33
+        ],
+        "act_eef_chunk": [
+          66,
+          42,
+          32
+        ],
+        "act_eef_chunk_s1": [
+          70,
+          60,
+          30
+        ],
+        "act_eef_chunk_s2": [
+          69,
+          52,
+          41
+        ],
+        "act_eef_abs_hcw": [
+          48,
+          6,
+          9
+        ],
+        "act_eef_abs_hcw_s1": [
+          57,
+          4,
+          10
+        ],
+        "act_eef_abs_hcw_s2": [
+          44,
+          4,
+          13
+        ],
+        "act_eef_abs_w": [
+          70,
+          12,
+          14
+        ],
+        "act_eef_abs_w_s1": [
+          67,
+          12,
+          13
+        ],
+        "act_eef_abs_w_s2": [
+          60,
+          8,
+          11
+        ],
+        "act_eef_abs_wo": [
+          70,
+          16,
+          18
+        ],
+        "act_eef_abs_wo_s1": [
+          68,
+          10,
+          15
+        ],
+        "act_eef_abs_wo_s2": [
+          70,
+          12,
+          14
+        ],
+        "act_eef_delta_hcw": [
+          68,
+          63,
+          38
+        ],
+        "act_eef_delta_hcw_s1": [
+          63,
+          59,
+          36
+        ],
+        "act_eef_delta_hcw_s2": [
+          62,
+          50,
+          40
+        ],
+        "act_eef_delta_w": [
+          70,
+          27,
+          40
+        ],
+        "act_eef_delta_w_s1": [
+          69,
+          43,
+          48
+        ],
+        "act_eef_delta_w_s2": [
+          67,
+          40,
+          48
+        ],
+        "act_eef_delta_wo": [
+          70,
+          40,
+          39
+        ],
+        "act_eef_delta_wo_s1": [
+          70,
+          38,
+          26
+        ],
+        "act_eef_delta_wo_s2": [
+          70,
+          39,
+          39
+        ]
+      },
+      "1": {
+        "act": [
+          0,
+          0,
+          0
+        ],
+        "act_s1": [
+          0,
+          0,
+          0
+        ],
+        "act_s2": [
+          0,
+          0,
+          0
+        ],
+        "act_joint_delta_absgrip": [
+          62,
+          53,
+          19
+        ],
+        "act_joint_delta_absgrip_s1": [
+          48,
+          35,
+          27
+        ],
+        "act_joint_delta_absgrip_s2": [
+          68,
+          60,
+          25
+        ],
+        "act_eef_abs": [
+          0,
+          0,
+          0
+        ],
+        "act_eef_abs_s1": [
+          12,
+          0,
+          0
+        ],
+        "act_eef_abs_s2": [
+          0,
+          0,
+          0
+        ],
+        "act_eef_delta_h": [
+          60,
+          44,
+          36
+        ],
+        "act_eef_delta_h_s1": [
+          67,
+          56,
+          29
+        ],
+        "act_eef_delta_h_s2": [
+          66,
+          57,
+          39
+        ],
+        "act_eef_abs_rotvec": [
+          0,
+          0,
+          0
+        ],
+        "act_eef_abs_rotvec_s1": [
+          6,
+          0,
+          0
+        ],
+        "act_eef_abs_rotvec_s2": [
+          0,
+          0,
+          0
+        ],
+        "act_joint_chunk": [
+          52,
+          30,
+          23
+        ],
+        "act_joint_chunk_s1": [
+          49,
+          31,
+          29
+        ],
+        "act_joint_chunk_s2": [
+          50,
+          29,
+          30
+        ],
+        "act_eef_chunk": [
+          59,
+          34,
+          25
+        ],
+        "act_eef_chunk_s1": [
+          60,
+          54,
+          24
+        ],
+        "act_eef_chunk_s2": [
+          65,
+          42,
+          38
+        ],
+        "act_eef_abs_hcw": [
+          10,
+          0,
+          0
+        ],
+        "act_eef_abs_hcw_s1": [
+          0,
+          0,
+          0
+        ],
+        "act_eef_abs_hcw_s2": [
+          0,
+          0,
+          0
+        ],
+        "act_eef_abs_w": [
+          6,
+          3,
+          0
+        ],
+        "act_eef_abs_w_s1": [
+          13,
+          2,
+          0
+        ],
+        "act_eef_abs_w_s2": [
+          2,
+          2,
+          0
+        ],
+        "act_eef_abs_wo": [
+          44,
+          4,
+          12
+        ],
+        "act_eef_abs_wo_s1": [
+          40,
+          4,
+          4
+        ],
+        "act_eef_abs_wo_s2": [
+          41,
+          2,
+          3
+        ],
+        "act_eef_delta_hcw": [
+          65,
+          51,
+          30
+        ],
+        "act_eef_delta_hcw_s1": [
+          55,
+          47,
+          30
+        ],
+        "act_eef_delta_hcw_s2": [
+          58,
+          36,
+          36
+        ],
+        "act_eef_delta_w": [
+          70,
+          27,
+          40
+        ],
+        "act_eef_delta_w_s1": [
+          64,
+          43,
+          48
+        ],
+        "act_eef_delta_w_s2": [
+          63,
+          40,
+          47
+        ],
+        "act_eef_delta_wo": [
+          70,
+          40,
+          39
+        ],
+        "act_eef_delta_wo_s1": [
+          70,
+          38,
+          26
+        ],
+        "act_eef_delta_wo_s2": [
+          70,
+          39,
+          38
+        ]
+      },
+      "2": {
+        "act": [
+          0,
+          0,
+          0
+        ],
+        "act_s1": [
+          0,
+          0,
+          0
+        ],
+        "act_s2": [
+          0,
+          0,
+          0
+        ],
+        "act_joint_delta_absgrip": [
+          59,
+          44,
+          11
+        ],
+        "act_joint_delta_absgrip_s1": [
+          43,
+          27,
+          15
+        ],
+        "act_joint_delta_absgrip_s2": [
+          68,
+          56,
+          18
+        ],
+        "act_eef_abs": [
+          0,
+          0,
+          0
+        ],
+        "act_eef_abs_s1": [
+          0,
+          0,
+          0
+        ],
+        "act_eef_abs_s2": [
+          0,
+          0,
+          0
+        ],
+        "act_eef_delta_h": [
+          53,
+          38,
+          28
+        ],
+        "act_eef_delta_h_s1": [
+          60,
+          39,
+          25
+        ],
+        "act_eef_delta_h_s2": [
+          52,
+          44,
+          33
+        ],
+        "act_eef_abs_rotvec": [
+          0,
+          0,
+          0
+        ],
+        "act_eef_abs_rotvec_s1": [
+          0,
+          0,
+          0
+        ],
+        "act_eef_abs_rotvec_s2": [
+          0,
+          0,
+          0
+        ],
+        "act_joint_chunk": [
+          44,
+          28,
+          14
+        ],
+        "act_joint_chunk_s1": [
+          36,
+          20,
+          19
+        ],
+        "act_joint_chunk_s2": [
+          49,
+          21,
+          23
+        ],
+        "act_eef_chunk": [
+          58,
+          30,
+          18
+        ],
+        "act_eef_chunk_s1": [
+          58,
+          44,
+          17
+        ],
+        "act_eef_chunk_s2": [
+          60,
+          34,
+          32
+        ],
+        "act_eef_abs_hcw": [
+          0,
+          0,
+          0
+        ],
+        "act_eef_abs_hcw_s1": [
+          0,
+          0,
+          0
+        ],
+        "act_eef_abs_hcw_s2": [
+          0,
+          0,
+          0
+        ],
+        "act_eef_abs_w": [
+          0,
+          0,
+          0
+        ],
+        "act_eef_abs_w_s1": [
+          0,
+          0,
+          0
+        ],
+        "act_eef_abs_w_s2": [
+          0,
+          0,
+          0
+        ],
+        "act_eef_abs_wo": [
+          2,
+          0,
+          1
+        ],
+        "act_eef_abs_wo_s1": [
+          19,
+          0,
+          0
+        ],
+        "act_eef_abs_wo_s2": [
+          12,
+          0,
+          0
+        ],
+        "act_eef_delta_hcw": [
+          57,
+          43,
+          23
+        ],
+        "act_eef_delta_hcw_s1": [
+          51,
+          37,
+          26
+        ],
+        "act_eef_delta_hcw_s2": [
+          44,
+          24,
+          29
+        ],
+        "act_eef_delta_w": [
+          69,
+          26,
+          40
+        ],
+        "act_eef_delta_w_s1": [
+          58,
+          43,
+          48
+        ],
+        "act_eef_delta_w_s2": [
+          58,
+          39,
+          43
+        ],
+        "act_eef_delta_wo": [
+          67,
+          38,
+          36
+        ],
+        "act_eef_delta_wo_s1": [
+          69,
+          37,
+          26
+        ],
+        "act_eef_delta_wo_s2": [
+          69,
+          39,
+          38
+        ]
+      }
+    },
+    "repeatability": {
+      "rerun_flips": {
+        "act_joint_chunk": [
+          160,
+          [
+            6,
+            11,
+            9
+          ]
+        ],
+        "act_eef_chunk": [
+          160,
+          [
+            5,
+            5,
+            7
+          ]
+        ]
+      },
+      "controls_max_count_change": [
+        3,
+        3,
+        2
+      ]
+    }
+  }
+}

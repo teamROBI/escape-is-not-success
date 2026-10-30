@@ -1,0 +1,638 @@
+[
+  {
+    "run": "act",
+    "seed": 0,
+    "collection": "A",
+    "action_space": "joint_abs",
+    "anchor": "step",
+    "cameras": [
+      "cam_head"
+    ],
+    "no_proprio": false,
+    "eval_tag": "act",
+    "dataset": "act",
+    "convert_space": "joint_abs"
+  },
+  {
+    "run": "act_s1",
+    "seed": 1,
+    "collection": "A",
+    "action_space": "joint_abs",
+    "anchor": "step",
+    "cameras": [
+      "cam_head"
+    ],
+    "no_proprio": false,
+    "eval_tag": "act_s1",
+    "dataset": "act",
+    "convert_space": "joint_abs"
+  },
+  {
+    "run": "act_s2",
+    "seed": 2,
+    "collection": "A",
+    "action_space": "joint_abs",
+    "anchor": "step",
+    "cameras": [
+      "cam_head"
+    ],
+    "no_proprio": false,
+    "eval_tag": "act_s2",
+    "dataset": "act",
+    "convert_space": "joint_abs"
+  },
+  {
+    "run": "act_joint_delta_absgrip",
+    "seed": 0,
+    "collection": "A",
+    "action_space": "joint_delta_absgrip",
+    "anchor": "step",
+    "cameras": [
+      "cam_head"
+    ],
+    "no_proprio": false,
+    "eval_tag": "act_joint_delta_absgrip",
+    "dataset": "act_joint_delta_absgrip",
+    "convert_space": "joint_delta_absgrip"
+  },
+  {
+    "run": "act_joint_delta_absgrip_s1",
+    "seed": 1,
+    "collection": "A",
+    "action_space": "joint_delta_absgrip",
+    "anchor": "step",
+    "cameras": [
+      "cam_head"
+    ],
+    "no_proprio": false,
+    "eval_tag": "act_joint_delta_absgrip_s1",
+    "dataset": "act_joint_delta_absgrip",
+    "convert_space": "joint_delta_absgrip"
+  },
+  {
+    "run": "act_joint_delta_absgrip_s2",
+    "seed": 2,
+    "collection": "A",
+    "action_space": "joint_delta_absgrip",
+    "anchor": "step",
+    "cameras": [
+      "cam_head"
+    ],
+    "no_proprio": false,
+    "eval_tag": "act_joint_delta_absgrip_s2",
+    "dataset": "act_joint_delta_absgrip",
+    "convert_space": "joint_delta_absgrip"
+  },
+  {
+    "run": "act_eef_abs",
+    "seed": 0,
+    "collection": "A",
+    "action_space": "eef_abs",
+    "anchor": "step",
+    "cameras": [
+      "cam_head"
+    ],
+    "no_proprio": false,
+    "eval_tag": "act_eef_abs",
+    "dataset": "act_eef_abs",
+    "convert_space": "eef_abs"
+  },
+  {
+    "run": "act_eef_abs_s1",
+    "seed": 1,
+    "collection": "A",
+    "action_space": "eef_abs",
+    "anchor": "step",
+    "cameras": [
+      "cam_head"
+    ],
+    "no_proprio": false,
+    "eval_tag": "act_eef_abs_s1",
+    "dataset": "act_eef_abs",
+    "convert_space": "eef_abs"
+  },
+  {
+    "run": "act_eef_abs_s2",
+    "seed": 2,
+    "collection": "A",
+    "action_space": "eef_abs",
+    "anchor": "step",
+    "cameras": [
+      "cam_head"
+    ],
+    "no_proprio": false,
+    "eval_tag": "act_eef_abs_s2",
+    "dataset": "act_eef_abs",
+    "convert_space": "eef_abs"
+  },
+  {
+    "run": "act_eef_delta_h",
+    "seed": 0,
+    "collection": "A",
+    "action_space": "eef_delta",
+    "anchor": "step",
+    "cameras": [
+      "cam_head"
+    ],
+    "no_proprio": false,
+    "eval_tag": "act_eef_delta_h",
+    "dataset": "act_eef_delta_h",
+    "convert_space": "eef_delta"
+  },
+  {
+    "run": "act_eef_delta_h_s1",
+    "seed": 1,
+    "collection": "A",
+    "action_space": "eef_delta",
+    "anchor": "step",
+    "cameras": [
+      "cam_head"
+    ],
+    "no_proprio": false,
+    "eval_tag": "act_eef_delta_h_s1",
+    "dataset": "act_eef_delta_h",
+    "convert_space": "eef_delta"
+  },
+  {
+    "run": "act_eef_delta_h_s2",
+    "seed": 2,
+    "collection": "A",
+    "action_space": "eef_delta",
+    "anchor": "step",
+    "cameras": [
+      "cam_head"
+    ],
+    "no_proprio": false,
+    "eval_tag": "act_eef_delta_h_s2",
+    "dataset": "act_eef_delta_h",
+    "convert_space": "eef_delta"
+  },
+  {
+    "run": "act_eef_abs_rotvec",
+    "seed": 0,
+    "collection": "A",
+    "action_space": "eef_abs_rotvec",
+    "anchor": "step",
+    "cameras": [
+      "cam_head"
+    ],
+    "no_proprio": false,
+    "eval_tag": "act_eef_abs_rotvec_leg",
+    "dataset": "act_eef_abs_rotvec",
+    "convert_space": "eef_abs_rotvec"
+  },
+  {
+    "run": "act_eef_abs_rotvec_s1",
+    "seed": 1,
+    "collection": "A",
+    "action_space": "eef_abs_rotvec",
+    "anchor": "step",
+    "cameras": [
+      "cam_head"
+    ],
+    "no_proprio": false,
+    "eval_tag": "act_eef_abs_rotvec_s1_leg",
+    "dataset": "act_eef_abs_rotvec",
+    "convert_space": "eef_abs_rotvec"
+  },
+  {
+    "run": "act_eef_abs_rotvec_s2",
+    "seed": 2,
+    "collection": "A",
+    "action_space": "eef_abs_rotvec",
+    "anchor": "step",
+    "cameras": [
+      "cam_head"
+    ],
+    "no_proprio": false,
+    "eval_tag": "act_eef_abs_rotvec_s2_leg",
+    "dataset": "act_eef_abs_rotvec",
+    "convert_space": "eef_abs_rotvec"
+  },
+  {
+    "run": "act_joint_chunk",
+    "seed": 0,
+    "collection": "A",
+    "action_space": "joint_chunk_absgrip",
+    "anchor": "query",
+    "cameras": [
+      "cam_head"
+    ],
+    "no_proprio": false,
+    "eval_tag": "act_joint_chunk_leg",
+    "dataset": "act",
+    "convert_space": "joint_abs"
+  },
+  {
+    "run": "act_joint_chunk_s1",
+    "seed": 1,
+    "collection": "A",
+    "action_space": "joint_chunk_absgrip",
+    "anchor": "query",
+    "cameras": [
+      "cam_head"
+    ],
+    "no_proprio": false,
+    "eval_tag": "act_joint_chunk_s1_leg",
+    "dataset": "act",
+    "convert_space": "joint_abs"
+  },
+  {
+    "run": "act_joint_chunk_s2",
+    "seed": 2,
+    "collection": "A",
+    "action_space": "joint_chunk_absgrip",
+    "anchor": "query",
+    "cameras": [
+      "cam_head"
+    ],
+    "no_proprio": false,
+    "eval_tag": "act_joint_chunk_s2_leg",
+    "dataset": "act",
+    "convert_space": "joint_abs"
+  },
+  {
+    "run": "act_eef_chunk",
+    "seed": 0,
+    "collection": "A",
+    "action_space": "eef_chunk",
+    "anchor": "query",
+    "cameras": [
+      "cam_head"
+    ],
+    "no_proprio": false,
+    "eval_tag": "act_eef_chunk_leg",
+    "dataset": "act_eef_chunk",
+    "convert_space": "eef_chunk"
+  },
+  {
+    "run": "act_eef_chunk_s1",
+    "seed": 1,
+    "collection": "A",
+    "action_space": "eef_chunk",
+    "anchor": "query",
+    "cameras": [
+      "cam_head"
+    ],
+    "no_proprio": false,
+    "eval_tag": "act_eef_chunk_s1_leg",
+    "dataset": "act_eef_chunk",
+    "convert_space": "eef_chunk"
+  },
+  {
+    "run": "act_eef_chunk_s2",
+    "seed": 2,
+    "collection": "A",
+    "action_space": "eef_chunk",
+    "anchor": "query",
+    "cameras": [
+      "cam_head"
+    ],
+    "no_proprio": false,
+    "eval_tag": "act_eef_chunk_s2_leg",
+    "dataset": "act_eef_chunk",
+    "convert_space": "eef_chunk"
+  },
+  {
+    "run": "act_eef_abs_hcw",
+    "seed": 0,
+    "collection": "B",
+    "action_space": "eef_abs",
+    "anchor": "step",
+    "cameras": [
+      "cam_head"
+    ],
+    "no_proprio": false,
+    "eval_tag": "act_eef_abs_hcw",
+    "dataset": "act_eef_abs_hcw",
+    "convert_space": "eef_abs"
+  },
+  {
+    "run": "act_eef_abs_hcw_s1",
+    "seed": 1,
+    "collection": "B",
+    "action_space": "eef_abs",
+    "anchor": "step",
+    "cameras": [
+      "cam_head"
+    ],
+    "no_proprio": false,
+    "eval_tag": "act_eef_abs_hcw_s1",
+    "dataset": "act_eef_abs_hcw",
+    "convert_space": "eef_abs"
+  },
+  {
+    "run": "act_eef_abs_hcw_s2",
+    "seed": 2,
+    "collection": "B",
+    "action_space": "eef_abs",
+    "anchor": "step",
+    "cameras": [
+      "cam_head"
+    ],
+    "no_proprio": false,
+    "eval_tag": "act_eef_abs_hcw_s2",
+    "dataset": "act_eef_abs_hcw",
+    "convert_space": "eef_abs"
+  },
+  {
+    "run": "act_eef_abs_w",
+    "seed": 0,
+    "collection": "B",
+    "action_space": "eef_abs",
+    "anchor": "step",
+    "cameras": [
+      "cam_head",
+      "cam_wrist"
+    ],
+    "no_proprio": false,
+    "eval_tag": "act_eef_abs_w",
+    "dataset": "act_eef_abs_w",
+    "convert_space": "eef_abs"
+  },
+  {
+    "run": "act_eef_abs_w_s1",
+    "seed": 1,
+    "collection": "B",
+    "action_space": "eef_abs",
+    "anchor": "step",
+    "cameras": [
+      "cam_head",
+      "cam_wrist"
+    ],
+    "no_proprio": false,
+    "eval_tag": "act_eef_abs_w_s1",
+    "dataset": "act_eef_abs_w",
+    "convert_space": "eef_abs"
+  },
+  {
+    "run": "act_eef_abs_w_s2",
+    "seed": 2,
+    "collection": "B",
+    "action_space": "eef_abs",
+    "anchor": "step",
+    "cameras": [
+      "cam_head",
+      "cam_wrist"
+    ],
+    "no_proprio": false,
+    "eval_tag": "act_eef_abs_w_s2",
+    "dataset": "act_eef_abs_w",
+    "convert_space": "eef_abs"
+  },
+  {
+    "run": "act_eef_abs_wo",
+    "seed": 0,
+    "collection": "B",
+    "action_space": "eef_abs",
+    "anchor": "step",
+    "cameras": [
+      "cam_wrist"
+    ],
+    "no_proprio": false,
+    "eval_tag": "act_eef_abs_wo",
+    "dataset": "act_eef_abs_wo",
+    "convert_space": "eef_abs"
+  },
+  {
+    "run": "act_eef_abs_wo_s1",
+    "seed": 1,
+    "collection": "B",
+    "action_space": "eef_abs",
+    "anchor": "step",
+    "cameras": [
+      "cam_wrist"
+    ],
+    "no_proprio": false,
+    "eval_tag": "act_eef_abs_wo_s1",
+    "dataset": "act_eef_abs_wo",
+    "convert_space": "eef_abs"
+  },
+  {
+    "run": "act_eef_abs_wo_s2",
+    "seed": 2,
+    "collection": "B",
+    "action_space": "eef_abs",
+    "anchor": "step",
+    "cameras": [
+      "cam_wrist"
+    ],
+    "no_proprio": false,
+    "eval_tag": "act_eef_abs_wo_s2",
+    "dataset": "act_eef_abs_wo",
+    "convert_space": "eef_abs"
+  },
+  {
+    "run": "act_eef_delta_hcw",
+    "seed": 0,
+    "collection": "B",
+    "action_space": "eef_delta",
+    "anchor": "step",
+    "cameras": [
+      "cam_head"
+    ],
+    "no_proprio": false,
+    "eval_tag": "act_eef_delta_hcw",
+    "dataset": "act_eef_delta_hcw",
+    "convert_space": "eef_delta"
+  },
+  {
+    "run": "act_eef_delta_hcw_s1",
+    "seed": 1,
+    "collection": "B",
+    "action_space": "eef_delta",
+    "anchor": "step",
+    "cameras": [
+      "cam_head"
+    ],
+    "no_proprio": false,
+    "eval_tag": "act_eef_delta_hcw_s1",
+    "dataset": "act_eef_delta_hcw",
+    "convert_space": "eef_delta"
+  },
+  {
+    "run": "act_eef_delta_hcw_s2",
+    "seed": 2,
+    "collection": "B",
+    "action_space": "eef_delta",
+    "anchor": "step",
+    "cameras": [
+      "cam_head"
+    ],
+    "no_proprio": false,
+    "eval_tag": "act_eef_delta_hcw_s2",
+    "dataset": "act_eef_delta_hcw",
+    "convert_space": "eef_delta"
+  },
+  {
+    "run": "act_eef_delta_w",
+    "seed": 0,
+    "collection": "B",
+    "action_space": "eef_delta",
+    "anchor": "step",
+    "cameras": [
+      "cam_head",
+      "cam_wrist"
+    ],
+    "no_proprio": false,
+    "eval_tag": "act_eef_delta_w",
+    "dataset": "act_eef_delta_w",
+    "convert_space": "eef_delta"
+  },
+  {
+    "run": "act_eef_delta_w_s1",
+    "seed": 1,
+    "collection": "B",
+    "action_space": "eef_delta",
+    "anchor": "step",
+    "cameras": [
+      "cam_head",
+      "cam_wrist"
+    ],
+    "no_proprio": false,
+    "eval_tag": "act_eef_delta_w_s1",
+    "dataset": "act_eef_delta_w",
+    "convert_space": "eef_delta"
+  },
+  {
+    "run": "act_eef_delta_w_s2",
+    "seed": 2,
+    "collection": "B",
+    "action_space": "eef_delta",
+    "anchor": "step",
+    "cameras": [
+      "cam_head",
+      "cam_wrist"
+    ],
+    "no_proprio": false,
+    "eval_tag": "act_eef_delta_w_s2",
+    "dataset": "act_eef_delta_w",
+    "convert_space": "eef_delta"
+  },
+  {
+    "run": "act_eef_delta_wo",
+    "seed": 0,
+    "collection": "B",
+    "action_space": "eef_delta",
+    "anchor": "step",
+    "cameras": [
+      "cam_wrist"
+    ],
+    "no_proprio": false,
+    "eval_tag": "act_eef_delta_wo",
+    "dataset": "act_eef_delta_wo",
+    "convert_space": "eef_delta"
+  },
+  {
+    "run": "act_eef_delta_wo_s1",
+    "seed": 1,
+    "collection": "B",
+    "action_space": "eef_delta",
+    "anchor": "step",
+    "cameras": [
+      "cam_wrist"
+    ],
+    "no_proprio": false,
+    "eval_tag": "act_eef_delta_wo_s1",
+    "dataset": "act_eef_delta_wo",
+    "convert_space": "eef_delta"
+  },
+  {
+    "run": "act_eef_delta_wo_s2",
+    "seed": 2,
+    "collection": "B",
+    "action_space": "eef_delta",
+    "anchor": "step",
+    "cameras": [
+      "cam_wrist"
+    ],
+    "no_proprio": false,
+    "eval_tag": "act_eef_delta_wo_s2",
+    "dataset": "act_eef_delta_wo",
+    "convert_space": "eef_delta"
+  },
+  {
+    "run": "act_eef_delta_wo_np",
+    "seed": 0,
+    "collection": "B",
+    "action_space": "eef_delta",
+    "anchor": "step",
+    "cameras": [
+      "cam_wrist"
+    ],
+    "no_proprio": true,
+    "eval_tag": "act_eef_delta_wo_np",
+    "dataset": "act_eef_delta_wo_np",
+    "convert_space": "eef_delta"
+  },
+  {
+    "run": "act_eef_delta_wo_np_s1",
+    "seed": 1,
+    "collection": "B",
+    "action_space": "eef_delta",
+    "anchor": "step",
+    "cameras": [
+      "cam_wrist"
+    ],
+    "no_proprio": true,
+    "eval_tag": "act_eef_delta_wo_np_s1",
+    "dataset": "act_eef_delta_wo_np",
+    "convert_space": "eef_delta"
+  },
+  {
+    "run": "act_eef_delta_wo_np_s2",
+    "seed": 2,
+    "collection": "B",
+    "action_space": "eef_delta",
+    "anchor": "step",
+    "cameras": [
+      "cam_wrist"
+    ],
+    "no_proprio": true,
+    "eval_tag": "act_eef_delta_wo_np_s2",
+    "dataset": "act_eef_delta_wo_np",
+    "convert_space": "eef_delta"
+  },
+  {
+    "run": "act_joint_abs_h_np",
+    "seed": 0,
+    "collection": "A",
+    "action_space": "joint_abs",
+    "anchor": "step",
+    "cameras": [
+      "cam_head"
+    ],
+    "no_proprio": true,
+    "eval_tag": "act_joint_abs_h_np",
+    "dataset": "act_joint_abs_h_np",
+    "convert_space": "joint_abs"
+  },
+  {
+    "run": "act_joint_abs_h_np_s1",
+    "seed": 1,
+    "collection": "A",
+    "action_space": "joint_abs",
+    "anchor": "step",
+    "cameras": [
+      "cam_head"
+    ],
+    "no_proprio": true,
+    "eval_tag": "act_joint_abs_h_np_s1",
+    "dataset": "act_joint_abs_h_np",
+    "convert_space": "joint_abs"
+  },
+  {
+    "run": "act_joint_abs_h_np_s2",
+    "seed": 2,
+    "collection": "A",
+    "action_space": "joint_abs",
+    "anchor": "step",
+    "cameras": [
+      "cam_head"
+    ],
+    "no_proprio": true,
+    "eval_tag": "act_joint_abs_h_np_s2",
+    "dataset": "act_joint_abs_h_np",
+    "convert_space": "joint_abs"
+  }
+]
