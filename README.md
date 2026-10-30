@@ -3,7 +3,7 @@
 Juno Kim, Yesol Park, HyeJung Yoon, Byoung-Tak Zhang — Seoul National University.
 CoRL 2026 Workshop on Everything Beneath the Policy.
 
-Paper: **OpenReview link forthcoming**. Correspondence: jokim@snu.ac.kr.
+Paper: [OpenReview](https://openreview.net/forum?id=nRU0GzU0Hc). Correspondence: jokim@snu.ac.kr.
 
 ![The lifting task and three policies with similar success but different failure stages.](assets/fig1_hero.png)
 
@@ -160,7 +160,8 @@ The training memory measurement excludes Isaac Sim, the policy server and alloca
   title = {Escape Is Not Success: Diagnosing Spatial-{OOD} Failures of Robot Action Interfaces},
   author = {Kim, Juno and Park, Yesol and Yoon, HyeJung and Zhang, Byoung-Tak},
   booktitle = {CoRL 2026 Workshop on Everything Beneath the Policy},
-  year = {2026}
+  year = {2026},
+  url = {https://openreview.net/forum?id=nRU0GzU0Hc}
 }
 ```
 
