@@ -158,8 +158,6 @@ Machine-readable citation: [CITATION.cff](CITATION.cff) · [citation.bib](citati
 This work builds on [Isaac Lab](https://github.com/isaac-sim/IsaacLab) and
 [ACT](https://github.com/tonyzhaozh/act). We thank the authors for releasing their code.
 
-This work was partly supported by grants from the IITP (RS-2021-II211343-GSAI/10%, RS-2022-II220951-LBA/10%, RS-2022-II220953-PICA/10%, RS-2026-25553157-MIACC/10%), the NRF (RS-2024-00353991-SPARC/15%, RS-2023-00274280-HEI/15%), the KEIT (RS-2025-25453780/15%), and the KIAT (RS-2025-25460896/15%), funded by the Korean government.
-
 ## License
 
 Released under the [Apache-2.0 License](LICENSE). Submodules remain under their respective
