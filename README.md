@@ -10,6 +10,7 @@
 
 <a href="https://openreview.net/forum?id=nRU0GzU0Hc"><img src="https://img.shields.io/badge/OpenReview-8c1b13.svg" alt="OpenReview"></a>&nbsp;
 <a href="https://beneath-the-policy.github.io/"><img src="https://img.shields.io/badge/CoRL-2026%20Workshop-8c1b13.svg" alt="CoRL 2026 Workshop"></a>&nbsp;
+<a href="https://teamrobi.github.io/projects/escape-is-not-success/"><img src="https://img.shields.io/badge/Project-Page-181717.svg" alt="Project page"></a>&nbsp;
 <a href="LICENSE"><img src="https://img.shields.io/badge/License-Apache--2.0-blue.svg" alt="License: Apache-2.0"></a>&nbsp;
 <img src="https://img.shields.io/badge/Python-3.11-blue.svg" alt="Python 3.11">&nbsp;
 <img src="https://img.shields.io/badge/Isaac%20Sim-5.1-76b900.svg" alt="Isaac Sim 5.1">
