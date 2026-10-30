@@ -2,7 +2,7 @@
 
 # Escape Is Not Success: Diagnosing Spatial-OOD Failures of Robot Action Interfaces
 
-**Juno Kim**<sup>1</sup> · **Yesol Park**<sup>1</sup> · **HyeJung Yoon**<sup>1</sup> · **Byoung-Tak Zhang**<sup>1</sup>
+**Juno Kim**<sup>1</sup> · **Yesol Park**<sup>1</sup> · **Hye-Jung Yoon**<sup>1</sup> · **Byoung-Tak Zhang**<sup>1</sup>
 
 <sup>1</sup>Seoul National University
 
@@ -146,7 +146,7 @@ Machine-readable citation: [CITATION.cff](CITATION.cff) · [citation.bib](citati
 ```bibtex
 @inproceedings{kim2026escape,
   title = {Escape Is Not Success: Diagnosing Spatial-{OOD} Failures of Robot Action Interfaces},
-  author = {Kim, Juno and Park, Yesol and Yoon, HyeJung and Zhang, Byoung-Tak},
+  author = {Kim, Juno and Park, Yesol and Yoon, Hye-Jung and Zhang, Byoung-Tak},
   booktitle = {CoRL 2026 Workshop on Everything Beneath the Policy},
   year = {2026},
   url = {https://openreview.net/forum?id=nRU0GzU0Hc}
